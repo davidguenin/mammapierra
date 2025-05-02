@@ -1,8 +1,5 @@
 {
   "sections": {
-    "hero_big":{
-      "type": "hero-big"
-    },
     "image_banner": {
       "type": "image-banner",
       "blocks": {

@@ -1,15 +1,17 @@
 .hero-main {
   padding: 30px;
   padding-bottom: 100px;
-  background: #f5f5f7;
+  background: #f2eee9;
 }
 
 .hero-main-left {
   height: 475px;
-  background: #caf8fa;
+  border-radius: 20px;
+  background: #cff7f9;
 }
 
 .hero-main-right {
   height: 475px;
+  border-radius: 20px;
   background: #062c24;
 }

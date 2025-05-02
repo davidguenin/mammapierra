@@ -1,4 +1,22 @@
-<div class="hero-main">coucou</div>
+{{ 'section-hero.css' | asset_url | stylesheet_tag }}
+{{ 'bulma.css' | asset_url | stylesheet_tag }}
+
+<div class="hero-main">
+  <div>
+    <div class="bulma-columns bulma-is-gapless">
+      <div class="bulma-column bulma-is-is-three-fifths">
+        <div class="hero-main-left">
+          <span></span>
+        </div>
+      </div>
+      <div class="bulma-column bulma-is-two-fifths">
+        <div class="hero-main-right">
+          <span></span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 
 {% schema %}
 {

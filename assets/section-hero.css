@@ -1,4 +1,9 @@
-.hero-main {
-  height: 400px;
-  background: #000;
+.hero-main-left {
+  height: 625px;
+  background: #caf8fa;
+}
+
+.hero-main-right {
+  height: 625px;
+  background: #062c24;
 }

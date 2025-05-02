@@ -1,8 +1,14 @@
-body {
-  background: red;
-}
-
 .header-wrapper {
   border: 0px;
   background: #fff;
+}
+
+.header__active-menu-item {
+  text-decoration: none;
+  opacity: 0.5;
+}
+
+.header__menu-item:hover span {
+  text-decoration: none;
+  opacity: 0.5;
 }

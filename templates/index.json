@@ -16,8 +16,7 @@
     "featured_collection": {
       "type": "featured-collection",
       "custom_css": [
-        ".collection {padding-top: 0;}",
-        ".grid:last-child {margin-bottom: 0; margin-top: 8px;}"
+        ".collection {padding-top: 0;}"
       ],
       "settings": {
         "collection": "all",
@@ -33,8 +32,8 @@
         "show_view_all": false,
         "view_all_style": "solid",
         "color_scheme": "scheme-1",
-        "image_ratio": "adapt",
-        "image_shape": "default",
+        "image_ratio": "square",
+        "image_shape": "round",
         "show_secondary_image": true,
         "show_vendor": false,
         "show_rating": false,

@@ -15,6 +15,9 @@
     },
     "featured_collection": {
       "type": "featured-collection",
+      "custom_css": [
+        ".collection {padding-top: 0;}"
+      ],
       "settings": {
         "collection": "all",
         "products_to_show": 8,

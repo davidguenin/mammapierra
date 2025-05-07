@@ -14,7 +14,7 @@
 } */
 
 /* Bulma Themes */
-/* :root {
+:root {
   --bulma-scheme-h: 221;
   --bulma-scheme-s: 14%;
   --bulma-light-l: 90%;
@@ -988,9 +988,9 @@
   --bulma-pre-background: var(--bulma-background);
   --bulma-shadow: 0 0.5em 1em -0.125em hsla(var(--bulma-shadow-h), var(--bulma-shadow-s), var(--bulma-shadow-l), 0.1),
     0 0px 0 1px hsla(var(--bulma-shadow-h), var(--bulma-shadow-s), var(--bulma-shadow-l), 0.02);
-} */
+}
 
-/* @media (prefers-color-scheme: light) {
+@media (prefers-color-scheme: light) {
   :root {
     --bulma-scheme-h: 221;
     --bulma-scheme-s: 14%;
@@ -3378,7 +3378,7 @@
   --bulma-pre-background: var(--bulma-background);
   --bulma-shadow: 0 0.5em 1em -0.125em hsla(var(--bulma-shadow-h), var(--bulma-shadow-s), var(--bulma-shadow-l), 0.1),
     0 0px 0 1px hsla(var(--bulma-shadow-h), var(--bulma-shadow-s), var(--bulma-shadow-l), 0.02);
-} */
+}
 
 /* Bulma Base */
 /*! minireset.css v0.0.6 | MIT License | github.com/jgthms/minireset.css */

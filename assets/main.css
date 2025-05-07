@@ -44,3 +44,7 @@
 .header__heading-link .h2 {
   color: #fff;
 }
+
+.bulma-button {
+  text-decoration: none;
+}

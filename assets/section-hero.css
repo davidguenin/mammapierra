@@ -1,17 +1,31 @@
 .hero-main {
   padding: 30px;
-  padding-bottom: 100px;
   background: #f2eee9;
 }
 
 .hero-main-left {
   height: 475px;
-  border-radius: 20px;
+  padding: 20px;
   background: #cff7f9;
 }
 
 .hero-main-right {
   height: 475px;
-  border-radius: 20px;
+  padding: 20px;
   background: #062c24;
+}
+
+.hero-main-right h2 {
+  color: #fff;
+}
+
+.hero-main-left-product {
+  height: 375px;
+  background: #fff;
+}
+
+.hero-main-left-product-img {
+  height: 275px;
+  padding: 10px;
+  background: #f4f4f4;
 }

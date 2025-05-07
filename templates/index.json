@@ -16,7 +16,7 @@
     "featured_collection": {
       "type": "featured-collection",
       "custom_css": [
-        ".collection {padding-top: 0; padding-bottom: 0}",
+        ".collection {padding-top: 0; padding-bottom: 0;}",
         ".card {position: relative;}",
         ".card__content {position: absolute; bottom: 0; left: 10px;}"
       ],
@@ -49,7 +49,9 @@
     "featured_collection_QP6Ymc": {
       "type": "featured-collection",
       "custom_css": [
-        ".collection {padding-top: 0;}"
+        ".collection {padding-top: 0; padding-bottom: 0;}",
+        ".card {position: relative;}",
+        ".card__content {position: absolute; bottom: 0; left: 10px;}"
       ],
       "name": "t:sections.featured-collection.presets.name",
       "settings": {

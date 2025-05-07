@@ -44,6 +44,38 @@
         "padding_bottom": 36
       }
     },
+    "featured_collection_QP6Ymc": {
+      "type": "featured-collection",
+      "custom_css": [
+        ".collection {padding-top: 0;}"
+      ],
+      "name": "t:sections.featured-collection.presets.name",
+      "settings": {
+        "collection": "",
+        "products_to_show": 10,
+        "title": "",
+        "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "columns_desktop": 4,
+        "enable_desktop_slider": false,
+        "full_width": true,
+        "show_view_all": false,
+        "view_all_style": "solid",
+        "color_scheme": "",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "quick_add": "none",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "collage": {
       "type": "collage",
       "blocks": {
@@ -154,6 +186,7 @@
   "order": [
     "hero_big",
     "featured_collection",
+    "featured_collection_QP6Ymc",
     "collage",
     "video",
     "multicolumn"

@@ -16,7 +16,8 @@
     "featured_collection": {
       "type": "featured-collection",
       "custom_css": [
-        ".collection {padding-top: 0;}"
+        ".collection {padding-top: 0;}",
+        ".grid:last-child {margin-bottom: 0; margin-top: 8px;}"
       ],
       "settings": {
         "collection": "all",

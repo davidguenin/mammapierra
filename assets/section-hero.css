@@ -1,17 +1,16 @@
 .hero-main {
-  padding: 30px;
   background: #f2eee9;
 }
 
 .hero-main-left {
-  height: 475px;
-  padding: 20px;
+  height: 575px;
+  padding: 35px;
   background: #cff7f9;
 }
 
 .hero-main-right {
-  height: 475px;
-  padding: 20px;
+  height: 575px;
+  padding: 35px;
   background: #062c24;
 }
 
@@ -20,12 +19,12 @@
 }
 
 .hero-main-left-product {
-  height: 375px;
+  height: 415px;
   background: #fff;
 }
 
 .hero-main-left-product-img {
-  height: 275px;
+  height: 325px;
   padding: 10px;
   background: #f4f4f4;
 }

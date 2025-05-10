@@ -94,6 +94,19 @@
             "page": ""
           }
         },
+        "complementary_4dr8Xa": {
+          "type": "complementary",
+          "settings": {
+            "block_heading": "S’associe bien avec",
+            "make_collapsible_row": true,
+            "icon": "plane",
+            "product_list_limit": 10,
+            "products_per_page": 3,
+            "pagination_style": "counter",
+            "image_ratio": "square",
+            "enable_quick_add": false
+          }
+        },
         "share": {
           "type": "share",
           "settings": {
@@ -114,6 +127,7 @@
         "collapsible-row-1",
         "collapsible-row-2",
         "collapsible-row-3",
+        "complementary_4dr8Xa",
         "share"
       ],
       "settings": {
@@ -130,6 +144,24 @@
         "enable_video_looping": false,
         "padding_top": 36,
         "padding_bottom": 12
+      }
+    },
+    "related-products": {
+      "type": "related-products",
+      "settings": {
+        "heading": "You may also like",
+        "heading_size": "h1",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "columns_mobile": "2",
+        "color_scheme": "scheme-2",
+        "image_ratio": "square",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "padding_top": 36,
+        "padding_bottom": 28
       }
     },
     "image-with-text": {
@@ -231,30 +263,12 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
-    },
-    "related-products": {
-      "type": "related-products",
-      "settings": {
-        "heading": "You may also like",
-        "heading_size": "h2",
-        "products_to_show": 4,
-        "columns_desktop": 4,
-        "columns_mobile": "2",
-        "color_scheme": "scheme-1",
-        "image_ratio": "square",
-        "image_shape": "default",
-        "show_secondary_image": true,
-        "show_vendor": false,
-        "show_rating": false,
-        "padding_top": 36,
-        "padding_bottom": 28
-      }
     }
   },
   "order": [
     "main",
+    "related-products",
     "image-with-text",
-    "multicolumn",
-    "related-products"
+    "multicolumn"
   ]
 }

@@ -201,12 +201,75 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "collapsible_content_qn34FT": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_JQUWVN": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Rangée réductible",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "collapsible_row_RtCfTw": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Rangée réductible",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "collapsible_row_8Cg69H": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Rangée réductible",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "collapsible_row_HgPzUV": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Rangée réductible",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_JQUWVN",
+        "collapsible_row_RtCfTw",
+        "collapsible_row_8Cg69H",
+        "collapsible_row_HgPzUV"
+      ],
+      "name": "t:sections.collapsible_content.presets.name",
+      "settings": {
+        "caption": "",
+        "heading": "Produits & Matériaux",
+        "heading_size": "h1",
+        "heading_alignment": "left",
+        "layout": "none",
+        "container_color_scheme": "",
+        "color_scheme": "",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "main",
     "collapsible_content_UgJHQL",
     "collapsible_content_aBKR6A",
-    "collapsible_content_QVmyBE"
+    "collapsible_content_QVmyBE",
+    "collapsible_content_qn34FT"
   ]
 }

@@ -22,28 +22,28 @@
         "collapsible_row_fJEzBk": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Commande & Paiement",
+            "heading": "Quels sont les moyens de paiement acceptés ?",
             "icon": "price_tag",
             "row_content": "",
-            "page": ""
+            "page": "faq"
           }
         },
         "collapsible_row_CHaweU": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Rangée réductible",
-            "icon": "check_mark",
+            "heading": "Mon paiement est-il sécurisé ?",
+            "icon": "lock",
             "row_content": "",
-            "page": ""
+            "page": "faq"
           }
         },
         "collapsible_row_L7qUnF": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Rangée réductible",
-            "icon": "check_mark",
+            "heading": "Puis-je modifier ou annuler ma commande après validation ?",
+            "icon": "clipboard",
             "row_content": "",
-            "page": ""
+            "page": "faq"
           }
         },
         "collapsible_row_QA8Rcf": {
@@ -65,9 +65,9 @@
       "name": "t:sections.collapsible_content.presets.name",
       "settings": {
         "caption": "",
-        "heading": "Contenu réductible",
+        "heading": "Commande & Paiement",
         "heading_size": "h1",
-        "heading_alignment": "center",
+        "heading_alignment": "left",
         "layout": "none",
         "container_color_scheme": "",
         "color_scheme": "",

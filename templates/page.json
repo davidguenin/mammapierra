@@ -85,7 +85,7 @@
           "type": "collapsible_row",
           "settings": {
             "heading": "Quels sont les délais de livraison ?",
-            "icon": "truck",
+            "icon": "stopwatch",
             "row_content": "",
             "page": "faq"
           }
@@ -102,17 +102,26 @@
         "collapsible_row_Y6WMQB": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Rangée réductible",
-            "icon": "check_mark",
+            "heading": "Comment suivre ma commande ?",
+            "icon": "truck",
             "row_content": "",
-            "page": ""
+            "page": "faq"
           }
         },
         "collapsible_row_giAFPY": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Rangée réductible",
-            "icon": "check_mark",
+            "heading": "Que faire si mon colis est en retard ou perdu ?",
+            "icon": "box",
+            "row_content": "",
+            "page": "faq"
+          }
+        },
+        "collapsible_row_PeXyRx": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Proposez-vous des emballages cadeaux ?",
+            "icon": "heart",
             "row_content": "",
             "page": ""
           }
@@ -122,7 +131,8 @@
         "collapsible_row_P3iXfp",
         "collapsible_row_DFJwLj",
         "collapsible_row_Y6WMQB",
-        "collapsible_row_giAFPY"
+        "collapsible_row_giAFPY",
+        "collapsible_row_PeXyRx"
       ],
       "name": "t:sections.collapsible_content.presets.name",
       "settings": {

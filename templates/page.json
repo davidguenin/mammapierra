@@ -84,19 +84,19 @@
         "collapsible_row_P3iXfp": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Rangée réductible",
-            "icon": "check_mark",
+            "heading": "Quels sont les délais de livraison ?",
+            "icon": "truck",
             "row_content": "",
-            "page": ""
+            "page": "faq"
           }
         },
         "collapsible_row_DFJwLj": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Rangée réductible",
-            "icon": "check_mark",
+            "heading": "Livez-vous à l'international ?",
+            "icon": "plane",
             "row_content": "",
-            "page": ""
+            "page": "faq"
           }
         },
         "collapsible_row_Y6WMQB": {
@@ -127,9 +127,9 @@
       "name": "t:sections.collapsible_content.presets.name",
       "settings": {
         "caption": "",
-        "heading": "Contenu réductible",
+        "heading": "Livraison",
         "heading_size": "h1",
-        "heading_alignment": "center",
+        "heading_alignment": "left",
         "layout": "none",
         "container_color_scheme": "",
         "color_scheme": "",

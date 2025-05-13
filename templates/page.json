@@ -24,7 +24,7 @@
           "settings": {
             "heading": "Quels sont les moyens de paiement acceptés ?",
             "icon": "price_tag",
-            "row_content": "",
+            "row_content": "<p>Nous acceptons les paiements par carte bancaire (Visa, Mastercard, Amex), Apple Pay et PayPal. Tous les paiements sont 100 % sécurisés.</p>",
             "page": "faq"
           }
         },
@@ -86,7 +86,7 @@
           "settings": {
             "heading": "Quels sont les délais de livraison ?",
             "icon": "stopwatch",
-            "row_content": "",
+            "row_content": "<p>Les commandes sont expédiées sous 48h. La livraison standard prend entre 2 et 5 jours ouvrés en France. Pour l’international, comptez 5 à 10 jours ouvrés.</p>",
             "page": "faq"
           }
         },
@@ -95,7 +95,7 @@
           "settings": {
             "heading": "Livez-vous à l'international ?",
             "icon": "plane",
-            "row_content": "",
+            "row_content": "<p>Oui, nous livrons dans toute l’Europe et à l’international. Les frais de port s’ajustent automatiquement selon votre pays.</p>",
             "page": "faq"
           }
         },
@@ -104,7 +104,7 @@
           "settings": {
             "heading": "Comment suivre ma commande ?",
             "icon": "truck",
-            "row_content": "",
+            "row_content": "<p>Un e-mail de suivi vous est envoyé dès l’expédition. Vous pouvez suivre votre colis en temps réel grâce au lien de suivi.</p>",
             "page": "faq"
           }
         },
@@ -156,9 +156,9 @@
         "collapsible_row_aVcKRk": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Puis-je retourner ou échanger un article ?",
+            "heading": "Puis-je retourner ou échanger un article ? (à modifier)",
             "icon": "leaf",
-            "row_content": "",
+            "row_content": "<p>Oui, vous avez 14 jours après réception pour demander un retour. Les bijoux doivent être non portés et dans leur emballage d’origine.</p>",
             "page": "faq"
           }
         },
@@ -176,7 +176,7 @@
           "settings": {
             "heading": "Que faire si mon bijou est arrivé endommagé ?",
             "icon": "check_mark",
-            "row_content": "",
+            "row_content": "<p>Contactez-nous sous 48h avec une photo à l’appui à <a>marion@mammapierra.com</a>. Nous vous proposerons une solution rapide.</p>",
             "page": "faq"
           }
         }
@@ -210,7 +210,7 @@
           "settings": {
             "heading": "Vos pierres sont-elles naturelles ?",
             "icon": "eye",
-            "row_content": "",
+            "row_content": "<p>Oui, nous utilisons uniquement des pierres naturelles véritables, garanties sans traitement chimique. Chaque pierre est unique.</p>",
             "page": "faq"
           }
         },
@@ -219,16 +219,16 @@
           "settings": {
             "heading": "Vos bijoux résistent-ils à l'eau ?",
             "icon": "washing",
-            "row_content": "",
+            "row_content": "<p>Nos bijoux en acier inoxydable doré 316L sont résistants à l’eau et ne noircissent pas. </p><p>Néanmoins, certaines pierres s'abîment au contact de l'eau. </p><p>Nous recommandons toutefois de les retirer sous la douche pour préserver leur éclat plus longtemps. </p>",
             "page": "faq"
           }
         },
         "collapsible_row_8Cg69H": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Les pendentifs sont-ils vendus avec les colliers ?",
+            "heading": "Les pendentifs sont-ils vendus avec les colliers ou bracelets ?",
             "icon": "star",
-            "row_content": "",
+            "row_content": "<p>Les pendentifs en pierre naturelle sont vendus séparemment des colliers et bracelets</p>",
             "page": "faq"
           }
         },

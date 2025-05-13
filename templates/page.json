@@ -232,6 +232,15 @@
             "page": "faq"
           }
         },
+        "collapsible_row_y84B9D": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Puis-je interchanger les pendentifs ?",
+            "icon": "check_mark",
+            "row_content": "<p>Oui, tous nos pendentifs sont interchangeables et compatibles avec les colliers et bracelets des collections Vibe et Éclat.</p>",
+            "page": "faq"
+          }
+        },
         "collapsible_row_HgPzUV": {
           "type": "collapsible_row",
           "settings": {
@@ -255,6 +264,7 @@
         "collapsible_row_JQUWVN",
         "collapsible_row_RtCfTw",
         "collapsible_row_8Cg69H",
+        "collapsible_row_y84B9D",
         "collapsible_row_HgPzUV",
         "collapsible_row_E7W3fi"
       ],

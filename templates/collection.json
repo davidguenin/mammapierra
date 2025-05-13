@@ -70,9 +70,9 @@
       "type": "featured-collection",
       "name": "t:sections.featured-collection.presets.name",
       "settings": {
-        "collection": "bracelet-vibe",
+        "collection": "collier-vibe",
         "products_to_show": 6,
-        "title": "Parure avec Bracelets Vibes",
+        "title": "Parure avec Collier Vibes",
         "heading_size": "h1",
         "description": "",
         "show_description": false,

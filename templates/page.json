@@ -292,7 +292,7 @@
           "settings": {
             "heading": "Comment entretenir mes bijoux ?",
             "icon": "heart",
-            "row_content": "",
+            "row_content": "<p>Essuyez-le avec un chiffon doux après usage. Évitez le parfum, les lotions et le contact prolongé avec l’eau salée pour préserver la dorure et les pierres.</p>",
             "page": "faq"
           }
         },
@@ -310,7 +310,7 @@
           "settings": {
             "heading": "Comment purifier et recharger mes pierres naturelles ?",
             "icon": "star",
-            "row_content": "",
+            "row_content": "<p>Déposez votre pierre au soleil, à la lumière de la lune ou sur un amas de quartz pour la recharger. Vous pouvez aussi la purifier avec de la sauge ou du palo santo.</p><p>Attention au soleil car certaines pierres le supportent mal.</p>",
             "page": "faq"
           }
         }

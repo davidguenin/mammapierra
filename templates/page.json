@@ -52,7 +52,7 @@
             "heading": "Où puis-je retrouver ma commande passée ?",
             "icon": "map_pin",
             "row_content": "",
-            "page": ""
+            "page": "faq"
           }
         }
       },
@@ -123,7 +123,7 @@
             "heading": "Proposez-vous des emballages cadeaux ?",
             "icon": "heart",
             "row_content": "",
-            "page": ""
+            "page": "faq"
           }
         }
       },
@@ -159,7 +159,7 @@
             "heading": "Puis-je retourner ou échanger un article ?",
             "icon": "leaf",
             "row_content": "",
-            "page": ""
+            "page": "faq"
           }
         },
         "collapsible_row_VKY3fH": {
@@ -168,7 +168,7 @@
             "heading": "Combien de temps ai-je pour faire une demande de retour ?",
             "icon": "stopwatch",
             "row_content": "",
-            "page": ""
+            "page": "faq"
           }
         },
         "collapsible_row_XN9eCg": {
@@ -177,7 +177,7 @@
             "heading": "Que faire si mon bijou est arrivé endommagé ?",
             "icon": "check_mark",
             "row_content": "",
-            "page": ""
+            "page": "faq"
           }
         }
       },

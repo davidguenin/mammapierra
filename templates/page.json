@@ -16,312 +16,49 @@
         "padding_bottom": 28
       }
     },
-    "collapsible_content_UgJHQL": {
-      "type": "collapsible-content",
+    "image_with_text_iXNX9G": {
+      "type": "image-with-text",
       "blocks": {
-        "collapsible_row_fJEzBk": {
-          "type": "collapsible_row",
+        "heading_QCUtdg": {
+          "type": "heading",
           "settings": {
-            "heading": "Quels sont les moyens de paiement acceptés ?",
-            "icon": "price_tag",
-            "row_content": "<p>Nous acceptons les paiements par carte bancaire (Visa, Mastercard, Amex), Apple Pay et PayPal. Tous les paiements sont 100 % sécurisés.</p>",
-            "page": "faq"
+            "heading": "À propos de Mamma Pierra",
+            "heading_size": "h1"
           }
         },
-        "collapsible_row_CHaweU": {
-          "type": "collapsible_row",
+        "text_pEWMpf": {
+          "type": "text",
           "settings": {
-            "heading": "Mon paiement est-il sécurisé ?",
-            "icon": "lock",
-            "row_content": "<p>Oui, 100 % sécurisé. Toutes les transactions sont cryptées via SSL et traitées par des plateformes de paiement reconnues (Shopify Payments, PayPal, etc.).</p>",
-            "page": "faq"
+            "text": "<p>Chez Mamma Pierra, chaque bijou est pensé comme un rituel du quotidien.<br/><br/>Un geste simple, intime, joyeux — celui de choisir ce qui nous attire, ce qui nous fait du bien. Un collier, un pendentif, un bracelet. Une matière, une énergie, une couleur.</p><p>Ici, pas de bijou figé. Tout est modulable, personnalisable, interchangeable.<br/><br/>Vous assemblez votre bijou selon votre tenue, votre humeur, votre moment. Un matin doux, une soirée spontanée, une journée pleine d’élan. C’est un jeu — et c’est vous qui décidez des règles.</p><p></p><p>Je conçois chaque pièce avec soin, en petites séries, à partir de pierres naturelles et d’acier inoxydable doré. J’imagine des bases solides, intemporelles, auxquelles vous pouvez ajouter le détail qui change tout : un pendentif qui parle, qui vibre, qui vous suit.</p><p>Mamma Pierra, c’est une invitation à porter des bijoux qui vous ressemblent.<br/><br/>Libres, sensibles, vivants.</p>",
+            "text_style": "body"
           }
         },
-        "collapsible_row_L7qUnF": {
-          "type": "collapsible_row",
+        "button_tWHCp9": {
+          "type": "button",
           "settings": {
-            "heading": "Puis-je modifier ou annuler ma commande après validation ?",
-            "icon": "clipboard",
-            "row_content": "<p>Non, une fois votre commande validée, elle est directement préparée dans l'atelier et ne peut plus être modifiée ou annulée.</p>",
-            "page": "faq"
-          }
-        },
-        "collapsible_row_QA8Rcf": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Où puis-je retrouver ma commande passée ?",
-            "icon": "map_pin",
-            "row_content": "<p>Rendez-vous dans votre compte client sur notre site, rubrique “Mes commandes”. Si vous n’avez pas encore de compte, créez-le avec l’adresse e-mail utilisée lors de l’achat.</p>",
-            "page": "faq"
+            "button_label": "Découvrir les produits",
+            "button_link": "shopify://collections/all",
+            "button_style_secondary": false
           }
         }
       },
       "block_order": [
-        "collapsible_row_fJEzBk",
-        "collapsible_row_CHaweU",
-        "collapsible_row_L7qUnF",
-        "collapsible_row_QA8Rcf"
+        "heading_QCUtdg",
+        "text_pEWMpf",
+        "button_tWHCp9"
       ],
-      "name": "t:sections.collapsible_content.presets.name",
+      "name": "t:sections.image-with-text.presets.name",
       "settings": {
-        "caption": "",
-        "heading": "Commande & Paiement",
-        "heading_size": "h1",
-        "heading_alignment": "left",
-        "layout": "none",
-        "container_color_scheme": "",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "image_behavior": "none",
+        "content_layout": "no-overlap",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "",
         "color_scheme": "",
-        "open_first_collapsible_row": false,
-        "image_ratio": "adapt",
-        "desktop_layout": "image_second",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "collapsible_content_aBKR6A": {
-      "type": "collapsible-content",
-      "blocks": {
-        "collapsible_row_P3iXfp": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Quels sont les délais de livraison ?",
-            "icon": "stopwatch",
-            "row_content": "<p>Les commandes sont expédiées sous 48h. La livraison standard prend entre 2 et 5 jours ouvrés en France. Pour l’international, comptez 5 à 10 jours ouvrés.</p>",
-            "page": "faq"
-          }
-        },
-        "collapsible_row_DFJwLj": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Livez-vous à l'international ?",
-            "icon": "plane",
-            "row_content": "<p>Oui, nous livrons dans toute l’Europe et à l’international. Les frais de port s’ajustent automatiquement selon votre pays.</p>",
-            "page": "faq"
-          }
-        },
-        "collapsible_row_Y6WMQB": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Comment suivre ma commande ?",
-            "icon": "truck",
-            "row_content": "<p>Un e-mail de suivi vous est envoyé dès l’expédition. Vous pouvez suivre votre colis en temps réel grâce au lien de suivi.</p>",
-            "page": "faq"
-          }
-        },
-        "collapsible_row_giAFPY": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Que faire si mon colis est en retard ou perdu ?",
-            "icon": "box",
-            "row_content": "<p>Si votre colis semble bloqué ou perdu, contactez notre service client à <a>marion@mammapierra.com</a>. Nous ouvrirons une enquête avec le transporteur et vous tiendrons informé·e.</p>",
-            "page": "faq"
-          }
-        },
-        "collapsible_row_PeXyRx": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Proposez-vous des emballages cadeaux ?",
-            "icon": "heart",
-            "row_content": "<p>Pas encore, mais nous y travaillons. Dites-nous si c’est une option que vous aimeriez voir apparaître prochainement !</p>",
-            "page": "faq"
-          }
-        }
-      },
-      "block_order": [
-        "collapsible_row_P3iXfp",
-        "collapsible_row_DFJwLj",
-        "collapsible_row_Y6WMQB",
-        "collapsible_row_giAFPY",
-        "collapsible_row_PeXyRx"
-      ],
-      "name": "t:sections.collapsible_content.presets.name",
-      "settings": {
-        "caption": "",
-        "heading": "Livraison",
-        "heading_size": "h1",
-        "heading_alignment": "left",
-        "layout": "none",
-        "container_color_scheme": "",
-        "color_scheme": "",
-        "open_first_collapsible_row": false,
-        "image_ratio": "adapt",
-        "desktop_layout": "image_second",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "collapsible_content_QVmyBE": {
-      "type": "collapsible-content",
-      "blocks": {
-        "collapsible_row_aVcKRk": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Puis-je retourner ou échanger un article ?",
-            "icon": "leaf",
-            "row_content": "<p>Oui, vous avez 14 jours après réception pour demander un retour. </p><p><strong>Procédure :</strong><br/></p><ol><li>marion@mammapierra.com avec votre numéro de commande.</li><li>nous vous enverrons l'adresse de retour.</li><li>Une dois le bijou réceptionné (non porté, en parfait état), nous procéderons à l'échange ou au remboursement.<br/></li></ol><p>Les bijoux doivent être non portés et dans leur emballage d’origine.</p>",
-            "page": "faq"
-          }
-        },
-        "collapsible_row_XN9eCg": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Que faire si mon bijou est arrivé endommagé ?",
-            "icon": "check_mark",
-            "row_content": "<p>Contactez-nous sous 48h avec une photo à l’appui à <a>marion@mammapierra.com</a>. Nous vous proposerons une solution rapide.</p>",
-            "page": "faq"
-          }
-        }
-      },
-      "block_order": [
-        "collapsible_row_aVcKRk",
-        "collapsible_row_XN9eCg"
-      ],
-      "name": "t:sections.collapsible_content.presets.name",
-      "settings": {
-        "caption": "",
-        "heading": "Retours & Echanges",
-        "heading_size": "h1",
-        "heading_alignment": "left",
-        "layout": "none",
-        "container_color_scheme": "",
-        "color_scheme": "",
-        "open_first_collapsible_row": false,
-        "image_ratio": "adapt",
-        "desktop_layout": "image_second",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "collapsible_content_qn34FT": {
-      "type": "collapsible-content",
-      "blocks": {
-        "collapsible_row_JQUWVN": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Vos pierres sont-elles naturelles ?",
-            "icon": "eye",
-            "row_content": "<p>Oui, nous utilisons uniquement des pierres naturelles véritables, garanties sans traitement chimique. Chaque pierre est unique.</p>",
-            "page": "faq"
-          }
-        },
-        "collapsible_row_RtCfTw": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Vos bijoux résistent-ils à l'eau ?",
-            "icon": "washing",
-            "row_content": "<p>Nos bijoux en acier inoxydable doré 316L sont résistants à l’eau et ne noircissent pas. </p><p>Néanmoins, certaines pierres s'abîment au contact de l'eau. </p><p>Nous recommandons toutefois de les retirer sous la douche pour préserver leur éclat plus longtemps. </p>",
-            "page": "faq"
-          }
-        },
-        "collapsible_row_8Cg69H": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Les pendentifs sont-ils vendus avec les colliers ou bracelets ?",
-            "icon": "star",
-            "row_content": "<p>Les pendentifs en pierre naturelle sont vendus séparément des colliers et bracelets afin de vous laisser le choix selon vos envies.</p>",
-            "page": "faq"
-          }
-        },
-        "collapsible_row_y84B9D": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Puis-je interchanger les pendentifs ?",
-            "icon": "check_mark",
-            "row_content": "<p>Oui, tous nos pendentifs sont interchangeables et compatibles avec les colliers et bracelets des collections Vibe et Éclat.</p>",
-            "page": "faq"
-          }
-        },
-        "collapsible_row_HgPzUV": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Chaque bijou est-il unique ?",
-            "icon": "leaf",
-            "row_content": "<p>Oui. Nos bijoux sont faits à la main avec de véritables pierres naturelles : chaque pièce est donc unique par sa forme, sa teinte ou ses détails.</p>",
-            "page": "faq"
-          }
-        },
-        "collapsible_row_E7W3fi": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Pourquoi certaines pierres présentent des irrégularités ?",
-            "icon": "eye",
-            "row_content": "<p>Les irrégularités, inclusions ou variations de couleur sont naturelles. Elles témoignent de l’authenticité des pierres et de leur origine minérale. C’est ce qui les rend uniques.</p>",
-            "page": "faq"
-          }
-        }
-      },
-      "block_order": [
-        "collapsible_row_JQUWVN",
-        "collapsible_row_RtCfTw",
-        "collapsible_row_8Cg69H",
-        "collapsible_row_y84B9D",
-        "collapsible_row_HgPzUV",
-        "collapsible_row_E7W3fi"
-      ],
-      "name": "t:sections.collapsible_content.presets.name",
-      "settings": {
-        "caption": "",
-        "heading": "Produits & Matériaux",
-        "heading_size": "h1",
-        "heading_alignment": "left",
-        "layout": "none",
-        "container_color_scheme": "",
-        "color_scheme": "",
-        "open_first_collapsible_row": false,
-        "image_ratio": "adapt",
-        "desktop_layout": "image_second",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "collapsible_content_RDQJMn": {
-      "type": "collapsible-content",
-      "blocks": {
-        "collapsible_row_zCVLft": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Comment entretenir mes bijoux ?",
-            "icon": "heart",
-            "row_content": "<p>Essuyez-le avec un chiffon doux après usage. Évitez le parfum, les lotions et le contact prolongé avec l’eau salée pour préserver la dorure et les pierres.</p>",
-            "page": "faq"
-          }
-        },
-        "collapsible_row_HzYhXq": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Puis-je me doucher avec mes bijoux ?",
-            "icon": "washing",
-            "row_content": "<p>Nos bijoux en acier inoxydable doré résistent à l’eau, mais pour prolonger leur éclat, nous recommandons de les retirer sous la douche ou à la piscine.</p><p>Certaines pierre naturelle peuvent être abimées avec l'eau également.</p>",
-            "page": "faq"
-          }
-        },
-        "collapsible_row_GnExaM": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Comment purifier et recharger mes pierres naturelles ?",
-            "icon": "star",
-            "row_content": "<p>Déposez votre pierre au soleil, à la lumière de la lune ou sur un amas de quartz pour la recharger. Vous pouvez aussi la purifier avec de la sauge ou du palo santo.</p><p>Attention au soleil car certaines pierres le supportent mal.</p>",
-            "page": "faq"
-          }
-        }
-      },
-      "block_order": [
-        "collapsible_row_zCVLft",
-        "collapsible_row_HzYhXq",
-        "collapsible_row_GnExaM"
-      ],
-      "name": "t:sections.collapsible_content.presets.name",
-      "settings": {
-        "caption": "",
-        "heading": "Entretien des bijoux",
-        "heading_size": "h1",
-        "heading_alignment": "left",
-        "layout": "none",
-        "container_color_scheme": "",
-        "color_scheme": "",
-        "open_first_collapsible_row": false,
-        "image_ratio": "adapt",
-        "desktop_layout": "image_second",
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -329,10 +66,6 @@
   },
   "order": [
     "main",
-    "collapsible_content_UgJHQL",
-    "collapsible_content_aBKR6A",
-    "collapsible_content_QVmyBE",
-    "collapsible_content_qn34FT",
-    "collapsible_content_RDQJMn"
+    "image_with_text_iXNX9G"
   ]
 }

@@ -33,7 +33,7 @@
           "settings": {
             "heading": "Mon paiement est-il sécurisé ?",
             "icon": "lock",
-            "row_content": "",
+            "row_content": "<p>Oui, 100 % sécurisé. Toutes les transactions sont cryptées via SSL et traitées par des plateformes de paiement reconnues (Shopify Payments, PayPal, etc.).</p>",
             "page": "faq"
           }
         },
@@ -42,7 +42,7 @@
           "settings": {
             "heading": "Puis-je modifier ou annuler ma commande après validation ?",
             "icon": "clipboard",
-            "row_content": "",
+            "row_content": "<p>Non, une fois votre commande validée, elle est directement préparée dans l'atelier et ne peut plus être modifiée ou annulée.</p>",
             "page": "faq"
           }
         },
@@ -51,7 +51,7 @@
           "settings": {
             "heading": "Où puis-je retrouver ma commande passée ?",
             "icon": "map_pin",
-            "row_content": "",
+            "row_content": "<p>Rendez-vous dans votre compte client sur notre site, rubrique “Mes commandes”. Si vous n’avez pas encore de compte, créez-le avec l’adresse e-mail utilisée lors de l’achat.</p>",
             "page": "faq"
           }
         }
@@ -113,7 +113,7 @@
           "settings": {
             "heading": "Que faire si mon colis est en retard ou perdu ?",
             "icon": "box",
-            "row_content": "",
+            "row_content": "<p>Si votre colis semble bloqué ou perdu, contactez notre service client à <a>marion@mammapierra.com</a>. Nous ouvrirons une enquête avec le transporteur et vous tiendrons informé·e.</p>",
             "page": "faq"
           }
         },
@@ -122,7 +122,7 @@
           "settings": {
             "heading": "Proposez-vous des emballages cadeaux ?",
             "icon": "heart",
-            "row_content": "",
+            "row_content": "<p>Pas encore, mais nous y travaillons. Dites-nous si c’est une option que vous aimeriez voir apparaître prochainement !</p>",
             "page": "faq"
           }
         }
@@ -156,18 +156,9 @@
         "collapsible_row_aVcKRk": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Puis-je retourner ou échanger un article ? (à modifier)",
+            "heading": "Puis-je retourner ou échanger un article ?",
             "icon": "leaf",
-            "row_content": "<p>Oui, vous avez 14 jours après réception pour demander un retour. Les bijoux doivent être non portés et dans leur emballage d’origine.</p>",
-            "page": "faq"
-          }
-        },
-        "collapsible_row_VKY3fH": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Combien de temps ai-je pour faire une demande de retour ?",
-            "icon": "stopwatch",
-            "row_content": "",
+            "row_content": "<p>Oui, vous avez 14 jours après réception pour demander un retour. </p><p><strong>Procédure :</strong><br/></p><ol><li>marion@mammapierra.com avec votre numéro de commande.</li><li>nous vous enverrons l'adresse de retour.</li><li>Une dois le bijou réceptionné (non porté, en parfait état), nous procéderons à l'échange ou au remboursement.<br/></li></ol><p>Les bijoux doivent être non portés et dans leur emballage d’origine.</p>",
             "page": "faq"
           }
         },
@@ -183,7 +174,6 @@
       },
       "block_order": [
         "collapsible_row_aVcKRk",
-        "collapsible_row_VKY3fH",
         "collapsible_row_XN9eCg"
       ],
       "name": "t:sections.collapsible_content.presets.name",
@@ -246,7 +236,7 @@
           "settings": {
             "heading": "Chaque bijou est-il unique ?",
             "icon": "leaf",
-            "row_content": "",
+            "row_content": "<p>Oui. Nos bijoux sont faits à la main avec de véritables pierres naturelles : chaque pièce est donc unique par sa forme, sa teinte ou ses détails.</p>",
             "page": "faq"
           }
         },
@@ -255,7 +245,7 @@
           "settings": {
             "heading": "Pourquoi certaines pierres présentent des irrégularités ?",
             "icon": "eye",
-            "row_content": "",
+            "row_content": "<p>Les irrégularités, inclusions ou variations de couleur sont naturelles. Elles témoignent de l’authenticité des pierres et de leur origine minérale. C’est ce qui les rend uniques.</p>",
             "page": "faq"
           }
         }
@@ -301,7 +291,7 @@
           "settings": {
             "heading": "Puis-je me doucher avec mes bijoux ?",
             "icon": "washing",
-            "row_content": "",
+            "row_content": "<p>Nos bijoux en acier inoxydable doré résistent à l’eau, mais pour prolonger leur éclat, nous recommandons de les retirer sous la douche ou à la piscine.</p><p>Certaines pierre naturelle peuvent être abimées avec l'eau également.</p>",
             "page": "faq"
           }
         },

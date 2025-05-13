@@ -208,8 +208,8 @@
         "collapsible_row_JQUWVN": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Rangée réductible",
-            "icon": "check_mark",
+            "heading": "Vos pierres sont-elles naturelles ?",
+            "icon": "eye",
             "row_content": "",
             "page": ""
           }
@@ -217,8 +217,8 @@
         "collapsible_row_RtCfTw": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Rangée réductible",
-            "icon": "check_mark",
+            "heading": "Vos bijoux résistent-ils à l'eau ?",
+            "icon": "washing",
             "row_content": "",
             "page": ""
           }
@@ -226,8 +226,8 @@
         "collapsible_row_8Cg69H": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Rangée réductible",
-            "icon": "check_mark",
+            "heading": "Les pendentifs sont-ils vendus avec les colliers ?",
+            "icon": "star",
             "row_content": "",
             "page": ""
           }
@@ -235,8 +235,17 @@
         "collapsible_row_HgPzUV": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Rangée réductible",
-            "icon": "check_mark",
+            "heading": "Chaque bijou est-il unique ?",
+            "icon": "leaf",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "collapsible_row_E7W3fi": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Pourquoi certaines pierres présentent des irrégularités ?",
+            "icon": "eye",
             "row_content": "",
             "page": ""
           }
@@ -246,7 +255,8 @@
         "collapsible_row_JQUWVN",
         "collapsible_row_RtCfTw",
         "collapsible_row_8Cg69H",
-        "collapsible_row_HgPzUV"
+        "collapsible_row_HgPzUV",
+        "collapsible_row_E7W3fi"
       ],
       "name": "t:sections.collapsible_content.presets.name",
       "settings": {

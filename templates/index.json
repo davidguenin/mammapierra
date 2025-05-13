@@ -22,7 +22,7 @@
       ],
       "settings": {
         "collection": "all",
-        "products_to_show": 5,
+        "products_to_show": 6,
         "title": "Les Bestsellers",
         "heading_size": "h2",
         "description": "",

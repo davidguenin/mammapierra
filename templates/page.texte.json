@@ -15,9 +15,57 @@
         "padding_top": 28,
         "padding_bottom": 28
       }
+    },
+    "image_with_text_H8U9nL": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_tJpdi9": {
+          "type": "heading",
+          "settings": {
+            "heading": "À propos de Mamma Pierra",
+            "heading_size": "h1"
+          }
+        },
+        "text_emUpRD": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Chez Mamma Pierra, chaque bijou est pensé comme un rituel du quotidien.<br/><br/>Un geste simple, intime, joyeux — celui de choisir ce qui nous attire, ce qui nous fait du bien. Un collier, un pendentif, un bracelet. Une matière, une énergie, une couleur.</p><p>Ici, pas de bijou figé. Tout est modulable, personnalisable, interchangeable.<br/><br/>Vous assemblez votre bijou selon votre tenue, votre humeur, votre moment. Un matin doux, une soirée spontanée, une journée pleine d’élan. C’est un jeu — et c’est vous qui décidez des règles.</p><p></p><p>Je conçois chaque pièce avec soin, en petites séries, à partir de pierres naturelles et d’acier inoxydable doré. J’imagine des bases solides, intemporelles, auxquelles vous pouvez ajouter le détail qui change tout : un pendentif qui parle, qui vibre, qui vous suit.</p><p>Mamma Pierra, c’est une invitation à porter des bijoux qui vous ressemblent.<br/><br/>Libres, sensibles, vivants.</p>",
+            "text_style": "body"
+          }
+        },
+        "button_yapdCc": {
+          "type": "button",
+          "settings": {
+            "button_label": "Découvrir les produits",
+            "button_link": "shopify://collections/all",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_tJpdi9",
+        "text_emUpRD",
+        "button_yapdCc"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "image_behavior": "none",
+        "content_layout": "no-overlap",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "image_with_text_H8U9nL"
   ]
 }

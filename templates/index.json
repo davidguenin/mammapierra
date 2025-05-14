@@ -53,7 +53,7 @@
           "type": "product",
           "settings": {
             "product": "collier-eclat-45-cm",
-            "second_image": false
+            "second_image": true
           }
         },
         "product_RBLgLR": {
@@ -75,6 +75,7 @@
         "product_RBLgLR",
         "collection-0"
       ],
+      "disabled": true,
       "settings": {
         "heading": "Collection Eclat",
         "heading_size": "h2",
@@ -115,6 +116,7 @@
         "product_bBk4nn",
         "collection_hHrmcf"
       ],
+      "disabled": true,
       "name": "t:sections.collage.presets.name",
       "settings": {
         "heading": "Collection Vibe",
@@ -189,6 +191,88 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "collection_list_yg33gt": {
+      "type": "collection-list",
+      "blocks": {
+        "featured_collection_ajMX3n": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "collier-vibe"
+          }
+        },
+        "featured_collection_qhxmzH": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "bracelet-vibe"
+          }
+        },
+        "featured_collection_VfgVXa": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "vibe"
+          }
+        }
+      },
+      "block_order": [
+        "featured_collection_ajMX3n",
+        "featured_collection_qhxmzH",
+        "featured_collection_VfgVXa"
+      ],
+      "name": "t:sections.collection-list.presets.name",
+      "settings": {
+        "title": "Collections",
+        "heading_size": "h1",
+        "image_ratio": "square",
+        "columns_desktop": 3,
+        "color_scheme": "",
+        "show_view_all": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "collection_list_kU8hGR": {
+      "type": "collection-list",
+      "blocks": {
+        "featured_collection_eEEpmD": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "collier-eclat"
+          }
+        },
+        "featured_collection_LwH3Fi": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "bracelet-eclat"
+          }
+        },
+        "featured_collection_E7wB4H": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "eclat"
+          }
+        }
+      },
+      "block_order": [
+        "featured_collection_eEEpmD",
+        "featured_collection_LwH3Fi",
+        "featured_collection_E7wB4H"
+      ],
+      "name": "t:sections.collection-list.presets.name",
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_ratio": "square",
+        "columns_desktop": 3,
+        "color_scheme": "",
+        "show_view_all": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -196,6 +280,8 @@
     "featured_collection",
     "collage",
     "collage_6wEt4X",
-    "multicolumn"
+    "multicolumn",
+    "collection_list_yg33gt",
+    "collection_list_kU8hGR"
   ]
 }

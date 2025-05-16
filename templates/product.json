@@ -56,13 +56,12 @@
           "type": "description",
           "settings": {}
         },
-        "collapsible-row-0": {
+        "collapsible-row-3": {
           "type": "collapsible_tab",
-          "disabled": true,
           "settings": {
-            "heading": "Materials",
-            "icon": "leather",
-            "content": "",
+            "heading": "Vertus et Chakras",
+            "icon": "star",
+            "content": "{{ product.metafields.custom.vertuschakras | metafield_tag }}",
             "page": ""
           }
         },
@@ -81,15 +80,6 @@
           "settings": {
             "heading": "Dimensions",
             "icon": "ruler",
-            "content": "",
-            "page": ""
-          }
-        },
-        "collapsible-row-3": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Informations complémentaires",
-            "icon": "star",
             "content": "",
             "page": ""
           }
@@ -123,10 +113,9 @@
         "quantity_selector",
         "buy_buttons",
         "description",
-        "collapsible-row-0",
+        "collapsible-row-3",
         "collapsible-row-1",
         "collapsible-row-2",
-        "collapsible-row-3",
         "complementary_4dr8Xa",
         "share"
       ],

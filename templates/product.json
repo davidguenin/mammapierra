@@ -65,21 +65,20 @@
             "page": ""
           }
         },
+        "collapsible-row-2": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Informations complémentaires",
+            "icon": "eye",
+            "content": "{{ product.metafields.custom.informations_complementaires | metafield_tag }}",
+            "page": ""
+          }
+        },
         "collapsible-row-1": {
           "type": "collapsible_tab",
           "settings": {
             "heading": "Livraison et retours",
             "icon": "truck",
-            "content": "",
-            "page": ""
-          }
-        },
-        "collapsible-row-2": {
-          "type": "collapsible_tab",
-          "disabled": true,
-          "settings": {
-            "heading": "Dimensions",
-            "icon": "ruler",
             "content": "",
             "page": ""
           }
@@ -114,8 +113,8 @@
         "buy_buttons",
         "description",
         "collapsible-row-3",
-        "collapsible-row-1",
         "collapsible-row-2",
+        "collapsible-row-1",
         "complementary_4dr8Xa",
         "share"
       ],

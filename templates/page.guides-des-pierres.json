@@ -1,0 +1,80 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "multirow_6UtCNp": {
+      "type": "multirow",
+      "blocks": {
+        "row_V3jkAA": {
+          "type": "row",
+          "settings": {
+            "caption": "Légende",
+            "heading": "Rangée",
+            "text": "<p>Associez un texte à une image pour mettre en avant le produit, la collection ou l’article de blog de votre choix. Ajoutez des informations sur la disponibilité ou le style. Vous pouvez même fournir un avis.</p>",
+            "button_label": "Texte du bouton",
+            "button_link": ""
+          }
+        },
+        "row_fCTRbm": {
+          "type": "row",
+          "settings": {
+            "caption": "Légende",
+            "heading": "Rangée",
+            "text": "<p>Associez un texte à une image pour mettre en avant le produit, la collection ou l’article de blog de votre choix. Ajoutez des informations sur la disponibilité ou le style. Vous pouvez même fournir un avis.</p>",
+            "button_label": "Texte du bouton",
+            "button_link": ""
+          }
+        },
+        "row_XG6Jdh": {
+          "type": "row",
+          "settings": {
+            "caption": "Légende",
+            "heading": "Rangée",
+            "text": "<p>Associez un texte à une image pour mettre en avant le produit, la collection ou l’article de blog de votre choix. Ajoutez des informations sur la disponibilité ou le style. Vous pouvez même fournir un avis.</p>",
+            "button_label": "Texte du bouton",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "row_V3jkAA",
+        "row_fCTRbm",
+        "row_XG6Jdh"
+      ],
+      "name": "t:sections.multirow.presets.name",
+      "settings": {
+        "image_height": "medium",
+        "desktop_image_width": "medium",
+        "image_layout": "alternate-left",
+        "heading_size": "h1",
+        "text_style": "body",
+        "button_style": "secondary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "",
+        "row_color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "multirow_6UtCNp"
+  ]
+}

@@ -15,9 +15,397 @@
         "padding_top": 28,
         "padding_bottom": 28
       }
+    },
+    "collapsible_content_iF7DJD": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_N9fkRX": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Quels sont les moyens de paiement acceptés ?",
+            "icon": "check_mark",
+            "row_content": "<p>Nous acceptons les paiements par carte bancaire (Visa, Mastercard, Amex) et PayPal. Tous les paiements sont 100 % sécurisés.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_NXDwre": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Mon paiement est-il sécurisé ?",
+            "icon": "check_mark",
+            "row_content": "<p>Oui, 100 % sécurisé. Toutes les transactions sont cryptées via SSL et traitées par des plateformes de paiement reconnues (Shopify Payments, PayPal, etc.).</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_YWaCgC": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Puis-je modifier ou annuler ma commande après validation ?",
+            "icon": "check_mark",
+            "row_content": "<p>Non, une fois votre commande validée, elle est automatiquement préparée et ne peut plus être modifiée ou annulée.</p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_N9fkRX",
+        "collapsible_row_NXDwre",
+        "collapsible_row_YWaCgC"
+      ],
+      "name": "t:sections.collapsible_content.presets.name",
+      "settings": {
+        "caption": "",
+        "heading": "Commande & Paiement",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "none",
+        "container_color_scheme": "",
+        "color_scheme": "",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "collapsible_content_hHtiAn": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_rpw7xK": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Quels sont les délais de livraison ?",
+            "icon": "check_mark",
+            "row_content": "<p>Les commandes sont expédiées sous 48h. La livraison standard prend entre 2 et 5 jours ouvrés en France. Pour l’international, comptez 5 à 10 jours ouvrés.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_hQWnzp": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Livrez-vous à l’international ?",
+            "icon": "check_mark",
+            "row_content": "<p>Oui, nous livrons dans toute l’Europe et à l’international. Les frais de port s’ajustent automatiquement selon votre pays.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_Vig8NV": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Comment suivre ma commande ?",
+            "icon": "check_mark",
+            "row_content": "<p>Un e-mail de suivi vous est envoyé dès l’expédition. Vous pouvez suivre votre colis en temps réel grâce au lien de suivi.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_K37ytb": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Que faire si mon colis est en retard ou perdu ?",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "collapsible_row_83GV6b": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Proposez-vous des emballages cadeaux ?",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_rpw7xK",
+        "collapsible_row_hQWnzp",
+        "collapsible_row_Vig8NV",
+        "collapsible_row_K37ytb",
+        "collapsible_row_83GV6b"
+      ],
+      "name": "t:sections.collapsible_content.presets.name",
+      "settings": {
+        "caption": "",
+        "heading": "Livraison",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "none",
+        "container_color_scheme": "",
+        "color_scheme": "",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "collapsible_content_dtFefm": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_4QH6aE": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Puis-je retourner ou échanger un article ?",
+            "icon": "check_mark",
+            "row_content": "<p>Oui, vous avez 14 jours après réception pour demander un retour. Les bijoux doivent être non portés et dans leur emballage d’origine.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_T6UYXN": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Combien de temps ai-je pour faire une demande de retour ?",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "collapsible_row_fUa8Wc": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Comment effectuer un retour ?",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "collapsible_row_9Tjehb": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Que faire si mon bijou est arrivé endommagé ?",
+            "icon": "check_mark",
+            "row_content": "<p>Contactez-nous sous 48h avec une photo à l’appui à <a>marion@mammapierra.com</a>. Nous vous proposerons une solution rapide.</p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_4QH6aE",
+        "collapsible_row_T6UYXN",
+        "collapsible_row_fUa8Wc",
+        "collapsible_row_9Tjehb"
+      ],
+      "name": "t:sections.collapsible_content.presets.name",
+      "settings": {
+        "caption": "",
+        "heading": "Retours & Échanges",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "none",
+        "container_color_scheme": "",
+        "color_scheme": "",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "collapsible_content_pYHJiW": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_LMGcUa": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Vos pierres sont-elles naturelles ?",
+            "icon": "check_mark",
+            "row_content": "<p>Oui, nous utilisons uniquement des pierres naturelles véritables, garanties sans traitement chimique. Chaque pierre est unique. </p><p>Nous avons à coeur de choisir des pierres de qualité.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_9B6K8T": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Vos bijoux résistent-ils à l’eau ?",
+            "icon": "check_mark",
+            "row_content": "<p>Nos bijoux en acier inoxydable doré 316L sont résistants à l’eau et ne noircissent pas. Nous recommandons toutefois de les retirer sous la douche pour préserver leur éclat plus longtemps.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_nQkTeH": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Les pendentifs sont-ils vendus avec les colliers ?",
+            "icon": "check_mark",
+            "row_content": "<p>Non, nos colliers sont vendus seuls pour vous laisser le choix du pendentif selon vos envies.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_Bx366x": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Puis-je interchanger les pendentifs sur tous les colliers et bracelets ?",
+            "icon": "check_mark",
+            "row_content": "<p>Oui, tous nos pendentifs sont interchangeables et compatibles avec les colliers et bracelets des collections Vibe et Éclat.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_Ki6KYH": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Chaque bijou est-il unique ?",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "collapsible_row_frfq8G": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Quelles sont les vertus des pierres utilisées ?",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "collapsible_row_ApzHHg": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Pourquoi certaines pierres présentent des irrégularités ?",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_LMGcUa",
+        "collapsible_row_9B6K8T",
+        "collapsible_row_nQkTeH",
+        "collapsible_row_Bx366x",
+        "collapsible_row_Ki6KYH",
+        "collapsible_row_frfq8G",
+        "collapsible_row_ApzHHg"
+      ],
+      "name": "t:sections.collapsible_content.presets.name",
+      "settings": {
+        "caption": "",
+        "heading": "Produits & Matériaux",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "none",
+        "container_color_scheme": "",
+        "color_scheme": "",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "collapsible_content_pdm7VE": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_3EfMEe": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Puis-je me doucher avec mes bijoux ?",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "collapsible_row_zB8rmg": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Comment purifier et recharger mes pierres naturelles ?",
+            "icon": "check_mark",
+            "row_content": "<p>Déposez votre pierre au soleil, à la lumière de la lune ou sur un amas de quartz pour la recharger. Vous pouvez aussi la purifier avec de la sauge ou du palo santo.</p><p>A noter &gt; Certaines pierres ne supportent pas l'eau ou le soleil. </p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_Ex6KUq": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Rangée réductible",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "collapsible_row_FqjTLT": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Rangée réductible",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_3EfMEe",
+        "collapsible_row_zB8rmg",
+        "collapsible_row_Ex6KUq",
+        "collapsible_row_FqjTLT"
+      ],
+      "name": "t:sections.collapsible_content.presets.name",
+      "settings": {
+        "caption": "",
+        "heading": "Entretien des bijoux",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "none",
+        "container_color_scheme": "",
+        "color_scheme": "",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "collapsible_content_PHj7KH": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_3RiCbt": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Comment contacter le service client ?",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "collapsible_row_VPEiEE": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Que faire si j’ai un problème avec ma commande ?",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_3RiCbt",
+        "collapsible_row_VPEiEE"
+      ],
+      "name": "t:sections.collapsible_content.presets.name",
+      "settings": {
+        "caption": "",
+        "heading": "Contact & SAV",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "none",
+        "container_color_scheme": "",
+        "color_scheme": "",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "collapsible_content_iF7DJD",
+    "collapsible_content_hHtiAn",
+    "collapsible_content_dtFefm",
+    "collapsible_content_pYHJiW",
+    "collapsible_content_pdm7VE",
+    "collapsible_content_PHj7KH"
   ]
 }

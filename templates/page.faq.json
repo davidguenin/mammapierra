@@ -157,7 +157,7 @@
           "settings": {
             "heading": "Combien de temps ai-je pour faire une demande de retour ?",
             "icon": "check_mark",
-            "row_content": "<p>Vous avez 14 jours après réception pour demander un retour. Les bijoux doivent être non portés et dans leur emballage d’origine.</p><p></p>",
+            "row_content": "",
             "page": ""
           }
         },
@@ -245,7 +245,7 @@
           "settings": {
             "heading": "Quelles sont les vertus des pierres utilisées ?",
             "icon": "check_mark",
-            "row_content": "",
+            "row_content": "<p>Nous vous invitons à consulter la page \"<a href=\"/pages/guide-des-pierres\" title=\"Guide des pierres\">Guide des pierres</a>\" avec le détail des vertus des pierres vendues sur cette boutique.</p>",
             "page": ""
           }
         },
@@ -304,31 +304,11 @@
             "row_content": "<p>Déposez votre pierre au soleil, à la lumière de la lune ou sur un amas de quartz pour la recharger. Vous pouvez aussi la purifier avec de la sauge ou du palo santo.</p><p>A noter &gt; Certaines pierres ne supportent pas l'eau ou le soleil. </p>",
             "page": ""
           }
-        },
-        "collapsible_row_Ex6KUq": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Rangée réductible",
-            "icon": "check_mark",
-            "row_content": "",
-            "page": ""
-          }
-        },
-        "collapsible_row_FqjTLT": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Rangée réductible",
-            "icon": "check_mark",
-            "row_content": "",
-            "page": ""
-          }
         }
       },
       "block_order": [
         "collapsible_row_3EfMEe",
-        "collapsible_row_zB8rmg",
-        "collapsible_row_Ex6KUq",
-        "collapsible_row_FqjTLT"
+        "collapsible_row_zB8rmg"
       ],
       "name": "t:sections.collapsible_content.presets.name",
       "settings": {

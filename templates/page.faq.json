@@ -103,7 +103,7 @@
           "settings": {
             "heading": "Que faire si mon colis est en retard ou perdu ?",
             "icon": "check_mark",
-            "row_content": "",
+            "row_content": "<p>Si votre colis semble bloqué ou perdu, contactez notre service client à <a>marion@mammapierra.com</a>. Nous ouvrirons une enquête avec le transporteur et vous tiendrons informé·e.</p>",
             "page": ""
           }
         },
@@ -112,7 +112,7 @@
           "settings": {
             "heading": "Proposez-vous des emballages cadeaux ?",
             "icon": "check_mark",
-            "row_content": "",
+            "row_content": "<p>Pas encore, mais nous y travaillons. Dites-nous si c’est une option que vous aimeriez voir apparaître prochainement !</p>",
             "page": ""
           }
         }
@@ -148,7 +148,7 @@
           "settings": {
             "heading": "Puis-je retourner ou échanger un article ?",
             "icon": "check_mark",
-            "row_content": "<p>Oui, vous avez 14 jours après réception pour demander un retour. Les bijoux doivent être non portés et dans leur emballage d’origine.</p>",
+            "row_content": "<p>Oui, vous avez 14 jours après réception pour demander un retour. Les bijoux doivent être non portés et dans leur emballage d’origine.</p><p><strong>Procédure :</strong></p><p>1. Ecrivez à marion@mammapierra.com  avec votre numéro de commande.<br/>2. Nous vous enverrons l'adresse de retour<br/>3. Une fois le bijou réceptionné (non porté, en parfait état), nous procéderons à l’échange ou au remboursement.<br/></p>",
             "page": ""
           }
         },
@@ -156,15 +156,6 @@
           "type": "collapsible_row",
           "settings": {
             "heading": "Combien de temps ai-je pour faire une demande de retour ?",
-            "icon": "check_mark",
-            "row_content": "",
-            "page": ""
-          }
-        },
-        "collapsible_row_fUa8Wc": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Comment effectuer un retour ?",
             "icon": "check_mark",
             "row_content": "",
             "page": ""
@@ -183,7 +174,6 @@
       "block_order": [
         "collapsible_row_4QH6aE",
         "collapsible_row_T6UYXN",
-        "collapsible_row_fUa8Wc",
         "collapsible_row_9Tjehb"
       ],
       "name": "t:sections.collapsible_content.presets.name",
@@ -246,7 +236,7 @@
           "settings": {
             "heading": "Chaque bijou est-il unique ?",
             "icon": "check_mark",
-            "row_content": "",
+            "row_content": "<p>Oui. Nos bijoux sont faits à la main avec de véritables pierres naturelles : chaque pièce est donc unique par sa forme, sa teinte ou ses détails.</p>",
             "page": ""
           }
         },
@@ -264,7 +254,7 @@
           "settings": {
             "heading": "Pourquoi certaines pierres présentent des irrégularités ?",
             "icon": "check_mark",
-            "row_content": "",
+            "row_content": "<p>Les irrégularités, inclusions ou variations de couleur sont naturelles. Elles témoignent de l’authenticité des pierres et de leur origine minérale. C’est ce qui les rend uniques.</p>",
             "page": ""
           }
         }
@@ -302,7 +292,7 @@
           "settings": {
             "heading": "Puis-je me doucher avec mes bijoux ?",
             "icon": "check_mark",
-            "row_content": "",
+            "row_content": "<p>Nos bijoux en acier inoxydable doré résistent à l’eau, mais pour prolonger leur éclat, nous recommandons de les retirer sous la douche ou à la piscine.</p>",
             "page": ""
           }
         },

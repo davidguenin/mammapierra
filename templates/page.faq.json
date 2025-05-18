@@ -325,48 +325,6 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
-    },
-    "collapsible_content_PHj7KH": {
-      "type": "collapsible-content",
-      "blocks": {
-        "collapsible_row_3RiCbt": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Comment contacter le service client ?",
-            "icon": "check_mark",
-            "row_content": "",
-            "page": ""
-          }
-        },
-        "collapsible_row_VPEiEE": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Que faire si j’ai un problème avec ma commande ?",
-            "icon": "check_mark",
-            "row_content": "",
-            "page": ""
-          }
-        }
-      },
-      "block_order": [
-        "collapsible_row_3RiCbt",
-        "collapsible_row_VPEiEE"
-      ],
-      "name": "t:sections.collapsible_content.presets.name",
-      "settings": {
-        "caption": "",
-        "heading": "Contact & SAV",
-        "heading_size": "h1",
-        "heading_alignment": "center",
-        "layout": "none",
-        "container_color_scheme": "",
-        "color_scheme": "",
-        "open_first_collapsible_row": false,
-        "image_ratio": "adapt",
-        "desktop_layout": "image_second",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
     }
   },
   "order": [
@@ -375,7 +333,6 @@
     "collapsible_content_hHtiAn",
     "collapsible_content_dtFefm",
     "collapsible_content_pYHJiW",
-    "collapsible_content_pdm7VE",
-    "collapsible_content_PHj7KH"
+    "collapsible_content_pdm7VE"
   ]
 }

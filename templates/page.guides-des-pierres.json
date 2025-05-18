@@ -22,38 +22,137 @@
         "row_V3jkAA": {
           "type": "row",
           "settings": {
-            "caption": "Légende",
-            "heading": "Rangée",
+            "caption": "",
+            "heading": "Améthyste",
             "text": "<p>Associez un texte à une image pour mettre en avant le produit, la collection ou l’article de blog de votre choix. Ajoutez des informations sur la disponibilité ou le style. Vous pouvez même fournir un avis.</p>",
-            "button_label": "Texte du bouton",
-            "button_link": ""
+            "button_label": "Découvrir nos Améthyste",
+            "button_link": "shopify://collections/amethyste"
           }
         },
         "row_fCTRbm": {
           "type": "row",
           "settings": {
-            "caption": "Légende",
-            "heading": "Rangée",
+            "caption": "",
+            "heading": "Quartz",
             "text": "<p>Associez un texte à une image pour mettre en avant le produit, la collection ou l’article de blog de votre choix. Ajoutez des informations sur la disponibilité ou le style. Vous pouvez même fournir un avis.</p>",
-            "button_label": "Texte du bouton",
-            "button_link": ""
+            "button_label": "Découvrir nos Quartz",
+            "button_link": "shopify://collections/quartz"
           }
         },
         "row_XG6Jdh": {
           "type": "row",
           "settings": {
-            "caption": "Légende",
-            "heading": "Rangée",
+            "caption": "",
+            "heading": "Pierre de lune",
             "text": "<p>Associez un texte à une image pour mettre en avant le produit, la collection ou l’article de blog de votre choix. Ajoutez des informations sur la disponibilité ou le style. Vous pouvez même fournir un avis.</p>",
-            "button_label": "Texte du bouton",
-            "button_link": ""
+            "button_label": "Découvrir nos Pierres de Lune",
+            "button_link": "shopify://collections/pierre-de-lune"
+          }
+        },
+        "row_4bixcU": {
+          "type": "row",
+          "settings": {
+            "caption": "",
+            "heading": "Labradorite",
+            "text": "<p>Associez un texte à une image pour mettre en avant le produit, la collection ou l’article de blog de votre choix. Ajoutez des informations sur la disponibilité ou le style. Vous pouvez même fournir un avis.</p>",
+            "button_label": "Découvrir nos Labradorite",
+            "button_link": "shopify://collections/labradorite"
+          }
+        },
+        "row_U9iJrf": {
+          "type": "row",
+          "settings": {
+            "caption": "",
+            "heading": "Cristal de Roche",
+            "text": "<p>Associez un texte à une image pour mettre en avant le produit, la collection ou l’article de blog de votre choix. Ajoutez des informations sur la disponibilité ou le style. Vous pouvez même fournir un avis.</p>",
+            "button_label": "Découvrir nos Cristaux de Roche",
+            "button_link": "shopify://collections/cristal-de-roche"
+          }
+        },
+        "row_p3TNP3": {
+          "type": "row",
+          "settings": {
+            "caption": "",
+            "heading": "Pierre de soleil",
+            "text": "<p>Associez un texte à une image pour mettre en avant le produit, la collection ou l’article de blog de votre choix. Ajoutez des informations sur la disponibilité ou le style. Vous pouvez même fournir un avis.</p>",
+            "button_label": "Découvrir nos Pierres de Soleil",
+            "button_link": "shopify://collections/pierre-de-soleil"
+          }
+        },
+        "row_nyNRzp": {
+          "type": "row",
+          "settings": {
+            "caption": "",
+            "heading": "Agate",
+            "text": "<p>Associez un texte à une image pour mettre en avant le produit, la collection ou l’article de blog de votre choix. Ajoutez des informations sur la disponibilité ou le style. Vous pouvez même fournir un avis.</p>",
+            "button_label": "Découvrir nos Agate",
+            "button_link": "shopify://collections/agate"
+          }
+        },
+        "row_pfCYJW": {
+          "type": "row",
+          "settings": {
+            "caption": "",
+            "heading": "Calcite",
+            "text": "<p>Associez un texte à une image pour mettre en avant le produit, la collection ou l’article de blog de votre choix. Ajoutez des informations sur la disponibilité ou le style. Vous pouvez même fournir un avis.</p>",
+            "button_label": "Découvrir nos Calcite",
+            "button_link": "shopify://collections/calcite"
+          }
+        },
+        "row_dNwgqa": {
+          "type": "row",
+          "settings": {
+            "caption": "",
+            "heading": "Citrine",
+            "text": "<p>Associez un texte à une image pour mettre en avant le produit, la collection ou l’article de blog de votre choix. Ajoutez des informations sur la disponibilité ou le style. Vous pouvez même fournir un avis.</p>",
+            "button_label": "Découvrir nos Citrine",
+            "button_link": "shopify://collections/citrine"
+          }
+        },
+        "row_H64hyA": {
+          "type": "row",
+          "settings": {
+            "caption": "",
+            "heading": "Tourmaline",
+            "text": "<p>Associez un texte à une image pour mettre en avant le produit, la collection ou l’article de blog de votre choix. Ajoutez des informations sur la disponibilité ou le style. Vous pouvez même fournir un avis.</p>",
+            "button_label": "Découvrir nos Tourmaline",
+            "button_link": "shopify://collections/tourmaline"
+          }
+        },
+        "row_ddRiVF": {
+          "type": "row",
+          "settings": {
+            "caption": "",
+            "heading": "Jade",
+            "text": "<p>Associez un texte à une image pour mettre en avant le produit, la collection ou l’article de blog de votre choix. Ajoutez des informations sur la disponibilité ou le style. Vous pouvez même fournir un avis.</p>",
+            "button_label": "Découvrir nos Jade",
+            "button_link": "shopify://collections/jade"
+          }
+        },
+        "row_XpmdqA": {
+          "type": "row",
+          "settings": {
+            "caption": "",
+            "heading": "Jaspe",
+            "text": "<p>Associez un texte à une image pour mettre en avant le produit, la collection ou l’article de blog de votre choix. Ajoutez des informations sur la disponibilité ou le style. Vous pouvez même fournir un avis.</p>",
+            "button_label": "Découvrir nos Jaspe",
+            "button_link": "shopify://collections/jaspe"
           }
         }
       },
       "block_order": [
         "row_V3jkAA",
         "row_fCTRbm",
-        "row_XG6Jdh"
+        "row_XG6Jdh",
+        "row_4bixcU",
+        "row_U9iJrf",
+        "row_p3TNP3",
+        "row_nyNRzp",
+        "row_pfCYJW",
+        "row_dNwgqa",
+        "row_H64hyA",
+        "row_ddRiVF",
+        "row_XpmdqA"
       ],
       "name": "t:sections.multirow.presets.name",
       "settings": {

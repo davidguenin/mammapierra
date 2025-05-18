@@ -153,7 +153,7 @@
         "heading": "Vous aimerez aussi ...",
         "heading_size": "h1",
         "products_to_show": 6,
-        "columns_desktop": 4,
+        "columns_desktop": 6,
         "columns_mobile": "2",
         "color_scheme": "scheme-2",
         "image_ratio": "square",
@@ -161,8 +161,8 @@
         "show_secondary_image": true,
         "show_vendor": false,
         "show_rating": false,
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_top": 48,
+        "padding_bottom": 40
       }
     },
     "featured_collection_QaKfrB": {

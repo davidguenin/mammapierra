@@ -157,7 +157,7 @@
           "settings": {
             "heading": "Combien de temps ai-je pour faire une demande de retour ?",
             "icon": "check_mark",
-            "row_content": "",
+            "row_content": "<p>Vous avez 14 jours après réception pour demander un retour. Les bijoux doivent être non portés et dans leur emballage d’origine.</p><p></p>",
             "page": ""
           }
         },

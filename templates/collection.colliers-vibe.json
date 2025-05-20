@@ -23,39 +23,61 @@
         "featured_collection_icU6tg": {
           "type": "featured_collection",
           "settings": {
-            "collection": "collier-vibe"
+            "collection": "amethyste"
           }
         },
         "featured_collection_tVLTft": {
           "type": "featured_collection",
           "settings": {
-            "collection": "collier-eclat"
+            "collection": "citrine"
           }
         },
         "featured_collection_AiTiMj": {
           "type": "featured_collection",
           "settings": {
-            "collection": "pendentif"
+            "collection": "cristal-de-roche"
+          }
+        },
+        "featured_collection_dEeLbQ": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "amazonite"
+          }
+        },
+        "featured_collection_T6BtcR": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "labradorite"
+          }
+        },
+        "featured_collection_AyBJWi": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "pierre-de-lune"
           }
         }
       },
       "block_order": [
         "featured_collection_icU6tg",
         "featured_collection_tVLTft",
-        "featured_collection_AiTiMj"
+        "featured_collection_AiTiMj",
+        "featured_collection_dEeLbQ",
+        "featured_collection_T6BtcR",
+        "featured_collection_AyBJWi"
       ],
+      "disabled": true,
       "name": "t:sections.collection-list.presets.name",
       "settings": {
         "title": "",
         "heading_size": "h2",
         "image_ratio": "square",
-        "columns_desktop": 3,
+        "columns_desktop": 6,
         "color_scheme": "",
         "show_view_all": false,
         "columns_mobile": "2",
-        "swipe_on_mobile": false,
+        "swipe_on_mobile": true,
         "padding_top": 16,
-        "padding_bottom": 0
+        "padding_bottom": 12
       }
     },
     "product-grid": {
@@ -94,7 +116,7 @@
         "full_width": false,
         "show_view_all": true,
         "view_all_style": "solid",
-        "color_scheme": "",
+        "color_scheme": "scheme-2",
         "image_ratio": "adapt",
         "image_shape": "default",
         "show_secondary_image": true,
@@ -102,6 +124,70 @@
         "show_rating": false,
         "quick_add": "none",
         "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "multicolumn_rnqdVa": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_jYmz4V": {
+          "type": "column",
+          "settings": {
+            "title": "Fait main en France",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_qCtNDq": {
+          "type": "column",
+          "settings": {
+            "title": "Pierres 100% naturelles",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_VCVNY9": {
+          "type": "column",
+          "settings": {
+            "title": "Livraison offerte en point relais",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_h3jAdm": {
+          "type": "column",
+          "settings": {
+            "title": "Paiement sécurisé",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_jYmz4V",
+        "column_qCtNDq",
+        "column_VCVNY9",
+        "column_h3jAdm"
+      ],
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "button_label": "",
+        "button_link": "",
+        "columns_desktop": 4,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "color_scheme": "scheme-1",
+        "columns_mobile": "1",
         "swipe_on_mobile": false,
         "padding_top": 36,
         "padding_bottom": 36
@@ -143,6 +229,7 @@
     "collection_list_hiYGcD",
     "product-grid",
     "featured_collection_jHnXd6",
+    "multicolumn_rnqdVa",
     "image_with_text_BTmWtc"
   ]
 }

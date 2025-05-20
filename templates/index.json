@@ -13,69 +13,6 @@
       "type": "hero-big",
       "settings": {}
     },
-    "multicolumn": {
-      "type": "multicolumn",
-      "blocks": {
-        "column1": {
-          "type": "column",
-          "settings": {
-            "title": "100% Pierres naturelles",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column2": {
-          "type": "column",
-          "settings": {
-            "title": "Bijoux Artisanaux Français",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column3": {
-          "type": "column",
-          "settings": {
-            "title": "Column",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_bHHiUA": {
-          "type": "column",
-          "settings": {
-            "title": "Column",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "column1",
-        "column2",
-        "column3",
-        "column_bHHiUA"
-      ],
-      "settings": {
-        "title": "",
-        "heading_size": "h1",
-        "image_width": "third",
-        "image_ratio": "adapt",
-        "button_label": "",
-        "button_link": "",
-        "columns_desktop": 4,
-        "column_alignment": "center",
-        "background_style": "none",
-        "color_scheme": "scheme-1",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 88,
-        "padding_bottom": 36
-      }
-    },
     "featured_collection": {
       "type": "featured-collection",
       "custom_css": [
@@ -105,8 +42,8 @@
         "quick_add": "none",
         "columns_mobile": "1",
         "swipe_on_mobile": true,
-        "padding_top": 64,
-        "padding_bottom": 36
+        "padding_top": 100,
+        "padding_bottom": 0
       }
     },
     "collage": {
@@ -302,16 +239,184 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "collection_list_fVVYWW": {
+      "type": "collection-list",
+      "blocks": {
+        "featured_collection_NGiW6b": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "amethyste"
+          }
+        },
+        "featured_collection_y3fz8z": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "amazonite"
+          }
+        },
+        "featured_collection_VJCVNj": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "citrine"
+          }
+        },
+        "featured_collection_fQWFkH": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "labradorite"
+          }
+        },
+        "featured_collection_VxhrPq": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "jade"
+          }
+        },
+        "featured_collection_6c8UbA": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "agate"
+          }
+        },
+        "featured_collection_XKfzbd": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "calcite"
+          }
+        },
+        "featured_collection_q7cXY6": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "cristal-de-roche"
+          }
+        },
+        "featured_collection_eg8Cm7": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "pierre-de-lune"
+          }
+        },
+        "featured_collection_QmUR47": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "pierre-de-soleil"
+          }
+        },
+        "featured_collection_ArkQcX": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "quartz"
+          }
+        },
+        "featured_collection_irRwmL": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "tourmaline"
+          }
+        }
+      },
+      "block_order": [
+        "featured_collection_NGiW6b",
+        "featured_collection_y3fz8z",
+        "featured_collection_VJCVNj",
+        "featured_collection_fQWFkH",
+        "featured_collection_VxhrPq",
+        "featured_collection_6c8UbA",
+        "featured_collection_XKfzbd",
+        "featured_collection_q7cXY6",
+        "featured_collection_eg8Cm7",
+        "featured_collection_QmUR47",
+        "featured_collection_ArkQcX",
+        "featured_collection_irRwmL"
+      ],
+      "name": "t:sections.collection-list.presets.name",
+      "settings": {
+        "title": "Quelles pierres vous attirent ?",
+        "heading_size": "h1",
+        "image_ratio": "square",
+        "columns_desktop": 6,
+        "color_scheme": "",
+        "show_view_all": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "multicolumn": {
+      "type": "multicolumn",
+      "blocks": {
+        "column1": {
+          "type": "column",
+          "settings": {
+            "title": "100% Pierres naturelles",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column2": {
+          "type": "column",
+          "settings": {
+            "title": "Fait main en France",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column3": {
+          "type": "column",
+          "settings": {
+            "title": "Livraison offerte en point relais",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_bHHiUA": {
+          "type": "column",
+          "settings": {
+            "title": "Paiement sécurisé",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column1",
+        "column2",
+        "column3",
+        "column_bHHiUA"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "third",
+        "image_ratio": "adapt",
+        "button_label": "",
+        "button_link": "",
+        "columns_desktop": 4,
+        "column_alignment": "center",
+        "background_style": "none",
+        "color_scheme": "scheme-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 88,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "hero_big",
-    "multicolumn",
     "featured_collection",
     "collage",
     "featured_collection_znnEbQ",
     "collage_6wEt4X",
     "collection_list_yg33gt",
-    "collection_list_kU8hGR"
+    "collection_list_kU8hGR",
+    "collection_list_fVVYWW",
+    "multicolumn"
   ]
 }

@@ -23,13 +23,19 @@
         "featured_collection_icU6tg": {
           "type": "featured_collection",
           "settings": {
-            "collection": "vibe"
+            "collection": "bracelet-vibe"
           }
         },
         "featured_collection_tVLTft": {
           "type": "featured_collection",
           "settings": {
-            "collection": "collier-eclat"
+            "collection": "bracelet-eclat"
+          }
+        },
+        "featured_collection_XM6heb": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "bracelet-elastique"
           }
         },
         "featured_collection_AiTiMj": {
@@ -42,6 +48,7 @@
       "block_order": [
         "featured_collection_icU6tg",
         "featured_collection_tVLTft",
+        "featured_collection_XM6heb",
         "featured_collection_AiTiMj"
       ],
       "name": "t:sections.collection-list.presets.name",
@@ -49,7 +56,7 @@
         "title": "",
         "heading_size": "h2",
         "image_ratio": "square",
-        "columns_desktop": 3,
+        "columns_desktop": 4,
         "color_scheme": "",
         "show_view_all": false,
         "columns_mobile": "2",

@@ -24,7 +24,7 @@
           "settings": {
             "caption": "",
             "heading": "Améthyste",
-            "text": "<p>Associez un texte à une image pour mettre en avant le produit, la collection ou l’article de blog de votre choix. Ajoutez des informations sur la disponibilité ou le style. Vous pouvez même fournir un avis.</p>",
+            "text": "<ul><li>Apaisement et relaxation</li><li>Clarté mentale et concentration</li><li>Equilibre émotionnel</li><li>Protection énergétique</li><li>Sommeil réparateur</li><li>Développement spirituel</li><li>Amélioration de la créativité</li></ul><p></p>",
             "button_label": "Découvrir nos Améthyste",
             "button_link": "shopify://collections/amethyste"
           }
@@ -34,7 +34,7 @@
           "settings": {
             "caption": "",
             "heading": "Quartz",
-            "text": "<p>Associez un texte à une image pour mettre en avant le produit, la collection ou l’article de blog de votre choix. Ajoutez des informations sur la disponibilité ou le style. Vous pouvez même fournir un avis.</p>",
+            "text": "<ul><li>Amour de soi et des autres</li><li>Apaisement des émotions et du stress</li><li>Réconfort émotionnel et douceur</li><li>Favorise le pardon et la compassion</li><li>Harmonie relationnelle</li><li>Soutien lors des blessures affectives</li></ul>",
             "button_label": "Découvrir nos Quartz",
             "button_link": "shopify://collections/quartz"
           }
@@ -54,7 +54,7 @@
           "settings": {
             "caption": "",
             "heading": "Labradorite",
-            "text": "<p>Associez un texte à une image pour mettre en avant le produit, la collection ou l’article de blog de votre choix. Ajoutez des informations sur la disponibilité ou le style. Vous pouvez même fournir un avis.</p>",
+            "text": "<ul><li>Protection contre les énergies négatives</li><li>Bouclier énergétique pour les personnes sensibles</li><li>Stimulation de l’intuition et des capacités spirituelles</li><li>Régénération mentale et physique</li><li>Réduction de la fatigue et du stress</li><li>Aide à rester centré en période de changement<br/></li></ul>",
             "button_label": "Découvrir nos Labradorite",
             "button_link": "shopify://collections/labradorite"
           }
@@ -154,8 +154,8 @@
           "settings": {
             "caption": "",
             "heading": "Obsidienne",
-            "text": "<p>Associez un texte à une image pour mettre en avant le produit, la collection ou l’article de blog de votre choix. Ajoutez des informations sur la disponibilité ou le style. Vous pouvez même fournir un avis.</p>",
-            "button_label": "Découvrez nos Obsidienne",
+            "text": "<ul><li>Pierre de protection puissante</li><li>Dissout les blocages émotionnels</li><li>Favorise l’ancrage et la clarté mentale</li><li>Aide à affronter les vérités intérieures</li><li>Protège des énergies négatives</li><li>Stimule la guérison profonde</li></ul>",
+            "button_label": "Découvrez nos Obsidiennes",
             "button_link": "shopify://collections/obsidienne"
           }
         },
@@ -164,7 +164,7 @@
           "settings": {
             "caption": "",
             "heading": "Opale",
-            "text": "<p>Associez un texte à une image pour mettre en avant le produit, la collection ou l’article de blog de votre choix. Ajoutez des informations sur la disponibilité ou le style. Vous pouvez même fournir un avis.</p>",
+            "text": "<ul><li>Amplifie les émotions positives</li><li>Stimule l'intuition et la spiritualité</li><li>Apporte légèreté et joie intérieure</li><li>Soutient le changement et la transformation</li><li>Renforce la confiance en soi</li></ul>",
             "button_label": "Découvrez nos Opales",
             "button_link": "shopify://collections/opale"
           }

@@ -17,51 +17,52 @@
         "color_scheme": "scheme-1"
       }
     },
-    "collection_list_hiYGcD": {
-      "type": "collection-list",
+    "image_with_text_Ng77zE": {
+      "type": "image-with-text",
       "blocks": {
-        "featured_collection_icU6tg": {
-          "type": "featured_collection",
+        "heading_4P9ifB": {
+          "type": "heading",
+          "disabled": true,
           "settings": {
-            "collection": "bracelet-vibe"
+            "heading": "Image avec texte",
+            "heading_size": "h1"
           }
         },
-        "featured_collection_tVLTft": {
-          "type": "featured_collection",
+        "text_4rjbT7": {
+          "type": "text",
           "settings": {
-            "collection": "bracelet-eclat"
+            "text": "<p>Chaque <strong>lundi</strong>, découvrez de nouveaux <strong>pendentifs uniques en édition limitée</strong>.</p><p>Nos pendentifs <strong>100% en pierre naturelle </strong>sont disponibles avec une bélière dorée ou argentée.</p><p>Ils peuvent être associés avec des colliers ou bracelets Mamma Pierra.</p>",
+            "text_style": "body"
           }
         },
-        "featured_collection_XM6heb": {
-          "type": "featured_collection",
+        "button_Pzaf33": {
+          "type": "button",
+          "disabled": true,
           "settings": {
-            "collection": "bracelet-elastique"
-          }
-        },
-        "featured_collection_AiTiMj": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "pendentif"
+            "button_label": "Texte du bouton",
+            "button_link": "",
+            "button_style_secondary": false
           }
         }
       },
       "block_order": [
-        "featured_collection_icU6tg",
-        "featured_collection_tVLTft",
-        "featured_collection_XM6heb",
-        "featured_collection_AiTiMj"
+        "heading_4P9ifB",
+        "text_4rjbT7",
+        "button_Pzaf33"
       ],
-      "name": "t:sections.collection-list.presets.name",
+      "name": "t:sections.image-with-text.presets.name",
       "settings": {
-        "title": "",
-        "heading_size": "h2",
-        "image_ratio": "square",
-        "columns_desktop": 4,
+        "height": "adapt",
+        "desktop_image_width": "small",
+        "layout": "image_first",
+        "image_behavior": "none",
+        "content_layout": "overlap",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "",
         "color_scheme": "",
-        "show_view_all": false,
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
-        "padding_top": 16,
+        "padding_top": 0,
         "padding_bottom": 0
       }
     },
@@ -85,71 +86,150 @@
         "padding_bottom": 0
       }
     },
-    "featured_collection_jHnXd6": {
-      "type": "featured-collection",
-      "name": "t:sections.featured-collection.presets.name",
-      "settings": {
-        "collection": "pendentif",
-        "products_to_show": 6,
-        "title": "Pendentifs à associer",
-        "heading_size": "h1",
-        "description": "",
-        "show_description": false,
-        "description_style": "body",
-        "columns_desktop": 4,
-        "enable_desktop_slider": true,
-        "full_width": false,
-        "show_view_all": true,
-        "view_all_style": "solid",
-        "color_scheme": "",
-        "image_ratio": "adapt",
-        "image_shape": "default",
-        "show_secondary_image": true,
-        "show_vendor": false,
-        "show_rating": false,
-        "quick_add": "none",
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "image_with_text_BTmWtc": {
-      "type": "image-with-text",
+    "collection_list_hiYGcD": {
+      "type": "collection-list",
       "blocks": {
-        "text_6UVzRj": {
-          "type": "text",
+        "featured_collection_icU6tg": {
+          "type": "featured_collection",
           "settings": {
-            "text": "<p>Associez un texte à une image pour mettre en avant le produit, la collection ou l’article de blog de votre choix. Ajoutez des informations sur la disponibilité ou le style. Vous pouvez même fournir un avis.</p>",
-            "text_style": "body"
+            "collection": "collier-vibe"
+          }
+        },
+        "featured_collection_tVLTft": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "collier-eclat"
+          }
+        },
+        "featured_collection_XM6heb": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "bracelet-vibe"
+          }
+        },
+        "featured_collection_AiTiMj": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "bracelet-eclat"
           }
         }
       },
       "block_order": [
-        "text_6UVzRj"
+        "featured_collection_icU6tg",
+        "featured_collection_tVLTft",
+        "featured_collection_XM6heb",
+        "featured_collection_AiTiMj"
       ],
-      "name": "t:sections.image-with-text.presets.name",
+      "name": "t:sections.collection-list.presets.name",
       "settings": {
-        "height": "small",
-        "desktop_image_width": "small",
-        "layout": "image_first",
-        "image_behavior": "none",
-        "content_layout": "no-overlap",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "mobile_content_alignment": "left",
-        "section_color_scheme": "",
+        "title": "Les colliers & Bracelets à associer",
+        "heading_size": "h2",
+        "image_ratio": "square",
+        "columns_desktop": 4,
         "color_scheme": "",
-        "padding_top": 0,
+        "show_view_all": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 32,
         "padding_bottom": 36
+      }
+    },
+    "slideshow_9zxUit": {
+      "type": "slideshow",
+      "blocks": {
+        "slide_G33t7h": {
+          "type": "slide",
+          "settings": {
+            "image_overlay_opacity": 0,
+            "heading": "Composer votre parure",
+            "heading_size": "h2",
+            "subheading": "",
+            "button_label": "Avec nos Colliers Vibe",
+            "link": "shopify://collections/collier-vibe",
+            "button_style_secondary": false,
+            "show_text_box": true,
+            "box_align": "bottom-center",
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "color_scheme": ""
+          }
+        },
+        "slide_MxFiNF": {
+          "type": "slide",
+          "settings": {
+            "image_overlay_opacity": 0,
+            "heading": "Composer votre parure",
+            "heading_size": "h2",
+            "subheading": "",
+            "button_label": "Avec nos Colliers Eclat",
+            "link": "shopify://collections/collier-eclat",
+            "button_style_secondary": false,
+            "show_text_box": true,
+            "box_align": "bottom-center",
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "color_scheme": ""
+          }
+        },
+        "slide_GpfTrq": {
+          "type": "slide",
+          "settings": {
+            "image_overlay_opacity": 0,
+            "heading": "Composer votre parure",
+            "heading_size": "h2",
+            "subheading": "",
+            "button_label": "Avec nos bracelets Vibe",
+            "link": "shopify://collections/bracelet-vibe",
+            "button_style_secondary": false,
+            "show_text_box": true,
+            "box_align": "bottom-center",
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "color_scheme": "scheme-1"
+          }
+        },
+        "slide_KChrR6": {
+          "type": "slide",
+          "settings": {
+            "image_overlay_opacity": 0,
+            "heading": "Composer votre parure",
+            "heading_size": "h2",
+            "subheading": "",
+            "button_label": "Avec nos Bracelets Eclat",
+            "link": "shopify://collections/bracelet-eclat",
+            "button_style_secondary": false,
+            "show_text_box": true,
+            "box_align": "bottom-center",
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "color_scheme": "scheme-1"
+          }
+        }
+      },
+      "block_order": [
+        "slide_G33t7h",
+        "slide_MxFiNF",
+        "slide_GpfTrq",
+        "slide_KChrR6"
+      ],
+      "name": "t:sections.slideshow.presets.name",
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "medium",
+        "slider_visual": "counter",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "image_behavior": "none",
+        "show_text_below": true,
+        "accessibility_info": "Diaporama sur votre marque"
       }
     }
   },
   "order": [
     "banner",
-    "collection_list_hiYGcD",
+    "image_with_text_Ng77zE",
     "product-grid",
-    "featured_collection_jHnXd6",
-    "image_with_text_BTmWtc"
+    "collection_list_hiYGcD",
+    "slideshow_9zxUit"
   ]
 }

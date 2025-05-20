@@ -11,7 +11,57 @@
   "sections": {
     "hero_big": {
       "type": "hero-big",
+      "disabled": true,
       "settings": {}
+    },
+    "image_banner_tG74QV": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_k8BtyB": {
+          "type": "heading",
+          "settings": {
+            "heading": "Bannière avec image",
+            "heading_size": "h1"
+          }
+        },
+        "text_JVhMAL": {
+          "type": "text",
+          "settings": {
+            "text": "Fournissez des détails à votre clientèle sur l’image/les images ou le contenu de la bannière du modèle.",
+            "text_style": "body"
+          }
+        },
+        "buttons_e3FTnC": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Texte du bouton",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Texte du bouton",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_k8BtyB",
+        "text_JVhMAL",
+        "buttons_e3FTnC"
+      ],
+      "disabled": true,
+      "name": "t:sections.image-banner.presets.name",
+      "settings": {
+        "image_overlay_opacity": 0,
+        "image_height": "small",
+        "image_behavior": "none",
+        "desktop_content_position": "bottom-center",
+        "desktop_content_alignment": "center",
+        "show_text_box": true,
+        "color_scheme": "",
+        "stack_images_on_mobile": true,
+        "mobile_content_alignment": "center",
+        "show_text_below": true
+      }
     },
     "collection_list_9Bg9J4": {
       "type": "collection-list",
@@ -451,6 +501,7 @@
   },
   "order": [
     "hero_big",
+    "image_banner_tG74QV",
     "collection_list_9Bg9J4",
     "featured_collection",
     "collage",

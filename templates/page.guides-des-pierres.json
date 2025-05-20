@@ -138,6 +138,36 @@
             "button_label": "Découvrir nos Jaspe",
             "button_link": "shopify://collections/jaspe"
           }
+        },
+        "row_6zCjTg": {
+          "type": "row",
+          "settings": {
+            "caption": "",
+            "heading": "Rubis",
+            "text": "<p>Associez un texte à une image pour mettre en avant le produit, la collection ou l’article de blog de votre choix. Ajoutez des informations sur la disponibilité ou le style. Vous pouvez même fournir un avis.</p>",
+            "button_label": "Découvrez nos Rubis",
+            "button_link": "shopify://collections/rubis"
+          }
+        },
+        "row_3mBdGp": {
+          "type": "row",
+          "settings": {
+            "caption": "",
+            "heading": "Obsidienne",
+            "text": "<p>Associez un texte à une image pour mettre en avant le produit, la collection ou l’article de blog de votre choix. Ajoutez des informations sur la disponibilité ou le style. Vous pouvez même fournir un avis.</p>",
+            "button_label": "Découvrez nos Obsidienne",
+            "button_link": "shopify://collections/obsidienne"
+          }
+        },
+        "row_wURha3": {
+          "type": "row",
+          "settings": {
+            "caption": "",
+            "heading": "Opale",
+            "text": "<p>Associez un texte à une image pour mettre en avant le produit, la collection ou l’article de blog de votre choix. Ajoutez des informations sur la disponibilité ou le style. Vous pouvez même fournir un avis.</p>",
+            "button_label": "Découvrez nos Opales",
+            "button_link": "shopify://collections/opale"
+          }
         }
       },
       "block_order": [
@@ -152,7 +182,10 @@
         "row_dNwgqa",
         "row_H64hyA",
         "row_ddRiVF",
-        "row_XpmdqA"
+        "row_XpmdqA",
+        "row_6zCjTg",
+        "row_3mBdGp",
+        "row_wURha3"
       ],
       "name": "t:sections.multirow.presets.name",
       "settings": {

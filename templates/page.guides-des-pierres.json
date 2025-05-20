@@ -44,7 +44,7 @@
           "settings": {
             "caption": "",
             "heading": "Pierre de lune",
-            "text": "<p>Associez un texte à une image pour mettre en avant le produit, la collection ou l’article de blog de votre choix. Ajoutez des informations sur la disponibilité ou le style. Vous pouvez même fournir un avis.</p>",
+            "text": "<ul><li>Équilibre les émotions</li><li>Favorise la féminité et l’intuition</li><li>Apaise les cycles intérieurs</li><li>Encourage la douceur et la compassion</li><li>Stimule la sensibilité spirituelle</li><li>Pierre des nouveaux commencements</li></ul>",
             "button_label": "Découvrir nos Pierres de Lune",
             "button_link": "shopify://collections/pierre-de-lune"
           }
@@ -64,7 +64,7 @@
           "settings": {
             "caption": "",
             "heading": "Cristal de Roche",
-            "text": "<p>Associez un texte à une image pour mettre en avant le produit, la collection ou l’article de blog de votre choix. Ajoutez des informations sur la disponibilité ou le style. Vous pouvez même fournir un avis.</p>",
+            "text": "<ul><li>Amplifie l’énergie et les intentions</li><li>Clarifie la pensée et la vision intérieure</li><li>Purifie les autres pierres</li><li>Favorise l’équilibre global</li><li>Développe l’intuition</li><li>Pierre de lumière et de conscience</li></ul>",
             "button_label": "Découvrir nos Cristaux de Roche",
             "button_link": "shopify://collections/cristal-de-roche"
           }
@@ -74,7 +74,7 @@
           "settings": {
             "caption": "",
             "heading": "Pierre de soleil",
-            "text": "<p>Associez un texte à une image pour mettre en avant le produit, la collection ou l’article de blog de votre choix. Ajoutez des informations sur la disponibilité ou le style. Vous pouvez même fournir un avis.</p>",
+            "text": "<ul><li>Joie, chaleur et vitalité</li><li>Stimule la confiance et l’estime de soi</li><li>Dissipe les pensées négatives</li><li>Favorise l’expression libre de soi</li><li>Pierre d’optimisme et de lumière</li><li>Soutient l’énergie du cœur</li></ul>",
             "button_label": "Découvrir nos Pierres de Soleil",
             "button_link": "shopify://collections/pierre-de-soleil"
           }
@@ -84,7 +84,7 @@
           "settings": {
             "caption": "",
             "heading": "Agate",
-            "text": "<p>Associez un texte à une image pour mettre en avant le produit, la collection ou l’article de blog de votre choix. Ajoutez des informations sur la disponibilité ou le style. Vous pouvez même fournir un avis.</p>",
+            "text": "<ul><li>Stabilité et ancrage émotionnel</li><li>Apaise les colères et l’anxiété</li><li>Renforce le sentiment de sécurité</li><li>Favorise l’acceptation de soi</li><li>Soutient dans les périodes de transition</li><li>Améliore la concentration</li></ul>",
             "button_label": "Découvrir nos Agate",
             "button_link": "shopify://collections/agate"
           }
@@ -94,7 +94,7 @@
           "settings": {
             "caption": "",
             "heading": "Calcite",
-            "text": "<p>Associez un texte à une image pour mettre en avant le produit, la collection ou l’article de blog de votre choix. Ajoutez des informations sur la disponibilité ou le style. Vous pouvez même fournir un avis.</p>",
+            "text": "<ul><li>Clarifie l’esprit et les émotions</li><li>Favorise l’apprentissage et la mémoire</li><li>Allège le stress et les tensions</li><li>Encourage l’optimisme</li><li>Stimule la croissance personnelle</li><li>Apaise les blocages énergétiques</li></ul>",
             "button_label": "Découvrir nos Calcite",
             "button_link": "shopify://collections/calcite"
           }
@@ -104,7 +104,7 @@
           "settings": {
             "caption": "",
             "heading": "Citrine",
-            "text": "<p>Associez un texte à une image pour mettre en avant le produit, la collection ou l’article de blog de votre choix. Ajoutez des informations sur la disponibilité ou le style. Vous pouvez même fournir un avis.</p>",
+            "text": "<ul><li>Énergie solaire et joie de vivre</li><li>Attire l’abondance et la réussite</li><li>Favorise la concentration et la créativité</li><li>Dissipe les peurs et les doutes</li><li>Stimule la confiance en soi</li><li>Recharge les énergies</li></ul>",
             "button_label": "Découvrir nos Citrine",
             "button_link": "shopify://collections/citrine"
           }
@@ -114,7 +114,7 @@
           "settings": {
             "caption": "",
             "heading": "Tourmaline",
-            "text": "<p>Associez un texte à une image pour mettre en avant le produit, la collection ou l’article de blog de votre choix. Ajoutez des informations sur la disponibilité ou le style. Vous pouvez même fournir un avis.</p>",
+            "text": "<ul><li>Protège des ondes et énergies négatives</li><li>Favorise l’ancrage et la stabilité</li><li>Apaise les tensions nerveuses</li><li>Renforce l’estime de soi</li><li>Stimule l’alignement énergétique</li><li>Pierre de purification</li></ul>",
             "button_label": "Découvrir nos Tourmaline",
             "button_link": "shopify://collections/tourmaline"
           }
@@ -124,7 +124,7 @@
           "settings": {
             "caption": "",
             "heading": "Jade",
-            "text": "<p>Associez un texte à une image pour mettre en avant le produit, la collection ou l’article de blog de votre choix. Ajoutez des informations sur la disponibilité ou le style. Vous pouvez même fournir un avis.</p>",
+            "text": "<ul><li>Harmonie et équilibre intérieur</li><li>Attire chance et prospérité</li><li>Apaise l’esprit et favorise la sagesse</li><li>Encourage la bienveillance et l’honnêteté</li><li>Aide à la libération émotionnelle</li><li>Pierre de paix et de pureté</li></ul>",
             "button_label": "Découvrir nos Jade",
             "button_link": "shopify://collections/jade"
           }
@@ -134,7 +134,7 @@
           "settings": {
             "caption": "",
             "heading": "Jaspe",
-            "text": "<p>Associez un texte à une image pour mettre en avant le produit, la collection ou l’article de blog de votre choix. Ajoutez des informations sur la disponibilité ou le style. Vous pouvez même fournir un avis.</p>",
+            "text": "<ul><li>Apporte stabilité et sécurité</li><li>Stimule la persévérance et le courage</li><li>Soutient l’équilibre émotionnel</li><li>Aide à la gestion du stress</li><li>Ancre dans le moment présent</li><li>Renforce la détermination</li></ul>",
             "button_label": "Découvrir nos Jaspe",
             "button_link": "shopify://collections/jaspe"
           }
@@ -144,7 +144,7 @@
           "settings": {
             "caption": "",
             "heading": "Rubis",
-            "text": "<p>Associez un texte à une image pour mettre en avant le produit, la collection ou l’article de blog de votre choix. Ajoutez des informations sur la disponibilité ou le style. Vous pouvez même fournir un avis.</p>",
+            "text": "<ul><li>Énergie, courage et passion</li><li>Renforce le cœur et la vitalité</li><li>Favorise la motivation et la persévérance</li><li>Stimule l’amour et la sensualité</li><li>Soutient l’expression personnelle</li><li>Pierre de feu et d’engagement</li></ul>",
             "button_label": "Découvrez nos Rubis",
             "button_link": "shopify://collections/rubis"
           }

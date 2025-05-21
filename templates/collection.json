@@ -138,6 +138,70 @@
         "padding_bottom": 36
       }
     },
+    "multicolumn_DeHd8X": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_Ld7cH6": {
+          "type": "column",
+          "settings": {
+            "title": "100% Pierres naturelles",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_AVFAD4": {
+          "type": "column",
+          "settings": {
+            "title": "Fait main en France",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_HE7g7E": {
+          "type": "column",
+          "settings": {
+            "title": "Livraison offerte en point relais",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_bnfKzc": {
+          "type": "column",
+          "settings": {
+            "title": "Paiement sécurisé",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_Ld7cH6",
+        "column_AVFAD4",
+        "column_HE7g7E",
+        "column_bnfKzc"
+      ],
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "button_label": "Texte du bouton",
+        "button_link": "",
+        "columns_desktop": 5,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "image_with_text_BTmWtc": {
       "type": "image-with-text",
       "blocks": {
@@ -175,6 +239,7 @@
     "featured_collection_jHnXd6",
     "featured_collection_jH6HeN",
     "collection_list_P3jKFy",
+    "multicolumn_DeHd8X",
     "image_with_text_BTmWtc"
   ]
 }

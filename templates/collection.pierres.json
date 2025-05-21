@@ -43,7 +43,7 @@
       "settings": {
         "collection": "vibe",
         "products_to_show": 6,
-        "title": "Parure avec Colliers ou Bracelets Vibe",
+        "title": "Parure avec colliers ou bracelets Vibe",
         "heading_size": "h1",
         "description": "",
         "show_description": false,
@@ -72,7 +72,7 @@
       "settings": {
         "collection": "eclat",
         "products_to_show": 6,
-        "title": "Parure avec Colliers ou Bracelets Eclat",
+        "title": "Parure avec colliers ou bracelets Eclat",
         "heading_size": "h1",
         "description": "",
         "show_description": false,

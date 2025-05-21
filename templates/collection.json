@@ -70,9 +70,9 @@
       "type": "featured-collection",
       "name": "t:sections.featured-collection.presets.name",
       "settings": {
-        "collection": "collier-vibe",
+        "collection": "vibe",
         "products_to_show": 6,
-        "title": "Parure avec Collier Vibes",
+        "title": "Autre collection 100% pierres naturelles",
         "heading_size": "h1",
         "description": "",
         "show_description": false,

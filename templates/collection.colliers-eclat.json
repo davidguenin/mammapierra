@@ -1,0 +1,265 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "banner": {
+      "type": "main-collection-banner",
+      "settings": {
+        "show_collection_description": true,
+        "show_collection_image": false,
+        "color_scheme": "scheme-1"
+      }
+    },
+    "collection_list_hiYGcD": {
+      "type": "collection-list",
+      "blocks": {
+        "featured_collection_icU6tg": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "amethyste"
+          }
+        },
+        "featured_collection_tVLTft": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "citrine"
+          }
+        },
+        "featured_collection_AiTiMj": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "cristal-de-roche"
+          }
+        },
+        "featured_collection_dEeLbQ": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "amazonite"
+          }
+        },
+        "featured_collection_T6BtcR": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "labradorite"
+          }
+        },
+        "featured_collection_AyBJWi": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "pierre-de-lune"
+          }
+        }
+      },
+      "block_order": [
+        "featured_collection_icU6tg",
+        "featured_collection_tVLTft",
+        "featured_collection_AiTiMj",
+        "featured_collection_dEeLbQ",
+        "featured_collection_T6BtcR",
+        "featured_collection_AyBJWi"
+      ],
+      "disabled": true,
+      "name": "t:sections.collection-list.presets.name",
+      "settings": {
+        "title": "",
+        "heading_size": "h2",
+        "image_ratio": "square",
+        "columns_desktop": 6,
+        "color_scheme": "",
+        "show_view_all": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 16,
+        "padding_bottom": 12
+      }
+    },
+    "product-grid": {
+      "type": "main-collection-product-grid",
+      "settings": {
+        "products_per_page": 16,
+        "columns_desktop": 4,
+        "columns_mobile": "2",
+        "color_scheme": "",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "quick_add": "none",
+        "enable_filtering": true,
+        "filter_type": "drawer",
+        "enable_sorting": true,
+        "padding_top": 36,
+        "padding_bottom": 0
+      }
+    },
+    "featured_collection_jHnXd6": {
+      "type": "featured-collection",
+      "name": "t:sections.featured-collection.presets.name",
+      "settings": {
+        "collection": "pendentif",
+        "products_to_show": 6,
+        "title": "Pendentifs à associer",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "columns_desktop": 4,
+        "enable_desktop_slider": true,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "color_scheme": "scheme-2",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "quick_add": "none",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "multicolumn_rnqdVa": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_jYmz4V": {
+          "type": "column",
+          "settings": {
+            "title": "Fait main en France",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_qCtNDq": {
+          "type": "column",
+          "settings": {
+            "title": "Pierres 100% naturelles",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_VCVNY9": {
+          "type": "column",
+          "settings": {
+            "title": "Livraison offerte en point relais",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_h3jAdm": {
+          "type": "column",
+          "settings": {
+            "title": "Paiement sécurisé",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_jYmz4V",
+        "column_qCtNDq",
+        "column_VCVNY9",
+        "column_h3jAdm"
+      ],
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "button_label": "",
+        "button_link": "",
+        "columns_desktop": 4,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "color_scheme": "scheme-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "featured_collection_BGF9MF": {
+      "type": "featured-collection",
+      "name": "t:sections.featured-collection.presets.name",
+      "settings": {
+        "collection": "collier-eclat",
+        "products_to_show": 4,
+        "title": "Vous pourriez aussi aimer ...",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "columns_desktop": 4,
+        "enable_desktop_slider": true,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "color_scheme": "",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "quick_add": "none",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_BTmWtc": {
+      "type": "image-with-text",
+      "blocks": {
+        "text_6UVzRj": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Associez un texte à une image pour mettre en avant le produit, la collection ou l’article de blog de votre choix. Ajoutez des informations sur la disponibilité ou le style. Vous pouvez même fournir un avis.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "text_6UVzRj"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "height": "small",
+        "desktop_image_width": "small",
+        "layout": "image_first",
+        "image_behavior": "none",
+        "content_layout": "no-overlap",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "banner",
+    "collection_list_hiYGcD",
+    "product-grid",
+    "multicolumn_rnqdVa",
+    "featured_collection_jHnXd6",
+    "featured_collection_BGF9MF",
+    "image_with_text_BTmWtc"
+  ]
+}

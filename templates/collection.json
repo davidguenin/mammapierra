@@ -97,47 +97,6 @@
         "padding_bottom": 36
       }
     },
-    "collection_list_P3jKFy": {
-      "type": "collection-list",
-      "blocks": {
-        "featured_collection_9P6eRr": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "colliers"
-          }
-        },
-        "featured_collection_NDYzye": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "bracelet"
-          }
-        },
-        "featured_collection_drNkMc": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "pendentif"
-          }
-        }
-      },
-      "block_order": [
-        "featured_collection_9P6eRr",
-        "featured_collection_NDYzye",
-        "featured_collection_drNkMc"
-      ],
-      "name": "t:sections.collection-list.presets.name",
-      "settings": {
-        "title": "Découvrez nos parures en pierres 100% naturelles",
-        "heading_size": "h1",
-        "image_ratio": "square",
-        "columns_desktop": 3,
-        "color_scheme": "",
-        "show_view_all": false,
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "multicolumn_DeHd8X": {
       "type": "multicolumn",
       "blocks": {
@@ -202,6 +161,47 @@
         "padding_bottom": 48
       }
     },
+    "collection_list_P3jKFy": {
+      "type": "collection-list",
+      "blocks": {
+        "featured_collection_9P6eRr": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "colliers"
+          }
+        },
+        "featured_collection_NDYzye": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "bracelet"
+          }
+        },
+        "featured_collection_drNkMc": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "pendentif"
+          }
+        }
+      },
+      "block_order": [
+        "featured_collection_9P6eRr",
+        "featured_collection_NDYzye",
+        "featured_collection_drNkMc"
+      ],
+      "name": "t:sections.collection-list.presets.name",
+      "settings": {
+        "title": "Découvrez nos parures en pierres 100% naturelles",
+        "heading_size": "h1",
+        "image_ratio": "square",
+        "columns_desktop": 3,
+        "color_scheme": "",
+        "show_view_all": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "image_with_text_BTmWtc": {
       "type": "image-with-text",
       "blocks": {
@@ -238,8 +238,8 @@
     "product-grid",
     "featured_collection_jHnXd6",
     "featured_collection_jH6HeN",
-    "collection_list_P3jKFy",
     "multicolumn_DeHd8X",
+    "collection_list_P3jKFy",
     "image_with_text_BTmWtc"
   ]
 }

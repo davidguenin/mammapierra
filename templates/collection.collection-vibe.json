@@ -70,9 +70,9 @@
       "type": "featured-collection",
       "name": "t:sections.featured-collection.presets.name",
       "settings": {
-        "collection": "vibe",
+        "collection": "eclat",
         "products_to_show": 6,
-        "title": "Autre collection 100% pierres naturelles",
+        "title": "Collection Eclat avec nos chaînes dorées ou argentées",
         "heading_size": "h1",
         "description": "",
         "show_description": false,

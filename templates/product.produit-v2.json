@@ -164,14 +164,78 @@
         "padding_bottom": 28
       }
     },
+    "multicolumn_ekxnFc": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_h7dBLQ": {
+          "type": "column",
+          "settings": {
+            "title": "1",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_7qVMRD": {
+          "type": "column",
+          "settings": {
+            "title": "2",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_mVqr8x": {
+          "type": "column",
+          "settings": {
+            "title": "3",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_Tw4nrw": {
+          "type": "column",
+          "settings": {
+            "title": "4",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_h7dBLQ",
+        "column_7qVMRD",
+        "column_mVqr8x",
+        "column_Tw4nrw"
+      ],
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "button_label": "",
+        "button_link": "",
+        "columns_desktop": 4,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "featured_collection_QaKfrB": {
       "type": "featured-collection",
       "name": "t:sections.featured-collection.presets.name",
       "settings": {
         "collection": "pendentif",
         "products_to_show": 4,
-        "title": "Pendentifs Vibe",
-        "heading_size": "h2",
+        "title": "Les pendentifs à associer",
+        "heading_size": "h1",
         "description": "",
         "show_description": false,
         "description_style": "body",
@@ -297,6 +361,7 @@
   "order": [
     "main",
     "related-products",
+    "multicolumn_ekxnFc",
     "featured_collection_QaKfrB",
     "image-with-text",
     "multicolumn"

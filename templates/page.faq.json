@@ -157,7 +157,7 @@
           "settings": {
             "heading": "Combien de temps ai-je pour faire une demande de retour ?",
             "icon": "check_mark",
-            "row_content": "",
+            "row_content": "<p>Vous avez 14 jours pour faire une demande de retour en écrivant à l'adresse suivante : marion@mammapierra.com.</p>",
             "page": ""
           }
         },
@@ -209,7 +209,7 @@
           "settings": {
             "heading": "Vos bijoux résistent-ils à l’eau ?",
             "icon": "check_mark",
-            "row_content": "<p>Nos bijoux en acier inoxydable doré 316L sont résistants à l’eau et ne noircissent pas. Nous recommandons toutefois de les retirer sous la douche pour préserver leur éclat plus longtemps.</p>",
+            "row_content": "<p>Nos bijoux en acier inoxydable doré 316L sont résistants à l’eau et ne noircissent pas. Nous recommandons toutefois de les retirer sous la douche ou avant de donner le bain à vos enfants, de faire du sport ou de dormir pour préserver leur éclat plus longtemps.</p>",
             "page": ""
           }
         },
@@ -292,7 +292,7 @@
           "settings": {
             "heading": "Puis-je me doucher avec mes bijoux ?",
             "icon": "check_mark",
-            "row_content": "<p>Nos bijoux en acier inoxydable doré résistent à l’eau, mais pour prolonger leur éclat, nous recommandons de les retirer sous la douche ou à la piscine.</p>",
+            "row_content": "<p>Nos bijoux en acier inoxydable doré résistent à l’eau, mais pour prolonger leur éclat, nous recommandons de les retirer sous la douche, à la piscine, lors du bain des enfants, ou pendant le sport. </p>",
             "page": ""
           }
         },

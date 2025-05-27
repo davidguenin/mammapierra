@@ -68,6 +68,24 @@
           "type": "description",
           "settings": {}
         },
+        "collapsible-row-3": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Informations complémentaires",
+            "icon": "star",
+            "content": "{{ product.metafields.custom.informations_complementaires | metafield_tag }}",
+            "page": ""
+          }
+        },
+        "collapsible-row-1": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Livraison et retours",
+            "icon": "truck",
+            "content": "<p><strong>Livraison</strong></p><p>Livraison offerte avec Mondial Relay en France. </p><p></p><p><strong>Retour</strong></p><p>Si vous souhaitez retourner un ou plusieurs articles, vous disposez d'un délai de 14 jours  pour être remboursé.e. Afin de retourner votre bijou, merci de nous contacter par mail à marion@mammapierra.com.</p>",
+            "page": ""
+          }
+        },
         "collapsible-row-0": {
           "type": "collapsible_tab",
           "disabled": true,
@@ -78,30 +96,12 @@
             "page": ""
           }
         },
-        "collapsible-row-1": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Livraison et retours",
-            "icon": "truck",
-            "content": "",
-            "page": ""
-          }
-        },
         "collapsible-row-2": {
           "type": "collapsible_tab",
           "disabled": true,
           "settings": {
             "heading": "Dimensions",
             "icon": "ruler",
-            "content": "",
-            "page": ""
-          }
-        },
-        "collapsible-row-3": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Informations complémentaires",
-            "icon": "star",
             "content": "",
             "page": ""
           }
@@ -136,10 +136,10 @@
         "buy_buttons",
         "icon_with_text_eUVprw",
         "description",
-        "collapsible-row-0",
-        "collapsible-row-1",
-        "collapsible-row-2",
         "collapsible-row-3",
+        "collapsible-row-1",
+        "collapsible-row-0",
+        "collapsible-row-2",
         "complementary_4dr8Xa",
         "share"
       ],

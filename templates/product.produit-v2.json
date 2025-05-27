@@ -48,8 +48,20 @@
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
-            "show_dynamic_checkout": true,
+            "show_dynamic_checkout": false,
             "show_gift_card_recipient": true
+          }
+        },
+        "icon_with_text_eUVprw": {
+          "type": "icon-with-text",
+          "settings": {
+            "layout": "horizontal",
+            "icon_1": "heart",
+            "heading_1": "",
+            "icon_2": "return",
+            "heading_2": "14 jours pour changer d'avis",
+            "icon_3": "truck",
+            "heading_3": "Livraison offerte en point relais"
           }
         },
         "description": {
@@ -122,6 +134,7 @@
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
+        "icon_with_text_eUVprw",
         "description",
         "collapsible-row-0",
         "collapsible-row-1",

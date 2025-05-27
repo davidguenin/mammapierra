@@ -17,6 +17,47 @@
         "color_scheme": "scheme-1"
       }
     },
+    "collection_list_k3pgza": {
+      "type": "collection-list",
+      "blocks": {
+        "featured_collection_VKGbF3": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "collier-vibe"
+          }
+        },
+        "featured_collection_neNU4k": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "bracelet-vibe"
+          }
+        },
+        "featured_collection_6LHKcx": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "pendentif"
+          }
+        }
+      },
+      "block_order": [
+        "featured_collection_VKGbF3",
+        "featured_collection_neNU4k",
+        "featured_collection_6LHKcx"
+      ],
+      "name": "t:sections.collection-list.presets.name",
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_ratio": "square",
+        "columns_desktop": 3,
+        "color_scheme": "",
+        "show_view_all": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 12,
+        "padding_bottom": 4
+      }
+    },
     "product-grid": {
       "type": "main-collection-product-grid",
       "settings": {
@@ -57,35 +98,6 @@
         "image_ratio": "adapt",
         "image_shape": "default",
         "show_secondary_image": true,
-        "show_vendor": false,
-        "show_rating": false,
-        "quick_add": "none",
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "featured_collection_6W8pPg": {
-      "type": "featured-collection",
-      "name": "t:sections.featured-collection.presets.name",
-      "settings": {
-        "collection": "bracelet-vibe",
-        "products_to_show": 4,
-        "title": "Ajouter un bracelet pour faire la parure",
-        "heading_size": "h1",
-        "description": "",
-        "show_description": false,
-        "description_style": "body",
-        "columns_desktop": 6,
-        "enable_desktop_slider": false,
-        "full_width": false,
-        "show_view_all": true,
-        "view_all_style": "solid",
-        "color_scheme": "scheme-1",
-        "image_ratio": "adapt",
-        "image_shape": "default",
-        "show_secondary_image": false,
         "show_vendor": false,
         "show_rating": false,
         "quick_add": "none",
@@ -157,9 +169,9 @@
   },
   "order": [
     "banner",
+    "collection_list_k3pgza",
     "product-grid",
     "featured_collection_jHnXd6",
-    "featured_collection_6W8pPg",
     "featured_collection_jH6HeN",
     "image_with_text_BTmWtc"
   ]

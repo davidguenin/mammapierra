@@ -232,7 +232,7 @@
         "text_8hFTym": {
           "type": "text",
           "settings": {
-            "text": "",
+            "text": "{{ collection.metafields.custom.collection_pierre_chakras | metafield_tag }}",
             "text_style": "body"
           }
         },
@@ -252,9 +252,9 @@
       ],
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
-        "height": "adapt",
+        "height": "small",
         "desktop_image_width": "small",
-        "layout": "image_first",
+        "layout": "text_first",
         "image_behavior": "none",
         "content_layout": "no-overlap",
         "desktop_content_position": "top",

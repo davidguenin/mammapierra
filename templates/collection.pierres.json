@@ -143,7 +143,7 @@
         "text_rx6NzH": {
           "type": "text",
           "settings": {
-            "text": "<p>{{ collection.metafields.custom.collection_pierre_propriete_et_histoire | metafield_tag }}</p>",
+            "text": "{{ collection.metafields.custom.collection_pierre_propriete_histoire | metafield_tag }}",
             "text_style": "body"
           }
         },
@@ -202,7 +202,6 @@
         "column_xriXbU",
         "column_h7ydMm"
       ],
-      "name": "t:sections.multicolumn.presets.name",
       "settings": {
         "title": "",
         "heading_size": "h2",
@@ -220,24 +219,24 @@
         "padding_bottom": 36
       }
     },
-    "image_with_text_G6RYkP": {
+    "image_with_text_3efGUF": {
       "type": "image-with-text",
       "blocks": {
-        "heading_MJ6ALE": {
+        "heading_DwjG6h": {
           "type": "heading",
           "settings": {
-            "heading": "Le Ckakra associé à la pierre",
+            "heading": "Les chakras associés à la pierre",
             "heading_size": "h2"
           }
         },
-        "text_hQWEmG": {
+        "text_8hFTym": {
           "type": "text",
           "settings": {
-            "text": "<p>{{ collection.metafields.custom.collection_pierre_chakra | metafield_tag }}</p>",
+            "text": "",
             "text_style": "body"
           }
         },
-        "button_iqzkMz": {
+        "button_VjntEW": {
           "type": "button",
           "settings": {
             "button_label": "",
@@ -247,15 +246,15 @@
         }
       },
       "block_order": [
-        "heading_MJ6ALE",
-        "text_hQWEmG",
-        "button_iqzkMz"
+        "heading_DwjG6h",
+        "text_8hFTym",
+        "button_VjntEW"
       ],
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
         "height": "adapt",
         "desktop_image_width": "small",
-        "layout": "text_first",
+        "layout": "image_first",
         "image_behavior": "none",
         "content_layout": "no-overlap",
         "desktop_content_position": "top",
@@ -298,7 +297,6 @@
         "text_6CqmDT",
         "button_PzrbeA"
       ],
-      "name": "t:sections.image-with-text.presets.name",
       "settings": {
         "height": "adapt",
         "desktop_image_width": "small",
@@ -380,7 +378,7 @@
     "multicolumn_KFwpwi",
     "image_with_text_BM8C77",
     "multicolumn_DLML7B",
-    "image_with_text_G6RYkP",
+    "image_with_text_3efGUF",
     "image_with_text_WJAjgH",
     "featured_collection_jH6HeN",
     "featured_collection_jHnXd6"

@@ -183,7 +183,7 @@
         "column_xriXbU": {
           "type": "column",
           "settings": {
-            "title": "Les bienfaits physiques de la pierre{{ collection.metafields.custom.collection_pierre_titre_les_bienfaits_physiques_de_la_pierre.value }}",
+            "title": "{{ collection.metafields.custom.collection_pierre_titre_les_bienfaits_physiques_de_la_pierre.value }}",
             "text": "{{ collection.metafields.custom.collection_pierre_les_bienfaits_physiques_de_la_pierre | metafield_tag }}",
             "link_label": "",
             "link": ""

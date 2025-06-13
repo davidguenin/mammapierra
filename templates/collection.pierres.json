@@ -131,6 +131,53 @@
         "padding_bottom": 36
       }
     },
+    "image_with_text_BM8C77": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_D8nDqi": {
+          "type": "heading",
+          "settings": {
+            "heading": "Propriété & Histoire de la pierre",
+            "heading_size": "h1"
+          }
+        },
+        "text_rx6NzH": {
+          "type": "text",
+          "settings": {
+            "text": "<p>{{ collection.metafields.custom.collection_pierre_propriete_et_histoire | metafield_tag }}</p>",
+            "text_style": "body"
+          }
+        },
+        "button_UBg6hC": {
+          "type": "button",
+          "settings": {
+            "button_label": "",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_D8nDqi",
+        "text_rx6NzH",
+        "button_UBg6hC"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "image_behavior": "none",
+        "content_layout": "no-overlap",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "featured_collection_jH6HeN": {
       "type": "featured-collection",
       "settings": {
@@ -186,35 +233,6 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
-    },
-    "image_with_text_BTmWtc": {
-      "type": "image-with-text",
-      "blocks": {
-        "text_6UVzRj": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Associez un texte à une image pour mettre en avant le produit, la collection ou l’article de blog de votre choix. Ajoutez des informations sur la disponibilité ou le style. Vous pouvez même fournir un avis.</p>",
-            "text_style": "body"
-          }
-        }
-      },
-      "block_order": [
-        "text_6UVzRj"
-      ],
-      "settings": {
-        "height": "small",
-        "desktop_image_width": "small",
-        "layout": "image_first",
-        "image_behavior": "none",
-        "content_layout": "no-overlap",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "mobile_content_alignment": "left",
-        "section_color_scheme": "",
-        "color_scheme": "",
-        "padding_top": 0,
-        "padding_bottom": 36
-      }
     }
   },
   "order": [
@@ -222,8 +240,8 @@
     "rich_text_YaGDMA",
     "product-grid",
     "multicolumn_KFwpwi",
+    "image_with_text_BM8C77",
     "featured_collection_jH6HeN",
-    "featured_collection_jHnXd6",
-    "image_with_text_BTmWtc"
+    "featured_collection_jHnXd6"
   ]
 }

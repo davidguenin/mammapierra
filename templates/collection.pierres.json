@@ -136,7 +136,7 @@
         "heading_D8nDqi": {
           "type": "heading",
           "settings": {
-            "heading": "Propriété & Histoire de la pierre",
+            "heading": "{{ collection.metafields.custom.collection_pierre_titre_propriete_histoire.value }}",
             "heading_size": "h2"
           }
         },
@@ -183,8 +183,8 @@
         "column_xriXbU": {
           "type": "column",
           "settings": {
-            "title": "Les bienfaits physiques de la pierre",
-            "text": "<p>{{ collection.metafields.custom.collection_pierre_les_bienfaits_physiques_de_la_pierre | metafield_tag }}</p>",
+            "title": "Les bienfaits physiques de la pierre{{ collection.metafields.custom.collection_pierre_titre_les_bienfaits_physiques_de_la_pierre.value }}",
+            "text": "{{ collection.metafields.custom.collection_pierre_les_bienfaits_physiques_de_la_pierre | metafield_tag }}",
             "link_label": "",
             "link": ""
           }
@@ -192,8 +192,8 @@
         "column_h7ydMm": {
           "type": "column",
           "settings": {
-            "title": "Les vertus Spirituelles et émotionnelle de la pierre",
-            "text": "<p>{{ collection.metafields.custom.collection_pierre_vertus_spirituelles_et_emotionnelle_de_la_pier | metafield_tag }}</p>",
+            "title": "{{ collection.metafields.custom.collection_pierre_titre_vertus_spirituelles_et_emotionnelle.value }}",
+            "text": "{{ collection.metafields.custom.collection_pierre_vertus_spirituelles_et_emotionnelle_de_la_pier | metafield_tag }}",
             "link_label": "",
             "link": ""
           }
@@ -226,7 +226,7 @@
         "heading_DwjG6h": {
           "type": "heading",
           "settings": {
-            "heading": "Les chakras associés à la pierre",
+            "heading": "{{ collection.metafields.custom.collection_pierre_titre_chakras.value }}",
             "heading_size": "h2"
           }
         },
@@ -273,7 +273,7 @@
         "heading_mcnDKj": {
           "type": "heading",
           "settings": {
-            "heading": "Les signes astrologiques et la pierre",
+            "heading": "{{ collection.metafields.custom.collection_pierre_titre_astrologie.value }}",
             "heading_size": "h2"
           }
         },

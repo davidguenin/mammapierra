@@ -38,7 +38,6 @@
         "heading_LKcAE4",
         "text_qcytyn"
       ],
-      "name": "t:sections.rich-text.presets.name",
       "settings": {
         "desktop_content_position": "left",
         "content_alignment": "left",
@@ -138,7 +137,7 @@
           "type": "heading",
           "settings": {
             "heading": "Propriété & Histoire de la pierre",
-            "heading_size": "h1"
+            "heading_size": "h2"
           }
         },
         "text_rx6NzH": {
@@ -162,10 +161,147 @@
         "text_rx6NzH",
         "button_UBg6hC"
       ],
-      "name": "t:sections.image-with-text.presets.name",
       "settings": {
         "height": "adapt",
         "desktop_image_width": "medium",
+        "layout": "image_first",
+        "image_behavior": "none",
+        "content_layout": "no-overlap",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "padding_top": 24,
+        "padding_bottom": 24
+      }
+    },
+    "multicolumn_DLML7B": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_xriXbU": {
+          "type": "column",
+          "settings": {
+            "title": "Les bienfaits physiques de la pierre",
+            "text": "<p>Associez un texte à une image pour mettre en avant le produit, la collection ou l’article de blog de votre choix. Ajoutez des informations sur la disponibilité ou le style. Vous pouvez même fournir un avis.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_h7ydMm": {
+          "type": "column",
+          "settings": {
+            "title": "Les vertus Spirituelles et émotionnelle de la pierre",
+            "text": "<p>Associez un texte à une image pour mettre en avant le produit, la collection ou l’article de blog de votre choix. Ajoutez des informations sur la disponibilité ou le style. Vous pouvez même fournir un avis.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_xriXbU",
+        "column_h7ydMm"
+      ],
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "title": "",
+        "heading_size": "h2",
+        "image_width": "half",
+        "image_ratio": "portrait",
+        "button_label": "",
+        "button_link": "",
+        "columns_desktop": 2,
+        "column_alignment": "left",
+        "background_style": "none",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_G6RYkP": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_MJ6ALE": {
+          "type": "heading",
+          "settings": {
+            "heading": "Le Ckakra associé à la pierre",
+            "heading_size": "h2"
+          }
+        },
+        "text_hQWEmG": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Associez un texte à une image pour mettre en avant le produit, la collection ou l’article de blog de votre choix. Ajoutez des informations sur la disponibilité ou le style. Vous pouvez même fournir un avis.</p>",
+            "text_style": "body"
+          }
+        },
+        "button_iqzkMz": {
+          "type": "button",
+          "settings": {
+            "button_label": "",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_MJ6ALE",
+        "text_hQWEmG",
+        "button_iqzkMz"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "height": "adapt",
+        "desktop_image_width": "small",
+        "layout": "text_first",
+        "image_behavior": "none",
+        "content_layout": "no-overlap",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_WJAjgH": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_mcnDKj": {
+          "type": "heading",
+          "settings": {
+            "heading": "Les signes astrologiques et la pierre",
+            "heading_size": "h2"
+          }
+        },
+        "text_6CqmDT": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Associez un texte à une image pour mettre en avant le produit, la collection ou l’article de blog de votre choix. Ajoutez des informations sur la disponibilité ou le style. Vous pouvez même fournir un avis.</p>",
+            "text_style": "body"
+          }
+        },
+        "button_PzrbeA": {
+          "type": "button",
+          "settings": {
+            "button_label": "",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_mcnDKj",
+        "text_6CqmDT",
+        "button_PzrbeA"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "height": "adapt",
+        "desktop_image_width": "small",
         "layout": "image_first",
         "image_behavior": "none",
         "content_layout": "no-overlap",
@@ -180,6 +316,7 @@
     },
     "featured_collection_jH6HeN": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
         "collection": "vibe",
         "products_to_show": 6,
@@ -208,6 +345,7 @@
     },
     "featured_collection_jHnXd6": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
         "collection": "eclat",
         "products_to_show": 6,
@@ -241,6 +379,9 @@
     "product-grid",
     "multicolumn_KFwpwi",
     "image_with_text_BM8C77",
+    "multicolumn_DLML7B",
+    "image_with_text_G6RYkP",
+    "image_with_text_WJAjgH",
     "featured_collection_jH6HeN",
     "featured_collection_jHnXd6"
   ]

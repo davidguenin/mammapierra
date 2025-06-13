@@ -162,6 +162,7 @@
         "button_UBg6hC"
       ],
       "settings": {
+        "image": "{{ collection.metafields.custom.collection_pierre_image_propriete_histoire.value }}",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
@@ -250,8 +251,8 @@
         "text_8hFTym",
         "button_VjntEW"
       ],
-      "name": "t:sections.image-with-text.presets.name",
       "settings": {
+        "image": "{{ collection.metafields.custom.collection_pierre_image_chakras.value }}",
         "height": "small",
         "desktop_image_width": "small",
         "layout": "text_first",
@@ -298,6 +299,7 @@
         "button_PzrbeA"
       ],
       "settings": {
+        "image": "{{ collection.metafields.custom.collection_pierre_image_signe_astro.value }}",
         "height": "adapt",
         "desktop_image_width": "small",
         "layout": "image_first",

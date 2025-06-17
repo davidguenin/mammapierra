@@ -484,10 +484,11 @@
         "column3",
         "column_bHHiUA"
       ],
+      "custom_css": [],
       "settings": {
         "title": "",
         "heading_size": "h1",
-        "image_width": "third",
+        "image_width": "full",
         "image_ratio": "adapt",
         "button_label": "",
         "button_link": "",

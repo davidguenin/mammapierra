@@ -179,6 +179,9 @@
     },
     "featured_collection_znnEbQ": {
       "type": "featured-collection",
+      "custom_css": [
+        ".collection-list-wrapper{background: #efefef;}"
+      ],
       "name": "t:sections.featured-collection.presets.name",
       "settings": {
         "collection": "pendentif",

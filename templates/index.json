@@ -180,13 +180,14 @@
     "featured_collection_znnEbQ": {
       "type": "featured-collection",
       "custom_css": [
-        ".collection-list-wrapper{background: #efefef;}"
+        ".collection {background: #fef7e1;}",
+        "h2 {color: #005c5b;}"
       ],
       "name": "t:sections.featured-collection.presets.name",
       "settings": {
         "collection": "pendentif",
         "products_to_show": 4,
-        "title": "Pendentifs du moment",
+        "title": "<strong>Pendentifs du moment</strong>",
         "heading_size": "h1",
         "description": "<p>Tous les lundis de nouveaux pendentifs à adopter. Pierres Uniques & Limitées.</p>",
         "show_description": false,

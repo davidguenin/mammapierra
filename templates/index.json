@@ -180,7 +180,7 @@
       "type": "featured-collection",
       "custom_css": [
         ".collection {background: #fef7e1;}",
-        "h2 {color: #005c5b;}"
+        "h2 {color: #314b98;}"
       ],
       "name": "t:sections.featured-collection.presets.name",
       "settings": {

@@ -444,7 +444,7 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/01.svg",
-            "title": "100% Pierres naturelles",
+            "title": "<strong>100% Pierres naturelles</strong>",
             "text": "",
             "link_label": "",
             "link": ""
@@ -454,7 +454,7 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/02.svg",
-            "title": "Fait main en France",
+            "title": "<strong>Fait main en France</strong>",
             "text": "",
             "link_label": "",
             "link": ""
@@ -464,7 +464,7 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/03.svg",
-            "title": "Livraison offerte en point relais",
+            "title": "<strong>Livraison offerte en point relais</strong>",
             "text": "",
             "link_label": "",
             "link": ""
@@ -474,7 +474,7 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/01.svg",
-            "title": "Paiement sécurisé",
+            "title": "<strong>Paiement sécurisé</strong>",
             "text": "",
             "link_label": "",
             "link": ""

@@ -105,11 +105,7 @@
     },
     "featured_collection": {
       "type": "featured-collection",
-      "custom_css": [
-        ".collection {padding-top: 0; padding-bottom: 0;}",
-        ".card {position: relative;}",
-        ".card__content {position: absolute; bottom: 0; left: 10px;}"
-      ],
+      "custom_css": [],
       "settings": {
         "collection": "all",
         "products_to_show": 8,

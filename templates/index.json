@@ -488,7 +488,7 @@
         "column_bHHiUA"
       ],
       "custom_css": [
-        "h3 {max-width: 175px; margin: auto; font-size: 2rem; line-height: 1.2;}"
+        "h3 {max-width: 200px; margin: auto; font-size: 2.15rem; line-height: 1.2;}"
       ],
       "settings": {
         "title": "",

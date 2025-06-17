@@ -44,7 +44,7 @@
       "custom_css": [
         "footer {background: #0d2338; color: #fff;}",
         "a {color: #fff;}",
-        "h2{color: #fff;}"
+        "h2 {color: #fff;}"
       ],
       "settings": {
         "color_scheme": "scheme-1",
@@ -56,7 +56,7 @@
         "enable_language_selector": false,
         "payment_enable": true,
         "show_policy": false,
-        "margin_top": 56,
+        "margin_top": 0,
         "padding_top": 36,
         "padding_bottom": 36
       }

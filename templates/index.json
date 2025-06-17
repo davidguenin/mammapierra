@@ -133,7 +133,7 @@
         "columns_mobile": "1",
         "swipe_on_mobile": true,
         "padding_top": 100,
-        "padding_bottom": 0
+        "padding_bottom": 52
       }
     },
     "collage": {

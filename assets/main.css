@@ -1,20 +1,20 @@
 .header-wrapper {
   border: 0px;
-  background: #0c1f27;
+  background: #fff;
 }
 
 .header__menu-item,
 .header__active-menu-item {
-  color: #fff;
+  color: #000;
 }
 
 .header__menu-item:hover,
 .header__active-menu-item:hover {
-  color: #fff;
+  color: #000;
 }
 
 .header__icon .svg-wrapper {
-  color: #fff;
+  color: #000;
 }
 
 .header__menu-item a,

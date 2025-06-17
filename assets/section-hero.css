@@ -4,27 +4,32 @@
 
 .hero-main-left {
   height: 575px;
-  padding: 35px;
-  background: #cff7f9;
+  padding: 50px;
+  background: #e7fdfe;
 }
 
 .hero-main-right {
   height: 575px;
   padding: 35px;
-  background: #062c24;
+  background: #005c5b;
 }
 
 .hero-main-right h2 {
-  color: #fff;
+  color: #d6e3b7;
 }
 
 .hero-main-left-product {
-  height: 415px;
+  height: 250px;
   background: #fff;
 }
 
 .hero-main-left-product-img {
-  height: 325px;
+  height: 200px;
   padding: 10px;
   background: #f4f4f4;
+}
+
+.hero-main-left-big-img {
+  height: 225px;
+  background: #fff;
 }

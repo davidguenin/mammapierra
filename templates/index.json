@@ -105,11 +105,14 @@
     },
     "featured_collection": {
       "type": "featured-collection",
-      "custom_css": [],
+      "custom_css": [
+        ".collection {background: #ebe7f6;}",
+        "h2 {color: #3f174c;}"
+      ],
       "settings": {
         "collection": "all",
         "products_to_show": 8,
-        "title": "Les Bestsellers",
+        "title": "<strong>Les Bestsellers</strong>",
         "heading_size": "h1",
         "description": "<p>Colliers & Bracelets en pierres 100% naturelles.</p>",
         "show_description": false,

@@ -453,6 +453,7 @@
         "column2": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/02.svg",
             "title": "Fait main en France",
             "text": "",
             "link_label": "",
@@ -462,6 +463,7 @@
         "column3": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/03.svg",
             "title": "Livraison offerte en point relais",
             "text": "",
             "link_label": "",
@@ -471,6 +473,7 @@
         "column_bHHiUA": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/01.svg",
             "title": "Paiement sécurisé",
             "text": "",
             "link_label": "",

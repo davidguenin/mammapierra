@@ -487,7 +487,9 @@
         "column3",
         "column_bHHiUA"
       ],
-      "custom_css": [],
+      "custom_css": [
+        "h3{font-size: 2.1rem; line-height: 1.2;}"
+      ],
       "settings": {
         "title": "",
         "heading_size": "h1",

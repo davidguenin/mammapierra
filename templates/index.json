@@ -107,7 +107,7 @@
       "type": "featured-collection",
       "custom_css": [
         ".collection {background: #005c5b;}",
-        "h2 {color: #d6e3b7;}"
+        "h2 {color: #f9cee1;}"
       ],
       "settings": {
         "collection": "all",

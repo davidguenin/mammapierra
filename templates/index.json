@@ -107,7 +107,7 @@
       "type": "featured-collection",
       "custom_css": [
         ".collection {background: #832225;}",
-        "h2 {color: #FAD5E5;}"
+        "h2 {color: #fad5e5;}"
       ],
       "settings": {
         "collection": "all",
@@ -180,7 +180,7 @@
       "type": "featured-collection",
       "custom_css": [
         ".collection {background: #fef7e1;}",
-        "h2 {color: #314b98;}"
+        "h2 {color: #54A4C3;}"
       ],
       "name": "t:sections.featured-collection.presets.name",
       "settings": {

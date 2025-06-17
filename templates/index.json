@@ -105,10 +105,7 @@
     },
     "featured_collection": {
       "type": "featured-collection",
-      "custom_css": [
-        ".collection {background: #38335f;}",
-        "h2 {color: #fef7e1;}"
-      ],
+      "custom_css": [],
       "settings": {
         "collection": "all",
         "products_to_show": 8,
@@ -178,10 +175,7 @@
     },
     "featured_collection_znnEbQ": {
       "type": "featured-collection",
-      "custom_css": [
-        ".collection {background: #fef7e1;}",
-        "h2 {color: #54a4c3;}"
-      ],
+      "custom_css": [],
       "name": "t:sections.featured-collection.presets.name",
       "settings": {
         "collection": "pendentif",

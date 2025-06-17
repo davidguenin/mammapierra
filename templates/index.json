@@ -180,7 +180,7 @@
       "type": "featured-collection",
       "custom_css": [
         ".collection {background: #fef7e1;}",
-        "h2 {color: #54A4C3;}"
+        "h2 {color: #54a4c3;}"
       ],
       "name": "t:sections.featured-collection.presets.name",
       "settings": {
@@ -443,6 +443,7 @@
         "column1": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/01.svg",
             "title": "100% Pierres naturelles",
             "text": "",
             "link_label": "",

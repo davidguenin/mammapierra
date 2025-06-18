@@ -3,8 +3,9 @@
 
 <div
   class="hero-small"
-  style="background-color: {{ settings.background_color }};"
+  style="background-color: {{ settings.bg }};"
 >
+  hey : {{ settings.bg }}
   <div></div>
 </div>
 
@@ -14,7 +15,7 @@
   "settings": [
     {
       "type": "color",
-      "id": "background_color",
+      "id": "bg",
       "label": "Couleur de fond",
       "default": "#efefef"
     }

@@ -10,8 +10,7 @@
 {
   "sections": {
     "hero_small": {
-      "type": "hero-small",
-      "settings": {}
+      "type": "hero-small"
     },
     "banner": {
       "type": "main-collection-banner",

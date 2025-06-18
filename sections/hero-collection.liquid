@@ -1,0 +1,24 @@
+{{ 'section-hero.css' | asset_url | stylesheet_tag }}
+{{ 'bulma.css' | asset_url | stylesheet_tag }}
+
+<div
+  class="hero-collection"
+  style="background-color: {{ settings.bg }};"
+>
+  <div>{{ settings.bg }}</div>
+</div>
+
+{% schema %}
+{
+  "name": "Hero Collection",
+  "tag": "section",
+  "settings": [
+    {
+      "type": "color",
+      "id": "bg",
+      "label": "Couleur de fond",
+      "default": "#efefef"
+    }
+  ]
+}
+{% endschema %}

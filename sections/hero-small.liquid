@@ -1,0 +1,16 @@
+{{ 'section-hero.css' | asset_url | stylesheet_tag }}
+{{ 'bulma.css' | asset_url | stylesheet_tag }}
+
+<div class="hero-small"><div></div></div>
+
+{% schema %}
+{
+  "name": "Hero Small",
+  "tag": "section",
+  "presets": [
+    {
+      "name": "Hero Small"
+    }
+  ]
+}
+{% endschema %}

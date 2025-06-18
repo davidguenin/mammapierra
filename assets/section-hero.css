@@ -5,7 +5,15 @@
 .hero-main-left {
   height: 575px;
   padding: 50px;
-  background: #e7fdfe;
+  background: #0d65ac;
+}
+
+.hero-main-left-big-img {
+  max-width: 450px;
+  height: 450px;
+  margin: auto;
+  background: #fff;
+  border: 15px solid #ffe4bf;
 }
 
 .hero-main-right {
@@ -18,18 +26,7 @@
   color: #d6e3b7;
 }
 
-.hero-main-left-product {
-  height: 250px;
-  background: #fff;
-}
-
-.hero-main-left-product-img {
-  height: 200px;
-  padding: 10px;
-  background: #f4f4f4;
-}
-
-.hero-main-left-big-img {
-  height: 225px;
-  background: #fff;
+.hero-small {
+  height: 350px;
+  background: #efefef;
 }

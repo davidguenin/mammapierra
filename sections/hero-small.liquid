@@ -5,25 +5,19 @@
   class="hero-small"
   style="background-color: {{ settings.bg }};"
 >
-  hey : {{ settings.bg }}
   <div></div>
 </div>
 
 {% schema %}
 {
   "name": "Hero Small",
+  "tag": "section",
   "settings": [
     {
       "type": "color",
       "id": "bg",
       "label": "Couleur de fond",
       "default": "#efefef"
-    }
-  ],
-  "tag": "section",
-  "presets": [
-    {
-      "name": "Hero Small"
     }
   ]
 }

@@ -9,10 +9,6 @@
  */
 {
   "sections": {
-    "hero_small": {
-      "type": "hero-small",
-      "settings": {}
-    },
     "banner": {
       "type": "main-collection-banner",
       "settings": {
@@ -178,7 +174,6 @@
     }
   },
   "order": [
-    "hero_small",
     "banner",
     "product-grid",
     "multicolumn_DeHd8X",

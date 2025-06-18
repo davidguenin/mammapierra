@@ -13,6 +13,10 @@
       "type": "hero-big",
       "settings": {}
     },
+    "hero_small": {
+      "type": "hero-small",
+      "settings": {}
+    },
     "image_banner_tG74QV": {
       "type": "image-banner",
       "blocks": {

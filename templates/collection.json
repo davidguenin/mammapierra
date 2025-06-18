@@ -12,10 +12,7 @@
     "hero_small": {
       "type": "hero-small",
       "settings": {
-        "type": "color_background",
-        "id": "background",
-        "label": "Background",
-        "default": "#efefef"
+        "color_background": "",
       }
     },
     "banner": {

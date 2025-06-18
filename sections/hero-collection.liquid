@@ -3,9 +3,9 @@
 
 <div
   class="hero-collection"
-  style="background-color: {{ settings.bg }};"
+  style="background-color: {{ section.settings.color_bg  }};"
 >
-  <div>{{ settings.bg }}</div>
+  <div></div>
 </div>
 
 {% schema %}
@@ -16,7 +16,7 @@
   "settings": [
     {
       "type": "color",
-      "id": "bg",
+      "id": "color_bg",
       "label": "Couleur de fond",
       "default": "#efefef"
     }

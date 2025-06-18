@@ -12,7 +12,7 @@
     "banner": {
       "type": "main-collection-banner",
       "settings": {
-        "show_collection_description": false,
+        "show_collection_description": true,
         "show_collection_image": false,
         "color_scheme": "scheme-1"
       }
@@ -78,13 +78,6 @@
         "swipe_on_mobile": true,
         "padding_top": 16,
         "padding_bottom": 12
-      }
-    },
-    "hero_collection_faFNWL": {
-      "type": "hero-collection",
-      "name": "Hero Collection",
-      "settings": {
-        "bg": "#1a0c80"
       }
     },
     "product-grid": {
@@ -257,6 +250,13 @@
         "swipe_on_mobile": false,
         "padding_top": 36,
         "padding_bottom": 36
+      }
+    },
+    "hero_collection_faFNWL": {
+      "type": "hero-collection",
+      "name": "Hero Collection",
+      "settings": {
+        "bg": "#1a0c80"
       }
     },
     "image_with_text_BTmWtc": {

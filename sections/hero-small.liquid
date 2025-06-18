@@ -3,11 +3,7 @@
 
 <div
   class="hero-small"
-  style="
-    {% unless settings.background == blank %}
-      {{ settings.background }}
-    {% endunless %}
-  "
+  tyle="background-color: {{ settings.background_color }};"
 >
   <div></div>
 </div>
@@ -19,6 +15,14 @@
   "presets": [
     {
       "name": "Hero Small"
+    }
+  ],
+  "settings": [
+    {
+      "type": "color",
+      "id": "background_color",
+      "label": "Couleur de fond",
+      "default": "#efefef"
     }
   ]
 }

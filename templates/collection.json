@@ -11,9 +11,7 @@
   "sections": {
     "hero_small": {
       "type": "hero-small",
-      "settings": {
-        "background": "#efefef",
-      }
+      "settings": {}
     },
     "banner": {
       "type": "main-collection-banner",

@@ -105,7 +105,10 @@
     },
     "featured_collection": {
       "type": "featured-collection",
-      "custom_css": [],
+      "custom_css": [
+        "li:nth-child(0n + 1) .card__inner {background: #000;}",
+        "li:nth-child(0n + 4) .card__inner {background: #000;}"
+      ],
       "settings": {
         "collection": "all",
         "products_to_show": 4,

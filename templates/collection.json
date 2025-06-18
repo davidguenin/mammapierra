@@ -9,7 +9,7 @@
  */
 {
   "sections": {
-      "hero_small": {
+    "hero_small": {
       "type": "hero-small",
       "settings": {
         "type": "color_background",

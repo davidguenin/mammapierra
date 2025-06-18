@@ -281,6 +281,13 @@
         "padding_top": 28,
         "padding_bottom": 36
       }
+    },
+    "hero_small_bwQR9w": {
+      "type": "hero-small",
+      "name": "Hero Small",
+      "settings": {
+        "bg": "#334fb4"
+      }
     }
   },
   "order": [
@@ -291,6 +298,7 @@
     "multicolumn_rnqdVa",
     "featured_collection_jHnXd6",
     "featured_collection_BGF9MF",
-    "image_with_text_BTmWtc"
+    "image_with_text_BTmWtc",
+    "hero_small_bwQR9w"
   ]
 }

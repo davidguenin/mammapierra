@@ -80,6 +80,13 @@
         "padding_bottom": 12
       }
     },
+    "hero_collection_faFNWL": {
+      "type": "hero-collection",
+      "name": "Hero Collection",
+      "settings": {
+        "color_bg": "#0a6973"
+      }
+    },
     "product-grid": {
       "type": "main-collection-product-grid",
       "settings": {
@@ -250,13 +257,6 @@
         "swipe_on_mobile": false,
         "padding_top": 36,
         "padding_bottom": 36
-      }
-    },
-    "hero_collection_faFNWL": {
-      "type": "hero-collection",
-      "name": "Hero Collection",
-      "settings": {
-        "bg": "#1a0c80"
       }
     },
     "image_with_text_BTmWtc": {

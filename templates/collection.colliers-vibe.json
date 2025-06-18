@@ -13,7 +13,7 @@
       "type": "hero-small",
       "name": "Hero Small",
       "settings": {
-        "background_color": "#e29696"
+        "bg": "#789e2f"
       }
     },
     "banner": {

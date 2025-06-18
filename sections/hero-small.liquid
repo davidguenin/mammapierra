@@ -1,7 +1,16 @@
 {{ 'section-hero.css' | asset_url | stylesheet_tag }}
 {{ 'bulma.css' | asset_url | stylesheet_tag }}
 
-<div class="hero-small"><div></div></div>
+<div
+  class="hero-small"
+  style="
+    {% unless settings.background == blank %}
+      {{ settings.background }}
+    {% endunless %}
+  "
+>
+  <div></div>
+</div>
 
 {% schema %}
 {

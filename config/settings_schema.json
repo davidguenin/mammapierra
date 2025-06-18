@@ -1451,5 +1451,16 @@
         "default": "scheme-1"
       }
     ]
+  },
+  {
+  "name": "Hero Small",
+    "settings": [
+      {
+        "type": "color",
+        "id": "bg",
+        "label": "Couleur de fond",
+        "default": "#efefef"
+      }
+    ]
   }
 ]

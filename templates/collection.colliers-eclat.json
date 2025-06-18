@@ -9,6 +9,13 @@
  */
 {
   "sections": {
+    "hero_collection_rR64ix": {
+      "type": "hero-collection",
+      "name": "Hero Collection",
+      "settings": {
+        "color_bg": "#007162"
+      }
+    },
     "banner": {
       "type": "main-collection-banner",
       "settings": {
@@ -284,6 +291,7 @@
     }
   },
   "order": [
+    "hero_collection_rR64ix",
     "banner",
     "collection_list_hiYGcD",
     "product-grid",

@@ -13,10 +13,6 @@
       "type": "hero-big",
       "settings": {}
     },
-    "hero_small": {
-      "type": "hero-small",
-      "settings": {}
-    },
     "image_banner_tG74QV": {
       "type": "image-banner",
       "blocks": {
@@ -471,7 +467,6 @@
   },
   "order": [
     "hero_big",
-    "hero_small",
     "image_banner_tG74QV",
     "collection_list_9Bg9J4",
     "featured_collection",

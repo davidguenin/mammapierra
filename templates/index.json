@@ -106,8 +106,8 @@
     "featured_collection": {
       "type": "featured-collection",
       "custom_css": [
-        "li:nth-child(0n + 1) .card__inner {background: #000;}",
-        "li:nth-child(0n + 4) .card__inner {background: #000;}"
+        "li:nth-child(0n + 1) .card__inner {background: #d6e3b7;}",
+        "li:nth-child(0n + 4) .card__inner {background: #fef7e1;}"
       ],
       "settings": {
         "collection": "all",

@@ -91,7 +91,7 @@
       ],
       "name": "t:sections.collection-list.presets.name",
       "settings": {
-        "title": "Découvrez nos parures 100% en pierres naturelles",
+        "title": "<strong>Découvrez nos parures 100% en pierres naturelles</strong>",
         "heading_size": "h2",
         "image_ratio": "square",
         "columns_desktop": 3,
@@ -274,7 +274,7 @@
       ],
       "name": "t:sections.collection-list.presets.name",
       "settings": {
-        "title": "Collections",
+        "title": "<strong>Collections</strong>",
         "heading_size": "h2",
         "image_ratio": "square",
         "columns_desktop": 3,
@@ -378,7 +378,7 @@
       ],
       "name": "t:sections.collection-list.presets.name",
       "settings": {
-        "title": "Quelles pierres vous attirent ?",
+        "title": "<strong>Quelles pierres vous attirent ?</strong>",
         "heading_size": "h2",
         "image_ratio": "square",
         "columns_desktop": 6,

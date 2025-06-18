@@ -17,6 +17,13 @@
         "color_scheme": "scheme-1"
       }
     },
+    "hero_collection_faFNWL": {
+      "type": "hero-collection",
+      "name": "Hero Collection",
+      "settings": {
+        "color_bg": "#0a6973"
+      }
+    },
     "collection_list_hiYGcD": {
       "type": "collection-list",
       "blocks": {
@@ -78,13 +85,6 @@
         "swipe_on_mobile": true,
         "padding_top": 16,
         "padding_bottom": 12
-      }
-    },
-    "hero_collection_faFNWL": {
-      "type": "hero-collection",
-      "name": "Hero Collection",
-      "settings": {
-        "color_bg": "#0a6973"
       }
     },
     "product-grid": {
@@ -291,9 +291,9 @@
     }
   },
   "order": [
+    "hero_collection_faFNWL",
     "banner",
     "collection_list_hiYGcD",
-    "hero_collection_faFNWL",
     "product-grid",
     "featured_collection_G94bPT",
     "multicolumn_rnqdVa",

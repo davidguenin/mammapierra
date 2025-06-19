@@ -136,99 +136,6 @@
         "padding_bottom": 36
       }
     },
-    "multicolumn_rnqdVa": {
-      "type": "multicolumn",
-      "blocks": {
-        "column_jYmz4V": {
-          "type": "column",
-          "settings": {
-            "title": "Fait main en France",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_qCtNDq": {
-          "type": "column",
-          "settings": {
-            "title": "Pierres 100% naturelles",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_VCVNY9": {
-          "type": "column",
-          "settings": {
-            "title": "Livraison offerte en point relais",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_h3jAdm": {
-          "type": "column",
-          "settings": {
-            "title": "Paiement sécurisé",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "column_jYmz4V",
-        "column_qCtNDq",
-        "column_VCVNY9",
-        "column_h3jAdm"
-      ],
-      "name": "t:sections.multicolumn.presets.name",
-      "settings": {
-        "title": "",
-        "heading_size": "h1",
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "button_label": "",
-        "button_link": "",
-        "columns_desktop": 4,
-        "column_alignment": "center",
-        "background_style": "primary",
-        "color_scheme": "scheme-1",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "featured_collection_jHnXd6": {
-      "type": "featured-collection",
-      "name": "t:sections.featured-collection.presets.name",
-      "settings": {
-        "collection": "pendentif",
-        "products_to_show": 6,
-        "title": "Pendentifs à associer",
-        "heading_size": "h1",
-        "description": "",
-        "show_description": false,
-        "description_style": "body",
-        "columns_desktop": 4,
-        "enable_desktop_slider": true,
-        "full_width": false,
-        "show_view_all": true,
-        "view_all_style": "solid",
-        "color_scheme": "scheme-1",
-        "image_ratio": "adapt",
-        "image_shape": "default",
-        "show_secondary_image": true,
-        "show_vendor": false,
-        "show_rating": false,
-        "quick_add": "none",
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "featured_collection_BGF9MF": {
       "type": "featured-collection",
       "disabled": true,
@@ -258,36 +165,6 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
-    },
-    "image_with_text_BTmWtc": {
-      "type": "image-with-text",
-      "blocks": {
-        "text_6UVzRj": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Associez un texte à une image pour mettre en avant le produit, la collection ou l’article de blog de votre choix. Ajoutez des informations sur la disponibilité ou le style. Vous pouvez même fournir un avis.</p>",
-            "text_style": "body"
-          }
-        }
-      },
-      "block_order": [
-        "text_6UVzRj"
-      ],
-      "name": "t:sections.image-with-text.presets.name",
-      "settings": {
-        "height": "small",
-        "desktop_image_width": "small",
-        "layout": "image_first",
-        "image_behavior": "none",
-        "content_layout": "no-overlap",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "mobile_content_alignment": "left",
-        "section_color_scheme": "",
-        "color_scheme": "",
-        "padding_top": 28,
-        "padding_bottom": 36
-      }
     }
   },
   "order": [
@@ -296,9 +173,6 @@
     "collection_list_hiYGcD",
     "product-grid",
     "featured_collection_gBWW7c",
-    "multicolumn_rnqdVa",
-    "featured_collection_jHnXd6",
-    "featured_collection_BGF9MF",
-    "image_with_text_BTmWtc"
+    "featured_collection_BGF9MF"
   ]
 }

@@ -53,3 +53,19 @@
 .page-width {
   max-width: 100%;
 }
+
+h1.collection-hero__title {
+  font-size: 3.5rem;
+  margin: 1.5rem 0;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.collection-hero {
+  padding: 0;
+  border-bottom: 1px solid #efefef;
+}
+
+[class^='section-template'] {
+  padding-top: 13px !important;
+}

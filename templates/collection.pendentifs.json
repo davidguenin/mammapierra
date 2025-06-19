@@ -9,6 +9,13 @@
  */
 {
   "sections": {
+    "hero_collection_YYf8tk": {
+      "type": "hero-collection",
+      "name": "Hero Collection",
+      "settings": {
+        "color_bg": "#ffd666"
+      }
+    },
     "banner": {
       "type": "main-collection-banner",
       "settings": {
@@ -101,6 +108,7 @@
     }
   },
   "order": [
+    "hero_collection_YYf8tk",
     "banner",
     "product-grid",
     "collection_list_hiYGcD",

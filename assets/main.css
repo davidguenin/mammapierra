@@ -17,10 +17,11 @@
   color: #000;
 }
 
-.header__menu-item a,
-.header__active-menu-item a {
+.header__menu-item span,
+.header__active-menu-item span {
   text-transform: uppercase;
-  font-size: 1.6rem;
+  font-size: 1.3rem;
+  font-weight: 700;
 }
 
 .header__active-menu-item {

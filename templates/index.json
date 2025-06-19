@@ -13,55 +13,6 @@
       "type": "hero-big",
       "settings": {}
     },
-    "image_banner_tG74QV": {
-      "type": "image-banner",
-      "blocks": {
-        "heading_k8BtyB": {
-          "type": "heading",
-          "settings": {
-            "heading": "Bannière avec image",
-            "heading_size": "h1"
-          }
-        },
-        "text_JVhMAL": {
-          "type": "text",
-          "settings": {
-            "text": "Fournissez des détails à votre clientèle sur l’image/les images ou le contenu de la bannière du modèle.",
-            "text_style": "body"
-          }
-        },
-        "buttons_e3FTnC": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "Texte du bouton",
-            "button_link_1": "",
-            "button_style_secondary_1": false,
-            "button_label_2": "Texte du bouton",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "heading_k8BtyB",
-        "text_JVhMAL",
-        "buttons_e3FTnC"
-      ],
-      "disabled": true,
-      "name": "t:sections.image-banner.presets.name",
-      "settings": {
-        "image_overlay_opacity": 0,
-        "image_height": "small",
-        "image_behavior": "none",
-        "desktop_content_position": "bottom-center",
-        "desktop_content_alignment": "center",
-        "show_text_box": true,
-        "color_scheme": "",
-        "stack_images_on_mobile": true,
-        "mobile_content_alignment": "center",
-        "show_text_below": true
-      }
-    },
     "collection_list_9Bg9J4": {
       "type": "collection-list",
       "blocks": {
@@ -135,47 +86,6 @@
         "padding_bottom": 32
       }
     },
-    "collage": {
-      "type": "collage",
-      "blocks": {
-        "product": {
-          "type": "product",
-          "settings": {
-            "product": "collier-eclat-45-cm",
-            "second_image": true
-          }
-        },
-        "product_RBLgLR": {
-          "type": "product",
-          "settings": {
-            "product": "",
-            "second_image": false
-          }
-        },
-        "collection-0": {
-          "type": "collection",
-          "settings": {
-            "collection": "collection-eclat"
-          }
-        }
-      },
-      "block_order": [
-        "product",
-        "product_RBLgLR",
-        "collection-0"
-      ],
-      "disabled": true,
-      "settings": {
-        "heading": "Collection Eclat",
-        "heading_size": "h2",
-        "desktop_layout": "left",
-        "mobile_layout": "collage",
-        "card_styles": "product-card-wrapper",
-        "color_scheme": "scheme-1",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "featured_collection_znnEbQ": {
       "type": "featured-collection",
       "custom_css": [],
@@ -204,48 +114,6 @@
         "swipe_on_mobile": false,
         "padding_top": 0,
         "padding_bottom": 32
-      }
-    },
-    "collage_6wEt4X": {
-      "type": "collage",
-      "blocks": {
-        "product_bVFBiG": {
-          "type": "product",
-          "settings": {
-            "product": "",
-            "second_image": false
-          }
-        },
-        "product_bBk4nn": {
-          "type": "product",
-          "settings": {
-            "product": "collier-amethyste-en-pierre-naturelle",
-            "second_image": false
-          }
-        },
-        "collection_hHrmcf": {
-          "type": "collection",
-          "settings": {
-            "collection": "collection-vibe"
-          }
-        }
-      },
-      "block_order": [
-        "product_bVFBiG",
-        "product_bBk4nn",
-        "collection_hHrmcf"
-      ],
-      "disabled": true,
-      "name": "t:sections.collage.presets.name",
-      "settings": {
-        "heading": "Collection Vibe",
-        "heading_size": "h2",
-        "desktop_layout": "left",
-        "mobile_layout": "column",
-        "card_styles": "product-card-wrapper",
-        "color_scheme": "",
-        "padding_top": 36,
-        "padding_bottom": 36
       }
     },
     "collection_list_yg33gt": {
@@ -467,12 +335,9 @@
   },
   "order": [
     "hero_big",
-    "image_banner_tG74QV",
     "collection_list_9Bg9J4",
     "featured_collection",
-    "collage",
     "featured_collection_znnEbQ",
-    "collage_6wEt4X",
     "collection_list_yg33gt",
     "collection_list_fVVYWW",
     "multicolumn"

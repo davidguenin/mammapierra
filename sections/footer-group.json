@@ -41,11 +41,7 @@
         "footer-1",
         "footer-2"
       ],
-      "custom_css": [
-        "footer {background: #0d2338; color: #fff;}",
-        "a {color: #fff;}",
-        "h2 {color: #fff;}"
-      ],
+      "custom_css": [],
       "settings": {
         "color_scheme": "scheme-1",
         "newsletter_enable": true,

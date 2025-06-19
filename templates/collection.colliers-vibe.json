@@ -258,36 +258,6 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
-    },
-    "image_with_text_BTmWtc": {
-      "type": "image-with-text",
-      "blocks": {
-        "text_6UVzRj": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Associez un texte à une image pour mettre en avant le produit, la collection ou l’article de blog de votre choix. Ajoutez des informations sur la disponibilité ou le style. Vous pouvez même fournir un avis.</p>",
-            "text_style": "body"
-          }
-        }
-      },
-      "block_order": [
-        "text_6UVzRj"
-      ],
-      "name": "t:sections.image-with-text.presets.name",
-      "settings": {
-        "height": "small",
-        "desktop_image_width": "small",
-        "layout": "image_first",
-        "image_behavior": "none",
-        "content_layout": "no-overlap",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "mobile_content_alignment": "left",
-        "section_color_scheme": "",
-        "color_scheme": "",
-        "padding_top": 28,
-        "padding_bottom": 36
-      }
     }
   },
   "order": [
@@ -298,7 +268,6 @@
     "featured_collection_G94bPT",
     "multicolumn_rnqdVa",
     "featured_collection_jHnXd6",
-    "featured_collection_BGF9MF",
-    "image_with_text_BTmWtc"
+    "featured_collection_BGF9MF"
   ]
 }

@@ -9,19 +9,19 @@
  */
 {
   "sections": {
+    "hero_collection_faFNWL": {
+      "type": "hero-collection",
+      "name": "Hero Collection",
+      "settings": {
+        "color_bg": "#2e2645"
+      }
+    },
     "banner": {
       "type": "main-collection-banner",
       "settings": {
         "show_collection_description": true,
         "show_collection_image": false,
         "color_scheme": "scheme-1"
-      }
-    },
-    "hero_collection_faFNWL": {
-      "type": "hero-collection",
-      "name": "Hero Collection",
-      "settings": {
-        "color_bg": "#0a6973"
       }
     },
     "collection_list_hiYGcD": {

@@ -48,3 +48,7 @@
 .bulma-button {
   text-decoration: none;
 }
+
+.page-width {
+  max-width: 100%;
+}

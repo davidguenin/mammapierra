@@ -86,6 +86,56 @@
         "padding_bottom": 32
       }
     },
+    "image_banner_eMNtyF": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_taKBMM": {
+          "type": "heading",
+          "settings": {
+            "heading": "Bannière avec image",
+            "heading_size": "h1"
+          }
+        },
+        "text_mJixWU": {
+          "type": "text",
+          "settings": {
+            "text": "Fournissez des détails à votre clientèle sur l’image/les images ou le contenu de la bannière du modèle.",
+            "text_style": "body"
+          }
+        },
+        "buttons_N9yYzr": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Texte du bouton",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Texte du bouton",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_taKBMM",
+        "text_mJixWU",
+        "buttons_N9yYzr"
+      ],
+      "name": "t:sections.image-banner.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/020001.jpg",
+        "image_2": "shopify://shop_images/03022.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "image_behavior": "none",
+        "desktop_content_position": "middle-center",
+        "desktop_content_alignment": "center",
+        "show_text_box": true,
+        "color_scheme": "",
+        "stack_images_on_mobile": true,
+        "mobile_content_alignment": "center",
+        "show_text_below": true
+      }
+    },
     "featured_collection_znnEbQ": {
       "type": "featured-collection",
       "custom_css": [],
@@ -330,54 +380,6 @@
         "swipe_on_mobile": false,
         "padding_top": 52,
         "padding_bottom": 20
-      }
-    },
-    "image_banner_eMNtyF": {
-      "type": "image-banner",
-      "blocks": {
-        "heading_taKBMM": {
-          "type": "heading",
-          "settings": {
-            "heading": "Bannière avec image",
-            "heading_size": "h1"
-          }
-        },
-        "text_mJixWU": {
-          "type": "text",
-          "settings": {
-            "text": "Fournissez des détails à votre clientèle sur l’image/les images ou le contenu de la bannière du modèle.",
-            "text_style": "body"
-          }
-        },
-        "buttons_N9yYzr": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "Texte du bouton",
-            "button_link_1": "",
-            "button_style_secondary_1": false,
-            "button_label_2": "Texte du bouton",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "heading_taKBMM",
-        "text_mJixWU",
-        "buttons_N9yYzr"
-      ],
-      "name": "t:sections.image-banner.presets.name",
-      "settings": {
-        "image_overlay_opacity": 0,
-        "image_height": "medium",
-        "image_behavior": "none",
-        "desktop_content_position": "middle-center",
-        "desktop_content_alignment": "center",
-        "show_text_box": true,
-        "color_scheme": "",
-        "stack_images_on_mobile": true,
-        "mobile_content_alignment": "center",
-        "show_text_below": true
       }
     }
   },

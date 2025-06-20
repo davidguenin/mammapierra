@@ -86,53 +86,60 @@
         "padding_bottom": 32
       }
     },
-    "image_banner_UxAqWx": {
-      "type": "image-banner",
+    "slideshow_4zHNTV": {
+      "type": "slideshow",
       "blocks": {
-        "heading_3eegCT": {
-          "type": "heading",
+        "slide_kRqM4k": {
+          "type": "slide",
           "settings": {
-            "heading": "Bannière avec image",
-            "heading_size": "h1"
+            "image": "shopify://shop_images/02000.jpg",
+            "image_overlay_opacity": 0,
+            "heading": "Diapositive (image)",
+            "heading_size": "h1",
+            "subheading": "Racontez votre histoire avec des images",
+            "button_label": "Texte du bouton",
+            "link": "",
+            "button_style_secondary": false,
+            "show_text_box": true,
+            "box_align": "middle-center",
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "color_scheme": ""
           }
         },
-        "text_9TiwPw": {
-          "type": "text",
+        "slide_Kw6GYW": {
+          "type": "slide",
           "settings": {
-            "text": "Fournissez des détails à votre clientèle sur l’image/les images ou le contenu de la bannière du modèle.",
-            "text_style": "body"
-          }
-        },
-        "buttons_7HxF7H": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "Texte du bouton",
-            "button_link_1": "",
-            "button_style_secondary_1": false,
-            "button_label_2": "Texte du bouton",
-            "button_link_2": "",
-            "button_style_secondary_2": false
+            "image": "shopify://shop_images/020001.jpg",
+            "image_overlay_opacity": 0,
+            "heading": "Diapositive (image)",
+            "heading_size": "h1",
+            "subheading": "Racontez votre histoire avec des images",
+            "button_label": "Texte du bouton",
+            "link": "",
+            "button_style_secondary": false,
+            "show_text_box": true,
+            "box_align": "middle-center",
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "color_scheme": ""
           }
         }
       },
       "block_order": [
-        "heading_3eegCT",
-        "text_9TiwPw",
-        "buttons_7HxF7H"
+        "slide_kRqM4k",
+        "slide_Kw6GYW"
       ],
-      "name": "t:sections.image-banner.presets.name",
+      "name": "t:sections.slideshow.presets.name",
       "settings": {
-        "image": "shopify://shop_images/03022.jpg",
-        "image_overlay_opacity": 0,
-        "image_height": "medium",
+        "layout": "full_bleed",
+        "slide_height": "medium",
+        "slider_visual": "counter",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
         "image_behavior": "none",
-        "desktop_content_position": "middle-center",
-        "desktop_content_alignment": "center",
-        "show_text_box": true,
-        "color_scheme": "",
-        "stack_images_on_mobile": true,
-        "mobile_content_alignment": "center",
-        "show_text_below": true
+        "show_text_below": true,
+        "accessibility_info": "Diaporama sur votre marque"
       }
     },
     "featured_collection_znnEbQ": {
@@ -386,7 +393,7 @@
     "hero_big",
     "collection_list_9Bg9J4",
     "featured_collection",
-    "image_banner_UxAqWx",
+    "slideshow_4zHNTV",
     "featured_collection_znnEbQ",
     "collection_list_yg33gt",
     "collection_list_fVVYWW",

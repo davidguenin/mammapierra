@@ -252,7 +252,7 @@
         "image": "shopify://shop_images/11199.jpg",
         "image_2": "shopify://shop_images/0002020.jpg",
         "image_overlay_opacity": 0,
-        "image_height": "small",
+        "image_height": "medium",
         "image_behavior": "none",
         "desktop_content_position": "middle-center",
         "desktop_content_alignment": "center",

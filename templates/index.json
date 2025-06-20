@@ -86,24 +86,24 @@
         "padding_bottom": 32
       }
     },
-    "image_banner_eMNtyF": {
+    "image_banner_UxAqWx": {
       "type": "image-banner",
       "blocks": {
-        "heading_taKBMM": {
+        "heading_3eegCT": {
           "type": "heading",
           "settings": {
             "heading": "Bannière avec image",
             "heading_size": "h1"
           }
         },
-        "text_mJixWU": {
+        "text_9TiwPw": {
           "type": "text",
           "settings": {
             "text": "Fournissez des détails à votre clientèle sur l’image/les images ou le contenu de la bannière du modèle.",
             "text_style": "body"
           }
         },
-        "buttons_N9yYzr": {
+        "buttons_7HxF7H": {
           "type": "buttons",
           "settings": {
             "button_label_1": "Texte du bouton",
@@ -116,13 +116,13 @@
         }
       },
       "block_order": [
-        "heading_taKBMM",
-        "text_mJixWU",
-        "buttons_N9yYzr"
+        "heading_3eegCT",
+        "text_9TiwPw",
+        "buttons_7HxF7H"
       ],
       "name": "t:sections.image-banner.presets.name",
       "settings": {
-        "image_2": "shopify://shop_images/03022.jpg",
+        "image": "shopify://shop_images/03022.jpg",
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "image_behavior": "none",
@@ -386,7 +386,7 @@
     "hero_big",
     "collection_list_9Bg9J4",
     "featured_collection",
-    "image_banner_eMNtyF",
+    "image_banner_UxAqWx",
     "featured_collection_znnEbQ",
     "collection_list_yg33gt",
     "collection_list_fVVYWW",

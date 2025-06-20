@@ -126,7 +126,6 @@
       "name": "t:sections.image-banner.presets.name",
       "settings": {
         "image": "shopify://shop_images/02902.jpg",
-        "image_2": "shopify://shop_images/898900.jpg",
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "image_behavior": "none",

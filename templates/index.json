@@ -122,7 +122,7 @@
       ],
       "custom_css": [
         ".banner__box {display: none;}",
-        ".banner{margin: 0 50px}"
+        ".banner {margin: 0 50px;}"
       ],
       "name": "t:sections.image-banner.presets.name",
       "settings": {
@@ -246,7 +246,8 @@
         "buttons_xQWDQY"
       ],
       "custom_css": [
-        ".banner__box {display: none;}"
+        ".banner__box {display: none;}",
+        ".banner{margin: 0 50px}"
       ],
       "name": "t:sections.image-banner.presets.name",
       "settings": {

@@ -83,3 +83,7 @@ h1.collection-hero__title {
   color: #005c5b;
   font-weight: bold;
 }
+
+.card .icon-wrap {
+  display: none;
+}

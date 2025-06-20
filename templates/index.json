@@ -125,7 +125,7 @@
       ],
       "name": "t:sections.image-banner.presets.name",
       "settings": {
-        "image": "shopify://shop_images/des-copines-marchent-au-bord-de-mer-lors-d-un-couc.jpg",
+        "image": "shopify://shop_images/02902.jpg",
         "image_2": "shopify://shop_images/03202.jpg",
         "image_overlay_opacity": 10,
         "image_height": "large",

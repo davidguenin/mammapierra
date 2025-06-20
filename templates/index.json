@@ -121,7 +121,8 @@
         "buttons_WWnwxV"
       ],
       "custom_css": [
-        ".banner__box {display: none;}"
+        ".banner__box {display: none;}",
+        ".banner{margin: 0 50px}"
       ],
       "name": "t:sections.image-banner.presets.name",
       "settings": {

@@ -48,7 +48,7 @@
       "type": "featured-collection",
       "name": "t:sections.featured-collection.presets.name",
       "settings": {
-        "collection": "collier-vibe",
+        "collection": "collier-pierres-naturelles-vibe",
         "products_to_show": 4,
         "title": "Associer avec ...",
         "heading_size": "h1",

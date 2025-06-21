@@ -111,9 +111,9 @@
       "type": "featured-collection",
       "name": "t:sections.featured-collection.presets.name",
       "settings": {
-        "collection": "bracelet-pierre-naturelle-vibe",
+        "collection": "bracelet-vibe",
         "products_to_show": 4,
-        "title": "Associer avec",
+        "title": "Associer avec ...",
         "heading_size": "h1",
         "description": "",
         "show_description": false,

@@ -32,6 +32,12 @@
             "collection": "collier-eclat"
           }
         },
+        "featured_collection_7eXqiU": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "colliers-linstant"
+          }
+        },
         "featured_collection_AiTiMj": {
           "type": "featured_collection",
           "settings": {
@@ -42,6 +48,7 @@
       "block_order": [
         "featured_collection_icU6tg",
         "featured_collection_tVLTft",
+        "featured_collection_7eXqiU",
         "featured_collection_AiTiMj"
       ],
       "name": "t:sections.collection-list.presets.name",

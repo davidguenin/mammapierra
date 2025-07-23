@@ -80,7 +80,7 @@
         "show_vendor": false,
         "show_rating": false,
         "quick_add": "none",
-        "columns_mobile": "1",
+        "columns_mobile": "2",
         "swipe_on_mobile": false,
         "padding_top": 0,
         "padding_bottom": 32
@@ -143,10 +143,11 @@
     "collage_XKQqnW": {
       "type": "collage",
       "blocks": {
-        "collection_GhTark": {
-          "type": "collection",
+        "product_AWzF7x": {
+          "type": "product",
           "settings": {
-            "collection": "collection-rituel"
+            "product": "collier-amethyste-en-pierre-naturelle",
+            "second_image": true
           }
         },
         "product_VFnJqr": {
@@ -165,7 +166,7 @@
         }
       },
       "block_order": [
-        "collection_GhTark",
+        "product_AWzF7x",
         "product_VFnJqr",
         "product_bqxcid"
       ],
@@ -173,7 +174,7 @@
       "settings": {
         "heading": "<strong>Collection Instant</strong>",
         "heading_size": "h2",
-        "desktop_layout": "left",
+        "desktop_layout": "right",
         "mobile_layout": "collage",
         "card_styles": "none",
         "color_scheme": "",

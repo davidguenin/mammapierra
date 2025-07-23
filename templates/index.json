@@ -176,19 +176,19 @@
         "featured_collection_ajMX3n": {
           "type": "featured_collection",
           "settings": {
-            "collection": "collier-pierre-naturelle-vibe"
+            "collection": "vibe"
           }
         },
         "featured_collection_qhxmzH": {
           "type": "featured_collection",
           "settings": {
-            "collection": "bracelet-pierre-naturelle-vibe"
+            "collection": "eclat"
           }
         },
         "featured_collection_VfgVXa": {
           "type": "featured_collection",
           "settings": {
-            "collection": "vibe"
+            "collection": "collection-rituel"
           }
         }
       },
@@ -247,7 +247,7 @@
       ],
       "custom_css": [
         ".banner__box {display: none;}",
-        ".banner{margin: 0 50px}"
+        ".banner {margin: 0 50px;}"
       ],
       "name": "t:sections.image-banner.presets.name",
       "settings": {

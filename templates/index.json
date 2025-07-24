@@ -42,7 +42,7 @@
       ],
       "name": "t:sections.collection-list.presets.name",
       "settings": {
-        "title": "<strong>Découvrez nos parures 100% en pierres naturelles</strong>",
+        "title": "<strong>Découvrez nos parures en pierres naturelles</strong>",
         "heading_size": "h2",
         "image_ratio": "square",
         "columns_desktop": 3,

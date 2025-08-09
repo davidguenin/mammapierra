@@ -162,7 +162,7 @@
       ],
       "name": "t:sections.featured-product.presets.name",
       "settings": {
-        "product": "collier-amethyste-en-pierre-naturelle",
+        "product": "collier-lepidolite",
         "color_scheme": "",
         "secondary_background": false,
         "media_size": "medium",
@@ -226,7 +226,7 @@
       ],
       "name": "t:sections.featured-product.presets.name",
       "settings": {
-        "product": "collier-amethyste-en-pierre-naturelle",
+        "product": "collier-sun-pierre-de-soleil",
         "color_scheme": "",
         "secondary_background": false,
         "media_size": "medium",
@@ -290,7 +290,7 @@
       ],
       "name": "t:sections.featured-product.presets.name",
       "settings": {
-        "product": "collier-amethyste-en-pierre-naturelle",
+        "product": "collier-eclar-amethyste",
         "color_scheme": "",
         "secondary_background": false,
         "media_size": "medium",

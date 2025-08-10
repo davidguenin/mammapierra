@@ -56,7 +56,7 @@
     },
     "featured_collection_qmFN7F": {
       "type": "featured-collection",
-      "name": "t:sections.featured-collection.presets.name",
+      "name": "Collection Instant",
       "settings": {
         "collection": "collection-rituel",
         "products_to_show": 4,
@@ -143,6 +143,7 @@
         "li:nth-child(0n + 1) .card__inner {background: #d6e3b7;}",
         "li:nth-child(0n + 4) .card__inner {background: #fef7e1;}"
       ],
+      "name": "Les Bestsellers",
       "settings": {
         "collection": "all",
         "products_to_show": 4,
@@ -165,7 +166,7 @@
         "quick_add": "none",
         "columns_mobile": "2",
         "swipe_on_mobile": false,
-        "padding_top": 0,
+        "padding_top": 28,
         "padding_bottom": 32
       }
     },
@@ -215,7 +216,7 @@
     "featured_collection_znnEbQ": {
       "type": "featured-collection",
       "custom_css": [],
-      "name": "t:sections.featured-collection.presets.name",
+      "name": "Les pendentifs",
       "settings": {
         "collection": "pendentif",
         "products_to_show": 4,
@@ -426,7 +427,7 @@
         "featured_collection_ArkQcX",
         "featured_collection_irRwmL"
       ],
-      "name": "t:sections.collection-list.presets.name",
+      "name": "Liste des pierres",
       "settings": {
         "title": "<strong>Quelles pierres vous attirent ?</strong>",
         "heading_size": "h2",
@@ -467,7 +468,7 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/03.svg",
-            "title": "<strong>Livraison offerte en point relais</strong>",
+            "title": "<strong>Livraison offerte à partir de 50 euros en point relais</strong>",
             "text": "",
             "link_label": "",
             "link": ""

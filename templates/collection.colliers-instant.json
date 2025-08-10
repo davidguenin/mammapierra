@@ -30,7 +30,7 @@
         "heading_UBprpi": {
           "type": "heading",
           "settings": {
-            "heading": "Chaque mois, un Instant à saisir : 5 colliers, 5 émotions, 5 énergies.",
+            "heading": "Chaque mois, un Instant à saisir : 4 colliers, 4 émotions, 4 énergies.",
             "heading_size": "h2"
           }
         }
@@ -100,7 +100,7 @@
       "settings": {
         "product": "collier-amethyste",
         "color_scheme": "",
-        "secondary_background": false,
+        "secondary_background": true,
         "media_size": "medium",
         "constrain_to_viewport": true,
         "media_fit": "contain",
@@ -228,7 +228,7 @@
       "settings": {
         "product": "collier-sun-pierre-de-soleil",
         "color_scheme": "",
-        "secondary_background": false,
+        "secondary_background": true,
         "media_size": "medium",
         "constrain_to_viewport": true,
         "media_fit": "contain",
@@ -304,70 +304,6 @@
         "padding_bottom": 36
       }
     },
-    "featured_product_3eeCEY": {
-      "type": "featured-product",
-      "blocks": {
-        "text_qVAnMp": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "text": "{{ section.settings.product.vendor }}",
-            "text_style": "uppercase"
-          }
-        },
-        "title_wfLqCC": {
-          "type": "title",
-          "settings": {
-            "heading_size": "h1"
-          }
-        },
-        "price_yRhpEW": {
-          "type": "price",
-          "settings": {}
-        },
-        "variant_picker_fENcMP": {
-          "type": "variant_picker",
-          "settings": {
-            "picker_type": "button",
-            "swatch_shape": "circle"
-          }
-        },
-        "quantity_selector_nkqHyH": {
-          "type": "quantity_selector",
-          "settings": {}
-        },
-        "buy_buttons_pUnwLz": {
-          "type": "buy_buttons",
-          "settings": {
-            "show_dynamic_checkout": false,
-            "show_gift_card_recipient": true
-          }
-        }
-      },
-      "block_order": [
-        "text_qVAnMp",
-        "title_wfLqCC",
-        "price_yRhpEW",
-        "variant_picker_fENcMP",
-        "quantity_selector_nkqHyH",
-        "buy_buttons_pUnwLz"
-      ],
-      "name": "t:sections.featured-product.presets.name",
-      "settings": {
-        "product": "collier-amethyste-en-pierre-naturelle",
-        "color_scheme": "",
-        "secondary_background": false,
-        "media_size": "medium",
-        "constrain_to_viewport": true,
-        "media_fit": "contain",
-        "media_position": "left",
-        "image_zoom": "lightbox",
-        "hide_variants": false,
-        "enable_video_looping": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "product-grid": {
       "type": "main-collection-product-grid",
       "disabled": true,
@@ -428,7 +364,6 @@
     "featured_product_LV7atp",
     "featured_product_7YeTb8",
     "featured_product_xhkHeW",
-    "featured_product_3eeCEY",
     "product-grid",
     "featured_collection_G94bPT"
   ]

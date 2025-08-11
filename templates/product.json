@@ -61,7 +61,7 @@
             "icon_2": "leaf",
             "heading_2": "Fabrication artisanale à l'atelier",
             "icon_3": "truck",
-            "heading_3": "Livraison Offerte via Mondial Relay"
+            "heading_3": "Livraison Offerte dès 50€ d’achat en France métropolitaine"
           }
         },
         "description": {
@@ -218,7 +218,7 @@
         "column_djMgxi": {
           "type": "column",
           "settings": {
-            "title": "Livraison sous 2/3 jours",
+            "title": "Livraison offerte dès 50€ d’achat en France métropolitaine",
             "text": "",
             "link_label": "",
             "link": ""

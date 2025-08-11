@@ -70,7 +70,7 @@
       "settings": {
         "products_per_page": 16,
         "columns_desktop": 4,
-        "columns_mobile": "2",
+        "columns_mobile": "1",
         "color_scheme": "",
         "image_ratio": "adapt",
         "image_shape": "default",
@@ -91,8 +91,8 @@
       "settings": {
         "collection": "pendentif",
         "products_to_show": 6,
-        "title": "Pendentifs à associer",
-        "heading_size": "h1",
+        "title": "<strong>Pendentifs à associer</strong>",
+        "heading_size": "h2",
         "description": "",
         "show_description": false,
         "description_style": "body",

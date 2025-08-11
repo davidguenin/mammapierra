@@ -26,16 +26,16 @@
             "collection": "collier-pierre-naturelle-vibe"
           }
         },
-        "featured_collection_tVLTft": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "collier-eclat"
-          }
-        },
         "featured_collection_7eXqiU": {
           "type": "featured_collection",
           "settings": {
             "collection": "colliers-linstant"
+          }
+        },
+        "featured_collection_tVLTft": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "collier-eclat"
           }
         },
         "featured_collection_AiTiMj": {
@@ -47,8 +47,8 @@
       },
       "block_order": [
         "featured_collection_icU6tg",
-        "featured_collection_tVLTft",
         "featured_collection_7eXqiU",
+        "featured_collection_tVLTft",
         "featured_collection_AiTiMj"
       ],
       "name": "t:sections.collection-list.presets.name",
@@ -60,7 +60,7 @@
         "color_scheme": "",
         "show_view_all": false,
         "columns_mobile": "2",
-        "swipe_on_mobile": false,
+        "swipe_on_mobile": true,
         "padding_top": 16,
         "padding_bottom": 0
       }

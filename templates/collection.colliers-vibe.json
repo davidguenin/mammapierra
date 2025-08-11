@@ -138,11 +138,11 @@
     },
     "featured_collection_BGF9MF": {
       "type": "featured-collection",
-      "name": "t:sections.featured-collection.presets.name",
+      "name": "Collection Bracelet vibe",
       "settings": {
         "collection": "bracelet-pierre-naturelle-vibe",
         "products_to_show": 4,
-        "title": "Ou avec un bracelet",
+        "title": "<strong>Ou un bracelet Vibe</strong>",
         "heading_size": "h2",
         "description": "",
         "show_description": false,

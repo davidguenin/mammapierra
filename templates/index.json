@@ -252,23 +252,23 @@
             "collection": "vibe"
           }
         },
-        "featured_collection_qhxmzH": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "eclat"
-          }
-        },
         "featured_collection_VfgVXa": {
           "type": "featured_collection",
           "settings": {
             "collection": "collection-rituel"
           }
+        },
+        "featured_collection_qhxmzH": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "eclat"
+          }
         }
       },
       "block_order": [
         "featured_collection_ajMX3n",
-        "featured_collection_qhxmzH",
-        "featured_collection_VfgVXa"
+        "featured_collection_VfgVXa",
+        "featured_collection_qhxmzH"
       ],
       "name": "t:sections.collection-list.presets.name",
       "settings": {
@@ -279,7 +279,7 @@
         "color_scheme": "",
         "show_view_all": false,
         "columns_mobile": "1",
-        "swipe_on_mobile": false,
+        "swipe_on_mobile": true,
         "padding_top": 0,
         "padding_bottom": 32
       }

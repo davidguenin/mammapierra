@@ -166,6 +166,79 @@
         "padding_bottom": 40
       }
     },
+    "multicolumn": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_YzrTeG": {
+          "type": "column",
+          "settings": {
+            "title": "<strong>Bijoux fait en France</strong>",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column-0": {
+          "type": "column",
+          "settings": {
+            "title": "<strong>Pierres 100% naturelles</strong>",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column-1": {
+          "type": "column",
+          "settings": {
+            "title": "<strong>Certifié pierre naturelle authentique</strong>",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_djMgxi": {
+          "type": "column",
+          "settings": {
+            "title": "<strong>Paiement sécurisé</strong>",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_4X78LP": {
+          "type": "column",
+          "settings": {
+            "title": "<strong>Satisfait ou remboursé</strong>",
+            "text": "<h5>Vous avez 14 jours pour changer d'avis et demander un échange ou remboursement</h5>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_YzrTeG",
+        "column-0",
+        "column-1",
+        "column_djMgxi",
+        "column_4X78LP"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "button_label": "",
+        "button_link": "",
+        "columns_desktop": 5,
+        "column_alignment": "center",
+        "background_style": "none",
+        "color_scheme": "scheme-2",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "featured_collection_QaKfrB": {
       "type": "featured-collection",
       "name": "t:sections.featured-collection.presets.name",
@@ -195,69 +268,6 @@
         "padding_bottom": 36
       }
     },
-    "multicolumn": {
-      "type": "multicolumn",
-      "blocks": {
-        "column-0": {
-          "type": "column",
-          "settings": {
-            "title": "Entreprise Française",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column-1": {
-          "type": "column",
-          "settings": {
-            "title": "Certifié pierre naturelle authentique",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_djMgxi": {
-          "type": "column",
-          "settings": {
-            "title": "Livraison offerte dès 50€ d’achat en France métropolitaine",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_4X78LP": {
-          "type": "column",
-          "settings": {
-            "title": "Service client 5/7 jours",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "column-0",
-        "column-1",
-        "column_djMgxi",
-        "column_4X78LP"
-      ],
-      "settings": {
-        "title": "",
-        "heading_size": "h1",
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "button_label": "",
-        "button_link": "",
-        "columns_desktop": 4,
-        "column_alignment": "center",
-        "background_style": "none",
-        "color_scheme": "scheme-1",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "image-with-text": {
       "type": "image-with-text",
       "blocks": {
@@ -280,6 +290,7 @@
         "image-with-text-0",
         "image-with-text-1"
       ],
+      "disabled": true,
       "settings": {
         "height": "small",
         "desktop_image_width": "medium",
@@ -299,8 +310,8 @@
   "order": [
     "main",
     "related-products",
-    "featured_collection_QaKfrB",
     "multicolumn",
+    "featured_collection_QaKfrB",
     "image-with-text"
   ]
 }

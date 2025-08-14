@@ -448,7 +448,7 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/01.svg",
-            "title": "<strong>100% Pierres naturelles</strong>",
+            "title": "<strong>Pierres 100% naturelles</strong>",
             "text": "",
             "link_label": "",
             "link": ""
@@ -468,8 +468,8 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/03.svg",
-            "title": "<strong>Livraison offerte à partir de 50 euros en point relais</strong>",
-            "text": "",
+            "title": "<strong>Livraison Offerte</strong>",
+            "text": "<h5><strong>à partir de 49€ en point relais</strong></h5>",
             "link_label": "",
             "link": ""
           }

@@ -81,9 +81,9 @@
             "icon_1": "heart",
             "heading_1": "",
             "icon_2": "none",
-            "heading_2": "Associer avec un collier ou bracelet",
+            "heading_2": "A associer avec un collier ou bracelet",
             "icon_3": "none",
-            "heading_3": "Livraison offerte à partir de 50€ via Mondial Relay"
+            "heading_3": "Livraison offerte à partir de 49€ en point relais"
           }
         },
         "collapsible-row-3": {
@@ -109,7 +109,7 @@
           "settings": {
             "heading": "Livraison et retours",
             "icon": "truck",
-            "content": "<p><strong>Livraison</strong></p><p>Livraison offerte à partir de 50€ via Mondial Relay.</p><p></p><p><strong>Retour</strong></p><p>Si vous souhaitez retourner un ou plusieurs articles, vous disposez d'un délai de 14 jours  pour être remboursé.e. Afin de retourner votre bijou, merci de nous contacter par mail à marion@mammapierra.com.</p>",
+            "content": "<p><strong>Livraison</strong></p><p>Livraison offerte à partir de 49€ en point relais.</p><p></p><p><strong>Retour</strong></p><p>Si vous souhaitez retourner un ou plusieurs articles, vous disposez d'un délai de 14 jours  pour être remboursé.e. Afin de retourner votre bijou, merci de nous contacter par mail à marion@mammapierra.com.</p>",
             "page": ""
           }
         },
@@ -169,8 +169,8 @@
     "related-products": {
       "type": "related-products",
       "settings": {
-        "heading": "Vous aimerez aussi ...",
-        "heading_size": "h1",
+        "heading": "<strong>Vous aimerez aussi ...</strong>",
+        "heading_size": "h2",
         "products_to_show": 6,
         "columns_desktop": 6,
         "columns_mobile": "2",
@@ -190,7 +190,7 @@
         "column-0": {
           "type": "column",
           "settings": {
-            "title": "Entreprise Française",
+            "title": "Entreprise Française, bijoux made In France",
             "text": "",
             "link_label": "",
             "link": ""
@@ -208,7 +208,7 @@
         "column_djMgxi": {
           "type": "column",
           "settings": {
-            "title": "Livraison sous 2/3 jours",
+            "title": "Paiement Sécurisé",
             "text": "",
             "link_label": "",
             "link": ""
@@ -217,8 +217,8 @@
         "column_4X78LP": {
           "type": "column",
           "settings": {
-            "title": "Service client 5/7 jours",
-            "text": "",
+            "title": "Satisfait ou remboursé",
+            "text": "<h5>Vous avez 14 jours pour changer d'avis et demander un échange ou remboursement</h5>",
             "link_label": "",
             "link": ""
           }
@@ -238,7 +238,7 @@
         "button_label": "",
         "button_link": "",
         "columns_desktop": 4,
-        "column_alignment": "left",
+        "column_alignment": "center",
         "background_style": "none",
         "color_scheme": "scheme-1",
         "columns_mobile": "1",

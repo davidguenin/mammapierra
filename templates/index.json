@@ -483,13 +483,23 @@
             "link_label": "",
             "link": ""
           }
+        },
+        "column_VamhYL": {
+          "type": "column",
+          "settings": {
+            "title": "<strong>Satisfait ou Remboursé</strong>",
+            "text": "<h5>Vous avez 14 jours pour changer d'avis et demander un échange ou remboursement</h5>",
+            "link_label": "",
+            "link": ""
+          }
         }
       },
       "block_order": [
         "column1",
         "column2",
         "column3",
-        "column_bHHiUA"
+        "column_bHHiUA",
+        "column_VamhYL"
       ],
       "custom_css": [
         ".multicolumn {background: #f5f5f7; margin-bottom: 0;}",
@@ -502,7 +512,7 @@
         "image_ratio": "adapt",
         "button_label": "",
         "button_link": "",
-        "columns_desktop": 4,
+        "columns_desktop": 5,
         "column_alignment": "center",
         "background_style": "none",
         "color_scheme": "scheme-1",

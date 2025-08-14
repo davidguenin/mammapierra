@@ -57,7 +57,7 @@
         "heading_size": "h2",
         "image_ratio": "square",
         "columns_desktop": 4,
-        "color_scheme": "",
+        "color_scheme": "scheme-2",
         "show_view_all": false,
         "columns_mobile": "2",
         "swipe_on_mobile": false,
@@ -91,12 +91,12 @@
       "settings": {
         "collection": "pendentif",
         "products_to_show": 6,
-        "title": "Pendentifs à associer",
-        "heading_size": "h1",
+        "title": "<strong>Pendentifs à associer</strong>",
+        "heading_size": "h2",
         "description": "",
         "show_description": false,
         "description_style": "body",
-        "columns_desktop": 4,
+        "columns_desktop": 6,
         "enable_desktop_slider": true,
         "full_width": false,
         "show_view_all": true,
@@ -109,6 +109,80 @@
         "show_rating": false,
         "quick_add": "none",
         "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "multicolumn_PqHwaw": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_6fidKF": {
+          "type": "column",
+          "settings": {
+            "title": "<strong>Pierres 100% naturelles</strong>",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_mpcLjr": {
+          "type": "column",
+          "settings": {
+            "title": "<strong>Fait main en France</strong>",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_bDew7k": {
+          "type": "column",
+          "settings": {
+            "title": "<strong>Livraison Offerte</strong>",
+            "text": "<h5><strong>à partir de 49€ en point relais</strong></h5>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_3r633P": {
+          "type": "column",
+          "settings": {
+            "title": "<strong>Paiement sécurisé</strong>",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_W6r3TH": {
+          "type": "column",
+          "settings": {
+            "title": "<strong>Satisfait ou Remboursé</strong>",
+            "text": "<h5>Vous avez 14 jours pour changer d'avis et demander un échange ou remboursement</h5>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_6fidKF",
+        "column_mpcLjr",
+        "column_bDew7k",
+        "column_3r633P",
+        "column_W6r3TH"
+      ],
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "button_label": "",
+        "button_link": "",
+        "columns_desktop": 5,
+        "column_alignment": "center",
+        "background_style": "none",
+        "color_scheme": "scheme-2",
+        "columns_mobile": "1",
         "swipe_on_mobile": false,
         "padding_top": 36,
         "padding_bottom": 36
@@ -150,6 +224,7 @@
     "collection_list_hiYGcD",
     "product-grid",
     "featured_collection_jHnXd6",
+    "multicolumn_PqHwaw",
     "image_with_text_BTmWtc"
   ]
 }

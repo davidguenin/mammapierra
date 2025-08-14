@@ -190,7 +190,7 @@
         "column-0": {
           "type": "column",
           "settings": {
-            "title": "Entreprise Française, bijoux made In France",
+            "title": "<strong>Entreprise Française, bijoux made In France</strong>",
             "text": "",
             "link_label": "",
             "link": ""
@@ -199,7 +199,7 @@
         "column-1": {
           "type": "column",
           "settings": {
-            "title": "Certifié pierre naturelle authentique",
+            "title": "<strong>Certifié pierre naturelle authentique</strong>",
             "text": "",
             "link_label": "",
             "link": ""
@@ -208,7 +208,7 @@
         "column_djMgxi": {
           "type": "column",
           "settings": {
-            "title": "Paiement Sécurisé",
+            "title": "<strong>Paiement Sécurisé</strong>",
             "text": "",
             "link_label": "",
             "link": ""
@@ -217,7 +217,7 @@
         "column_4X78LP": {
           "type": "column",
           "settings": {
-            "title": "Satisfait ou remboursé",
+            "title": "<strong>Satisfait ou remboursé</strong>",
             "text": "<h5>Vous avez 14 jours pour changer d'avis et demander un échange ou remboursement</h5>",
             "link_label": "",
             "link": ""
@@ -283,8 +283,8 @@
       ],
       "name": "t:sections.collection-list.presets.name",
       "settings": {
-        "title": "Combiner votre pendentif avec nos colliers ou bracelets",
-        "heading_size": "h1",
+        "title": "<strong>Combiner votre pendentif avec nos colliers ou bracelets</strong>",
+        "heading_size": "h2",
         "image_ratio": "square",
         "columns_desktop": 4,
         "color_scheme": "",

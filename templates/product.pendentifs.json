@@ -190,7 +190,7 @@
         "column-0": {
           "type": "column",
           "settings": {
-            "title": "<strong>Entreprise Française, bijoux made In France</strong>",
+            "title": "<strong>Pierres 100% naturelles & certifiées</strong>",
             "text": "",
             "link_label": "",
             "link": ""
@@ -199,7 +199,7 @@
         "column-1": {
           "type": "column",
           "settings": {
-            "title": "<strong>Certifié pierre naturelle authentique</strong>",
+            "title": "<strong>Fait main en France</strong>",
             "text": "",
             "link_label": "",
             "link": ""
@@ -208,7 +208,16 @@
         "column_djMgxi": {
           "type": "column",
           "settings": {
-            "title": "<strong>Paiement Sécurisé</strong>",
+            "title": "<strong>Livraison Offerte</strong>",
+            "text": "<h5>à partir de 49€ en point relais</h5>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_7XtCq6": {
+          "type": "column",
+          "settings": {
+            "title": "<strong>Paiement sécurisé</strong>",
             "text": "",
             "link_label": "",
             "link": ""
@@ -228,6 +237,7 @@
         "column-0",
         "column-1",
         "column_djMgxi",
+        "column_7XtCq6",
         "column_4X78LP"
       ],
       "settings": {
@@ -237,7 +247,7 @@
         "image_ratio": "adapt",
         "button_label": "",
         "button_link": "",
-        "columns_desktop": 4,
+        "columns_desktop": 5,
         "column_alignment": "center",
         "background_style": "none",
         "color_scheme": "scheme-2",

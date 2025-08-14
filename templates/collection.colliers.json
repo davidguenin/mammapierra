@@ -114,6 +114,80 @@
         "padding_bottom": 36
       }
     },
+    "multicolumn_QUUaJf": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_VDVAaN": {
+          "type": "column",
+          "settings": {
+            "title": "<strong>Pierres 100% naturelles</strong>",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_J3YHGX": {
+          "type": "column",
+          "settings": {
+            "title": "<strong>Fait main en France</strong>",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_kK7prq": {
+          "type": "column",
+          "settings": {
+            "title": "<strong>Livraison Offerte</strong>",
+            "text": "<h5><strong>à partir de 49€ en point relais</strong></h5>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_qPJUhJ": {
+          "type": "column",
+          "settings": {
+            "title": "<strong>Paiement sécurisé</strong>",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_gzteWJ": {
+          "type": "column",
+          "settings": {
+            "title": "<strong>Satisfait ou Remboursé</strong>",
+            "text": "<h5>Vous avez 14 jours pour changer d'avis et demander un échange ou remboursement</h5>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_VDVAaN",
+        "column_J3YHGX",
+        "column_kK7prq",
+        "column_qPJUhJ",
+        "column_gzteWJ"
+      ],
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "button_label": "",
+        "button_link": "",
+        "columns_desktop": 5,
+        "column_alignment": "center",
+        "background_style": "none",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "image_with_text_BTmWtc": {
       "type": "image-with-text",
       "blocks": {
@@ -150,6 +224,7 @@
     "collection_list_hiYGcD",
     "product-grid",
     "featured_collection_jHnXd6",
+    "multicolumn_QUUaJf",
     "image_with_text_BTmWtc"
   ]
 }

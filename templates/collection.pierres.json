@@ -73,7 +73,7 @@
         "column_Jxb7UH": {
           "type": "column",
           "settings": {
-            "title": "Colonne",
+            "title": "<strong>Pierres 100% naturelles</strong>",
             "text": "",
             "link_label": "",
             "link": ""
@@ -82,7 +82,7 @@
         "column_wQkFMr": {
           "type": "column",
           "settings": {
-            "title": "Colonne",
+            "title": "<strong>Fait main en France</strong>",
             "text": "",
             "link_label": "",
             "link": ""
@@ -91,8 +91,8 @@
         "column_w8FiyG": {
           "type": "column",
           "settings": {
-            "title": "Colonne",
-            "text": "",
+            "title": "<strong>Livraison Offerte</strong>",
+            "text": "<h5><strong>à partir de 49€ en point relais</strong></h5>",
             "link_label": "",
             "link": ""
           }
@@ -100,8 +100,17 @@
         "column_edDTR9": {
           "type": "column",
           "settings": {
-            "title": "Colonne",
+            "title": "<strong>Paiement sécurisé</strong>",
             "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_YwepWc": {
+          "type": "column",
+          "settings": {
+            "title": "<strong>Satisfait ou Remboursé</strong>",
+            "text": "<h5><strong>Vous avez 14 jours pour changer d'avis et demander un échange ou remboursement</strong></h5>",
             "link_label": "",
             "link": ""
           }
@@ -111,7 +120,8 @@
         "column_Jxb7UH",
         "column_wQkFMr",
         "column_w8FiyG",
-        "column_edDTR9"
+        "column_edDTR9",
+        "column_YwepWc"
       ],
       "settings": {
         "title": "",
@@ -120,12 +130,12 @@
         "image_ratio": "adapt",
         "button_label": "",
         "button_link": "",
-        "columns_desktop": 4,
+        "columns_desktop": 5,
         "column_alignment": "center",
-        "background_style": "primary",
-        "color_scheme": "",
+        "background_style": "none",
+        "color_scheme": "scheme-2",
         "columns_mobile": "1",
-        "swipe_on_mobile": false,
+        "swipe_on_mobile": true,
         "padding_top": 36,
         "padding_bottom": 36
       }

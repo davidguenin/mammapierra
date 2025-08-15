@@ -163,7 +163,7 @@
       ],
       "settings": {
         "image": "{{ collection.metafields.custom.collection_pierre_image_propriete_histoire.value }}",
-        "height": "adapt",
+        "height": "medium",
         "desktop_image_width": "medium",
         "layout": "image_first",
         "image_behavior": "none",

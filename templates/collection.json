@@ -37,70 +37,6 @@
         "padding_bottom": 36
       }
     },
-    "multicolumn_DeHd8X": {
-      "type": "multicolumn",
-      "blocks": {
-        "column_Ld7cH6": {
-          "type": "column",
-          "settings": {
-            "title": "100% Pierres naturelles",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_AVFAD4": {
-          "type": "column",
-          "settings": {
-            "title": "Fait main en France",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_HE7g7E": {
-          "type": "column",
-          "settings": {
-            "title": "Livraison offerte en point relais",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_bnfKzc": {
-          "type": "column",
-          "settings": {
-            "title": "Paiement sécurisé",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "column_Ld7cH6",
-        "column_AVFAD4",
-        "column_HE7g7E",
-        "column_bnfKzc"
-      ],
-      "name": "t:sections.multicolumn.presets.name",
-      "settings": {
-        "title": "",
-        "heading_size": "h1",
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "button_label": "",
-        "button_link": "",
-        "columns_desktop": 4,
-        "column_alignment": "left",
-        "background_style": "primary",
-        "color_scheme": "",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 56,
-        "padding_bottom": 48
-      }
-    },
     "collection_list_P3jKFy": {
       "type": "collection-list",
       "blocks": {
@@ -128,10 +64,11 @@
         "featured_collection_NDYzye",
         "featured_collection_drNkMc"
       ],
+      "disabled": true,
       "name": "t:sections.collection-list.presets.name",
       "settings": {
-        "title": "Découvrez nos parures en pierres 100% naturelles",
-        "heading_size": "h1",
+        "title": "<strong>Découvrez nos parures en pierres 100% naturelles</strong>",
+        "heading_size": "h2",
         "image_ratio": "square",
         "columns_desktop": 3,
         "color_scheme": "",
@@ -141,43 +78,11 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
-    },
-    "image_with_text_BTmWtc": {
-      "type": "image-with-text",
-      "blocks": {
-        "text_6UVzRj": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Associez un texte à une image pour mettre en avant le produit, la collection ou l’article de blog de votre choix. Ajoutez des informations sur la disponibilité ou le style. Vous pouvez même fournir un avis.</p>",
-            "text_style": "body"
-          }
-        }
-      },
-      "block_order": [
-        "text_6UVzRj"
-      ],
-      "name": "t:sections.image-with-text.presets.name",
-      "settings": {
-        "height": "small",
-        "desktop_image_width": "small",
-        "layout": "image_first",
-        "image_behavior": "none",
-        "content_layout": "no-overlap",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "mobile_content_alignment": "left",
-        "section_color_scheme": "",
-        "color_scheme": "",
-        "padding_top": 28,
-        "padding_bottom": 36
-      }
     }
   },
   "order": [
     "banner",
     "product-grid",
-    "multicolumn_DeHd8X",
-    "collection_list_P3jKFy",
-    "image_with_text_BTmWtc"
+    "collection_list_P3jKFy"
   ]
 }

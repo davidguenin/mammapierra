@@ -113,8 +113,8 @@
       "settings": {
         "collection": "bracelet-eclat",
         "products_to_show": 4,
-        "title": "Associer avec ...",
-        "heading_size": "h1",
+        "title": "<strong>Associer avec ...</strong>",
+        "heading_size": "h2",
         "description": "",
         "show_description": false,
         "description_style": "body",

@@ -310,7 +310,7 @@
       ],
       "settings": {
         "image": "{{ collection.metafields.custom.collection_pierre_image_signe_astro.value }}",
-        "height": "adapt",
+        "height": "small",
         "desktop_image_width": "small",
         "layout": "image_first",
         "image_behavior": "none",

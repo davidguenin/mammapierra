@@ -239,6 +239,16 @@
         "padding_bottom": 36
       }
     },
+    "custom_liquid_gtPRy7": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "custom_liquid": "<div id=\"omnisend-embedded-v2-68a1cbb73a6a28c6e3a0dc53\"></div>",
+        "color_scheme": "",
+        "padding_top": 40,
+        "padding_bottom": 8
+      }
+    },
     "featured_collection_QaKfrB": {
       "type": "featured-collection",
       "name": "t:sections.featured-collection.presets.name",
@@ -311,6 +321,7 @@
     "main",
     "related-products",
     "multicolumn",
+    "custom_liquid_gtPRy7",
     "featured_collection_QaKfrB",
     "image-with-text"
   ]

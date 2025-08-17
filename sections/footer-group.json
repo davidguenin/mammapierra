@@ -44,7 +44,7 @@
       "custom_css": [],
       "settings": {
         "color_scheme": "scheme-1",
-        "newsletter_enable": true,
+        "newsletter_enable": false,
         "newsletter_heading": "S'inscrire à la Newsletter",
         "enable_follow_on_shop": true,
         "show_social": true,

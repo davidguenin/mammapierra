@@ -240,70 +240,6 @@
         "padding_bottom": 36
       }
     },
-    "featured_product_xhkHeW": {
-      "type": "featured-product",
-      "blocks": {
-        "text_UkUJjE": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "text": "{{ section.settings.product.vendor }}",
-            "text_style": "uppercase"
-          }
-        },
-        "title_M48Fxa": {
-          "type": "title",
-          "settings": {
-            "heading_size": "h1"
-          }
-        },
-        "price_rAggxh": {
-          "type": "price",
-          "settings": {}
-        },
-        "variant_picker_rktwDq": {
-          "type": "variant_picker",
-          "settings": {
-            "picker_type": "button",
-            "swatch_shape": "circle"
-          }
-        },
-        "quantity_selector_9gGXMC": {
-          "type": "quantity_selector",
-          "settings": {}
-        },
-        "buy_buttons_k3rrj6": {
-          "type": "buy_buttons",
-          "settings": {
-            "show_dynamic_checkout": false,
-            "show_gift_card_recipient": true
-          }
-        }
-      },
-      "block_order": [
-        "text_UkUJjE",
-        "title_M48Fxa",
-        "price_rAggxh",
-        "variant_picker_rktwDq",
-        "quantity_selector_9gGXMC",
-        "buy_buttons_k3rrj6"
-      ],
-      "name": "t:sections.featured-product.presets.name",
-      "settings": {
-        "product": "collier-eclar-amethyste",
-        "color_scheme": "",
-        "secondary_background": false,
-        "media_size": "medium",
-        "constrain_to_viewport": true,
-        "media_fit": "contain",
-        "media_position": "right",
-        "image_zoom": "lightbox",
-        "hide_variants": false,
-        "enable_video_looping": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "product-grid": {
       "type": "main-collection-product-grid",
       "disabled": true,
@@ -333,7 +269,6 @@
     "featured_product_mDyRTC",
     "featured_product_LV7atp",
     "featured_product_7YeTb8",
-    "featured_product_xhkHeW",
     "product-grid"
   ]
 }

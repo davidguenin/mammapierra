@@ -521,6 +521,16 @@
         "padding_top": 52,
         "padding_bottom": 20
       }
+    },
+    "custom_liquid_A7aTjx": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "custom_liquid": "<div id=\"omnisend-embedded-v2-68a1cbb73a6a28c6e3a0dc53\"></div>",
+        "color_scheme": "",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
@@ -534,6 +544,7 @@
     "collection_list_yg33gt",
     "image_banner_AcFPdU",
     "collection_list_fVVYWW",
-    "multicolumn"
+    "multicolumn",
+    "custom_liquid_A7aTjx"
   ]
 }

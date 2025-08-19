@@ -19,7 +19,7 @@
       "settings": {
         "collection": "colliers",
         "products_to_show": 4,
-        "title": "<strong>Les nouveauté</strong>",
+        "title": "<strong>Les nouveautés</strong>",
         "heading_size": "h2",
         "description": "",
         "show_description": false,

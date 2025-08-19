@@ -255,118 +255,6 @@
         "padding_top": 52,
         "padding_bottom": 20
       }
-    },
-    "collection_list_fVVYWW": {
-      "type": "collection-list",
-      "blocks": {
-        "featured_collection_e8fPj3": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": ""
-          }
-        },
-        "featured_collection_NGiW6b": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "amethyste"
-          }
-        },
-        "featured_collection_y3fz8z": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "amazonite"
-          }
-        },
-        "featured_collection_VJCVNj": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "citrine"
-          }
-        },
-        "featured_collection_fQWFkH": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "labradorite"
-          }
-        },
-        "featured_collection_VxhrPq": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "jade"
-          }
-        },
-        "featured_collection_6c8UbA": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "agate"
-          }
-        },
-        "featured_collection_XKfzbd": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "calcite"
-          }
-        },
-        "featured_collection_q7cXY6": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "cristal-de-roche"
-          }
-        },
-        "featured_collection_eg8Cm7": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "pierre-de-lune"
-          }
-        },
-        "featured_collection_QmUR47": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "pierre-de-soleil"
-          }
-        },
-        "featured_collection_ArkQcX": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "quartz"
-          }
-        },
-        "featured_collection_irRwmL": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "tourmaline"
-          }
-        }
-      },
-      "block_order": [
-        "featured_collection_e8fPj3",
-        "featured_collection_NGiW6b",
-        "featured_collection_y3fz8z",
-        "featured_collection_VJCVNj",
-        "featured_collection_fQWFkH",
-        "featured_collection_VxhrPq",
-        "featured_collection_6c8UbA",
-        "featured_collection_XKfzbd",
-        "featured_collection_q7cXY6",
-        "featured_collection_eg8Cm7",
-        "featured_collection_QmUR47",
-        "featured_collection_ArkQcX",
-        "featured_collection_irRwmL"
-      ],
-      "disabled": true,
-      "name": "Liste des pierres",
-      "settings": {
-        "title": "<strong>Quelles pierres vous attirent ?</strong>",
-        "heading_size": "h2",
-        "image_ratio": "square",
-        "columns_desktop": 6,
-        "color_scheme": "",
-        "show_view_all": false,
-        "columns_mobile": "2",
-        "swipe_on_mobile": true,
-        "padding_top": 32,
-        "padding_bottom": 32
-      }
     }
   },
   "order": [
@@ -375,7 +263,6 @@
     "multicolumn_peMVKk",
     "image_banner_LaCqpt",
     "featured_collection_9AQWJW",
-    "multicolumn",
-    "collection_list_fVVYWW"
+    "multicolumn"
   ]
 }

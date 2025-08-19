@@ -81,7 +81,9 @@
         "column_yGMGaf",
         "column_HFXWBG"
       ],
-      "custom_css": [],
+      "custom_css": [
+        ".multicolumn-card__image-wrapper--full-width {padding: 0; margin: 0;}"
+      ],
       "name": "t:sections.multicolumn.presets.name",
       "settings": {
         "title": "",
@@ -491,6 +493,17 @@
         "swipe_on_mobile": false,
         "padding_top": 52,
         "padding_bottom": 20
+      }
+    },
+    "custom_liquid_A7aTjx": {
+      "type": "custom-liquid",
+      "disabled": true,
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "custom_liquid": "<div id=\"omnisend-embedded-v2-68a1cbb73a6a28c6e3a0dc53\"></div>",
+        "color_scheme": "",
+        "padding_top": 40,
+        "padding_bottom": 52
       }
     },
     "1755437383b0916fc4": {

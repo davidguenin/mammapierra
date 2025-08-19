@@ -493,17 +493,6 @@
         "padding_bottom": 20
       }
     },
-    "custom_liquid_A7aTjx": {
-      "type": "custom-liquid",
-      "disabled": true,
-      "name": "t:sections.custom-liquid.presets.name",
-      "settings": {
-        "custom_liquid": "<div id=\"omnisend-embedded-v2-68a1cbb73a6a28c6e3a0dc53\"></div>",
-        "color_scheme": "",
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
-    },
     "1755437383b0916fc4": {
       "type": "apps",
       "blocks": {

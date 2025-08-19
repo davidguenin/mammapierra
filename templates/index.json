@@ -156,49 +156,6 @@
         "show_text_below": true
       }
     },
-    "collage_XKQqnW": {
-      "type": "collage",
-      "blocks": {
-        "product_AWzF7x": {
-          "type": "product",
-          "settings": {
-            "product": "collier-lepidolite",
-            "second_image": true
-          }
-        },
-        "product_VFnJqr": {
-          "type": "product",
-          "settings": {
-            "product": "collier-sun-pierre-de-soleil",
-            "second_image": true
-          }
-        },
-        "product_bqxcid": {
-          "type": "product",
-          "settings": {
-            "product": "collier-amethyste",
-            "second_image": true
-          }
-        }
-      },
-      "block_order": [
-        "product_AWzF7x",
-        "product_VFnJqr",
-        "product_bqxcid"
-      ],
-      "disabled": true,
-      "name": "t:sections.collage.presets.name",
-      "settings": {
-        "heading": "<strong>Collection Instant</strong>",
-        "heading_size": "h2",
-        "desktop_layout": "right",
-        "mobile_layout": "collage",
-        "card_styles": "none",
-        "color_scheme": "",
-        "padding_top": 24,
-        "padding_bottom": 20
-      }
-    },
     "collection_list_yg33gt": {
       "type": "collection-list",
       "blocks": {
@@ -337,6 +294,7 @@
         "featured_collection_ArkQcX",
         "featured_collection_irRwmL"
       ],
+      "disabled": true,
       "name": "Liste des pierres",
       "settings": {
         "title": "<strong>Quelles pierres vous attirent ?</strong>",
@@ -431,47 +389,6 @@
         "padding_top": 52,
         "padding_bottom": 20
       }
-    },
-    "collection_list_9Bg9J4": {
-      "type": "collection-list",
-      "blocks": {
-        "featured_collection_DAPCXf": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "colliers"
-          }
-        },
-        "featured_collection_YnBAJH": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "bracelet"
-          }
-        },
-        "featured_collection_tjFmc9": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "pendentif"
-          }
-        }
-      },
-      "block_order": [
-        "featured_collection_DAPCXf",
-        "featured_collection_YnBAJH",
-        "featured_collection_tjFmc9"
-      ],
-      "name": "t:sections.collection-list.presets.name",
-      "settings": {
-        "title": "<strong>Découvrez nos parures en pierres naturelles</strong>",
-        "heading_size": "h2",
-        "image_ratio": "portrait",
-        "columns_desktop": 3,
-        "color_scheme": "",
-        "show_view_all": false,
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 32,
-        "padding_bottom": 32
-      }
     }
   },
   "order": [
@@ -479,10 +396,8 @@
     "featured_collection_qmFN7F",
     "multicolumn_peMVKk",
     "image_banner_LaCqpt",
-    "collage_XKQqnW",
     "collection_list_yg33gt",
     "collection_list_fVVYWW",
-    "multicolumn",
-    "collection_list_9Bg9J4"
+    "multicolumn"
   ]
 }

@@ -9,6 +9,54 @@
  */
 {
   "sections": {
+    "hero_collection_DM8P6J": {
+      "type": "hero-collection",
+      "name": "Hero Collection",
+      "settings": {
+        "color_bg": "#efefef"
+      }
+    },
+    "collection_list_AYYbzj": {
+      "type": "collection-list",
+      "blocks": {
+        "featured_collection_c9B6rp": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": ""
+          }
+        },
+        "featured_collection_gBgN4L": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": ""
+          }
+        },
+        "featured_collection_TUPJ8D": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": ""
+          }
+        }
+      },
+      "block_order": [
+        "featured_collection_c9B6rp",
+        "featured_collection_gBgN4L",
+        "featured_collection_TUPJ8D"
+      ],
+      "name": "t:sections.collection-list.presets.name",
+      "settings": {
+        "title": "",
+        "heading_size": "h2",
+        "image_ratio": "square",
+        "columns_desktop": 3,
+        "color_scheme": "",
+        "show_view_all": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "banner": {
       "type": "main-collection-banner",
       "disabled": true,
@@ -40,6 +88,8 @@
     }
   },
   "order": [
+    "hero_collection_DM8P6J",
+    "collection_list_AYYbzj",
     "banner",
     "product-grid"
   ]

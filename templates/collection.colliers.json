@@ -59,6 +59,9 @@
         "featured_collection_tVLTft",
         "featured_collection_AiTiMj"
       ],
+      "custom_css": [
+        "a {text-align: center; font-size: 1.5rem}"
+      ],
       "name": "t:sections.collection-list.presets.name",
       "settings": {
         "title": "",

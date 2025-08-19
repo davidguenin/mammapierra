@@ -18,13 +18,13 @@
       "name": "Nouveauté",
       "settings": {
         "collection": "colliers",
-        "products_to_show": 3,
+        "products_to_show": 4,
         "title": "<strong>Les nouveauté</strong>",
         "heading_size": "h2",
         "description": "<h6>Chaque mois, un Instant à saisir : 4 bijoux, 4 émotions, 4 énergies.</h6>",
         "show_description": false,
         "description_style": "body",
-        "columns_desktop": 3,
+        "columns_desktop": 4,
         "enable_desktop_slider": false,
         "full_width": false,
         "show_view_all": false,
@@ -241,59 +241,6 @@
         "swipe_on_mobile": true,
         "padding_top": 0,
         "padding_bottom": 32
-      }
-    },
-    "image_banner_AcFPdU": {
-      "type": "image-banner",
-      "blocks": {
-        "heading_zJABAY": {
-          "type": "heading",
-          "settings": {
-            "heading": "Bannière avec image",
-            "heading_size": "h1"
-          }
-        },
-        "text_BCLBKm": {
-          "type": "text",
-          "settings": {
-            "text": "Fournissez des détails à votre clientèle sur l’image/les images ou le contenu de la bannière du modèle.",
-            "text_style": "body"
-          }
-        },
-        "buttons_xQWDQY": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "Texte du bouton",
-            "button_link_1": "",
-            "button_style_secondary_1": false,
-            "button_label_2": "Texte du bouton",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "heading_zJABAY",
-        "text_BCLBKm",
-        "buttons_xQWDQY"
-      ],
-      "custom_css": [
-        ".banner__box {display: none;}",
-        ".banner {margin: 0 50px;}"
-      ],
-      "name": "t:sections.image-banner.presets.name",
-      "settings": {
-        "image": "shopify://shop_images/001001.jpg",
-        "image_overlay_opacity": 0,
-        "image_height": "large",
-        "image_behavior": "none",
-        "desktop_content_position": "middle-center",
-        "desktop_content_alignment": "center",
-        "show_text_box": true,
-        "color_scheme": "",
-        "stack_images_on_mobile": true,
-        "mobile_content_alignment": "center",
-        "show_text_below": true
       }
     },
     "collection_list_fVVYWW": {
@@ -577,7 +524,6 @@
     "collage_XKQqnW",
     "featured_collection_znnEbQ",
     "collection_list_yg33gt",
-    "image_banner_AcFPdU",
     "collection_list_fVVYWW",
     "multicolumn",
     "custom_liquid_A7aTjx",

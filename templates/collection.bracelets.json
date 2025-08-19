@@ -43,6 +43,10 @@
         "featured_collection_gBgN4L",
         "featured_collection_TUPJ8D"
       ],
+      "custom_css": [
+        "a {text-align: center; font-size: 1.5rem;}",
+        ".card__inner {max-height: 165px;}"
+      ],
       "name": "t:sections.collection-list.presets.name",
       "settings": {
         "title": "",

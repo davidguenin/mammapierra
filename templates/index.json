@@ -51,7 +51,7 @@
             "image": "shopify://shop_images/mountain-magic-hour.jpg",
             "title": "Bracelets",
             "text": "",
-            "link_label": "",
+            "link_label": "Voir nos bracelets",
             "link": "shopify://collections/agate"
           }
         },
@@ -61,7 +61,7 @@
             "image": "shopify://shop_images/womens-fashion-woman-denim-shorts-holding-pockets.jpg",
             "title": "Colliers",
             "text": "",
-            "link_label": "",
+            "link_label": "Voir nos colliers",
             "link": ""
           }
         },
@@ -71,7 +71,7 @@
             "image": "shopify://shop_images/model-poses-casually-on-ride.jpg",
             "title": "Pendentifs",
             "text": "",
-            "link_label": "",
+            "link_label": "Voir nos pendentifs",
             "link": ""
           }
         }
@@ -88,11 +88,11 @@
         "heading_size": "h1",
         "image_width": "full",
         "image_ratio": "portrait",
-        "button_label": "Texte du bouton",
+        "button_label": "",
         "button_link": "",
         "columns_desktop": 3,
-        "column_alignment": "left",
-        "background_style": "primary",
+        "column_alignment": "center",
+        "background_style": "none",
         "color_scheme": "",
         "columns_mobile": "1",
         "swipe_on_mobile": false,

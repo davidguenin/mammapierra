@@ -60,7 +60,8 @@
         "featured_collection_AiTiMj"
       ],
       "custom_css": [
-        "a {text-align: center; font-size: 1.5rem;}"
+        "a {text-align: center; font-size: 1.5rem;}",
+        ".card__inner{max-height: 135px;}"
       ],
       "name": "t:sections.collection-list.presets.name",
       "settings": {

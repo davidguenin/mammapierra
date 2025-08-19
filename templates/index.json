@@ -42,6 +42,61 @@
         "padding_bottom": 36
       }
     },
+    "multicolumn_peMVKk": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_C7kjtB": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/mountain-magic-hour.jpg",
+            "title": "Colonne",
+            "text": "<p>Associez un texte à une image pour mettre en avant le produit, la collection ou l’article de blog de votre choix. Ajoutez des informations sur la disponibilité ou le style. Vous pouvez même fournir un avis.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_yGMGaf": {
+          "type": "column",
+          "settings": {
+            "title": "Colonne",
+            "text": "<p>Associez un texte à une image pour mettre en avant le produit, la collection ou l’article de blog de votre choix. Ajoutez des informations sur la disponibilité ou le style. Vous pouvez même fournir un avis.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_HFXWBG": {
+          "type": "column",
+          "settings": {
+            "title": "Colonne",
+            "text": "<p>Associez un texte à une image pour mettre en avant le produit, la collection ou l’article de blog de votre choix. Ajoutez des informations sur la disponibilité ou le style. Vous pouvez même fournir un avis.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_C7kjtB",
+        "column_yGMGaf",
+        "column_HFXWBG"
+      ],
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "title": "Multicolonne",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "button_label": "Texte du bouton",
+        "button_link": "",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "image_banner_LaCqpt": {
       "type": "image-banner",
       "blocks": {
@@ -501,12 +556,13 @@
         "featured_collection_YnBAJH",
         "featured_collection_tjFmc9"
       ],
+      "disabled": true,
       "name": "t:sections.collection-list.presets.name",
       "settings": {
         "title": "<strong>Découvrez nos parures en pierres naturelles</strong>",
         "heading_size": "h2",
         "image_ratio": "portrait",
-        "columns_desktop": 4,
+        "columns_desktop": 3,
         "color_scheme": "",
         "show_view_all": false,
         "columns_mobile": "1",
@@ -519,6 +575,7 @@
   "order": [
     "hero_big",
     "featured_collection_qmFN7F",
+    "multicolumn_peMVKk",
     "image_banner_LaCqpt",
     "featured_collection",
     "collage_XKQqnW",

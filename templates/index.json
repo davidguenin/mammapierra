@@ -156,47 +156,6 @@
         "show_text_below": true
       }
     },
-    "collection_list_yg33gt": {
-      "type": "collection-list",
-      "blocks": {
-        "featured_collection_ajMX3n": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "vibe"
-          }
-        },
-        "featured_collection_VfgVXa": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "collection-rituel"
-          }
-        },
-        "featured_collection_qhxmzH": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "eclat"
-          }
-        }
-      },
-      "block_order": [
-        "featured_collection_ajMX3n",
-        "featured_collection_VfgVXa",
-        "featured_collection_qhxmzH"
-      ],
-      "name": "t:sections.collection-list.presets.name",
-      "settings": {
-        "title": "<strong>Collections</strong>",
-        "heading_size": "h2",
-        "image_ratio": "square",
-        "columns_desktop": 3,
-        "color_scheme": "",
-        "show_view_all": false,
-        "columns_mobile": "1",
-        "swipe_on_mobile": true,
-        "padding_top": 0,
-        "padding_bottom": 32
-      }
-    },
     "featured_collection_9AQWJW": {
       "type": "featured-collection",
       "name": "Nouveauté",
@@ -425,7 +384,6 @@
     "featured_collection_qmFN7F",
     "multicolumn_peMVKk",
     "image_banner_LaCqpt",
-    "collection_list_yg33gt",
     "featured_collection_9AQWJW",
     "multicolumn",
     "collection_list_fVVYWW"

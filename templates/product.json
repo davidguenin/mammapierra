@@ -60,7 +60,7 @@
             "icon_1": "heart",
             "heading_1": "Pierres 100% naturelles & top qualité",
             "icon_2": "leaf",
-            "heading_2": "Fabrication artisanale à l'atelier",
+            "heading_2": "Fait à la main en France",
             "icon_3": "truck",
             "heading_3": "Livraison Offerte dès 49€ en point relais"
           }
@@ -266,6 +266,16 @@
         "swipe_on_mobile": true,
         "padding_top": 36,
         "padding_bottom": 36
+      }
+    },
+    "custom_liquid_gtPRy7": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "custom_liquid": "<div id=\"omnisend-embedded-v2-68a1cbb73a6a28c6e3a0dc53\"></div>",
+        "color_scheme": "",
+        "padding_top": 40,
+        "padding_bottom": 8
       }
     },
     "image-with-text": {

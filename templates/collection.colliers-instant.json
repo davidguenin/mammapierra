@@ -24,30 +24,6 @@
         "color_scheme": "scheme-1"
       }
     },
-    "rich_text_dUWAip": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_UBprpi": {
-          "type": "heading",
-          "settings": {
-            "heading": "Chaque mois, un Instant à saisir : 4 colliers, 4 émotions, 4 énergies.",
-            "heading_size": "h2"
-          }
-        }
-      },
-      "block_order": [
-        "heading_UBprpi"
-      ],
-      "name": "t:sections.rich-text.presets.name",
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
-    },
     "featured_product_mDyRTC": {
       "type": "featured-product",
       "blocks": {
@@ -265,7 +241,6 @@
   "order": [
     "hero_collection_faFNWL",
     "banner",
-    "rich_text_dUWAip",
     "featured_product_mDyRTC",
     "featured_product_LV7atp",
     "featured_product_7YeTb8",

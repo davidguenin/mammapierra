@@ -18,6 +18,7 @@
     },
     "banner": {
       "type": "main-collection-banner",
+      "disabled": true,
       "settings": {
         "show_collection_description": true,
         "show_collection_image": false,
@@ -28,7 +29,7 @@
       "type": "main-collection-product-grid",
       "settings": {
         "products_per_page": 16,
-        "columns_desktop": 5,
+        "columns_desktop": 4,
         "columns_mobile": "2",
         "color_scheme": "",
         "image_ratio": "adapt",

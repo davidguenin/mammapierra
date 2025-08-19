@@ -84,9 +84,9 @@
       "settings": {
         "collection": "pendentif",
         "products_to_show": 6,
-        "title": "Pendentifs à associer",
-        "heading_size": "h1",
-        "description": "<p>Tous les lundis de nouveaux pendentifs à adopter. Pierres Uniques & Limitées.</p>",
+        "title": "<strong>Pendentifs à associer</strong>",
+        "heading_size": "h2",
+        "description": "",
         "show_description": false,
         "description_style": "body",
         "columns_desktop": 4,
@@ -113,8 +113,8 @@
       "settings": {
         "collection": "eclat",
         "products_to_show": 6,
-        "title": "Collection Eclat avec nos chaînes dorées",
-        "heading_size": "h1",
+        "title": "<strong>Collection Eclat avec nos chaînes dorées</strong>",
+        "heading_size": "h2",
         "description": "",
         "show_description": false,
         "description_style": "body",

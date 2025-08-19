@@ -49,8 +49,8 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/mountain-magic-hour.jpg",
-            "title": "Colonne",
-            "text": "<p>Associez un texte à une image pour mettre en avant le produit, la collection ou l’article de blog de votre choix. Ajoutez des informations sur la disponibilité ou le style. Vous pouvez même fournir un avis.</p>",
+            "title": "Bracelets",
+            "text": "",
             "link_label": "",
             "link": ""
           }
@@ -58,8 +58,9 @@
         "column_yGMGaf": {
           "type": "column",
           "settings": {
-            "title": "Colonne",
-            "text": "<p>Associez un texte à une image pour mettre en avant le produit, la collection ou l’article de blog de votre choix. Ajoutez des informations sur la disponibilité ou le style. Vous pouvez même fournir un avis.</p>",
+            "image": "shopify://shop_images/womens-fashion-woman-denim-shorts-holding-pockets.jpg",
+            "title": "Colliers",
+            "text": "",
             "link_label": "",
             "link": ""
           }
@@ -67,8 +68,9 @@
         "column_HFXWBG": {
           "type": "column",
           "settings": {
-            "title": "Colonne",
-            "text": "<p>Associez un texte à une image pour mettre en avant le produit, la collection ou l’article de blog de votre choix. Ajoutez des informations sur la disponibilité ou le style. Vous pouvez même fournir un avis.</p>",
+            "image": "shopify://shop_images/model-poses-casually-on-ride.jpg",
+            "title": "Pendentifs",
+            "text": "",
             "link_label": "",
             "link": ""
           }
@@ -79,12 +81,13 @@
         "column_yGMGaf",
         "column_HFXWBG"
       ],
+      "custom_css": [],
       "name": "t:sections.multicolumn.presets.name",
       "settings": {
-        "title": "Multicolonne",
+        "title": "",
         "heading_size": "h1",
         "image_width": "full",
-        "image_ratio": "adapt",
+        "image_ratio": "portrait",
         "button_label": "Texte du bouton",
         "button_link": "",
         "columns_desktop": 3,
@@ -556,7 +559,6 @@
         "featured_collection_YnBAJH",
         "featured_collection_tjFmc9"
       ],
-      "disabled": true,
       "name": "t:sections.collection-list.presets.name",
       "settings": {
         "title": "<strong>Découvrez nos parures en pierres naturelles</strong>",

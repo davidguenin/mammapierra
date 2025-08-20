@@ -40,7 +40,7 @@
     "collection_wysiwyg_d8Ygpx": {
       "type": "collection-wysiwyg",
       "blocks": {
-        "multicolumn_block_FQwpKk": {
+        "multicolumn_block_zqyB3X": {
           "type": "multicolumn_block",
           "settings": {
             "collection": "",
@@ -58,7 +58,7 @@
         }
       },
       "block_order": [
-        "multicolumn_block_FQwpKk"
+        "multicolumn_block_zqyB3X"
       ],
       "name": "Contenu Riche par Collection",
       "settings": {

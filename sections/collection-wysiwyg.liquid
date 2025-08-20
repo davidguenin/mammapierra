@@ -1,8 +1,8 @@
 {% comment %}
   ** Section multi-blocs pour les pages de collection **
   - Affiche un contenu différent par collection.
-  - Gère plusieurs types de blocs (Texte Riche, Multicolonne).
-  - Corrigé pour afficher l'aperçu dans l'éditeur de thème.
+  - Gere plusieurs types de blocs (Texte Riche, Multicolonne).
+  - Corrigé pour afficher un aperçu fiable dans l'éditeur de thème.
 {% endcomment %}
 
 <style>
@@ -15,8 +15,7 @@
   }
   .custom-multicolumn-card__image-wrapper img {
     border-radius: var(--media-border-radius);
-    box-shadow: var(--media-shadow-horizontal-offset) var(--media-shadow-vertical-offset)
-      var(--media-shadow-blur-radius) rgba(var(--color-shadow), var(--media-shadow-opacity));
+    box-shadow: var(--media-shadow-horizontal-offset) var(--media-shadow-vertical-offset) var(--media-shadow-blur-radius) rgba(var(--color-shadow), var(--media-shadow-opacity));
     margin-bottom: 2rem;
   }
   .custom-multicolumn-card .rte {
@@ -28,24 +27,28 @@
   assign block_to_display = ''
   assign block_found = false
 
+  // Logique pour le site en ligne : trouver le bloc qui correspond à la collection actuelle.
   for block in section.blocks
-    comment
-      La condition est VRAIE si:
-      1. La collection du bloc correspond à la page actuelle (pour le site en ligne).
-      OU
-      2. Le bloc est actuellement sélectionné dans l'éditeur de thème (pour l'aperçu).
-    endcomment
-    if block.settings.collection == collection.handle or block.shopify_attributes
+    if block.settings.collection == collection.handle
       assign block_to_display = block
       assign block_found = true
       break
     endif
   endfor
+
+  // Logique de secours POUR L'ÉDITEUR UNIQUEMENT :
+  // Si aucun bloc n'a été trouvé et qu'on est dans l'éditeur,
+  // on affiche le premier bloc pour que la section ne soit pas vide.
+  if block_found == false and request.design_mode and section.blocks.size > 0
+    assign block_to_display = section.blocks.first
+    assign block_found = true
+  endif
 -%}
 
 {%- if block_found -%}
   <div class="color-{{ section.settings.color_scheme }} gradient">
     <div class="page-width section-{{ section.id }}-padding isolate">
+
       {%- if section.settings.heading != blank -%}
         <h2 class="title title-wrapper--no-top-margin inline-richtext h2 text-center">
           {{ section.settings.heading | escape }}

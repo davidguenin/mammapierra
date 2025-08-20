@@ -96,7 +96,7 @@
         "multicolumn_block_pjVA6k": {
           "type": "multicolumn_block",
           "settings": {
-            "collection": "",
+            "collection": "collier-eclat",
             "title": "Titre",
             "columns_per_row": 3,
             "title_col_1": "Colonne 1",

@@ -86,15 +86,6 @@
             "heading_3": "Livraison offerte à partir de 49€ en point relais"
           }
         },
-        "collapsible-row-3": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Vertus et Chakras",
-            "icon": "star",
-            "content": "{{ product.metafields.custom.vertuschakras | metafield_tag }}",
-            "page": ""
-          }
-        },
         "collapsible-row-2": {
           "type": "collapsible_tab",
           "settings": {
@@ -144,7 +135,6 @@
         "icon_with_text_ApgEac",
         "buy_buttons",
         "icon_with_text_KqP63e",
-        "collapsible-row-3",
         "collapsible-row-2",
         "collapsible-row-1",
         "complementary_4dr8Xa",

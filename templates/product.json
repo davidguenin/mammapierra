@@ -69,15 +69,6 @@
           "type": "description",
           "settings": {}
         },
-        "collapsible-row-3": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Vertus et Chakras",
-            "icon": "star",
-            "content": "{{ product.metafields.custom.vertuschakras | metafield_tag }}",
-            "page": ""
-          }
-        },
         "collapsible-row-2": {
           "type": "collapsible_tab",
           "settings": {
@@ -126,7 +117,6 @@
         "buy_buttons",
         "icon_with_text_KqP63e",
         "description",
-        "collapsible-row-3",
         "collapsible-row-2",
         "collapsible-row-1",
         "complementary_4dr8Xa",

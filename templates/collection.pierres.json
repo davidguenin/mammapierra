@@ -172,7 +172,6 @@
         "button_UBg6hC"
       ],
       "settings": {
-        "image": "{{ collection.metafields.custom.collection_pierre_image_propriete_histoire.value }}",
         "height": "medium",
         "desktop_image_width": "medium",
         "layout": "image_first",
@@ -262,7 +261,6 @@
         "button_VjntEW"
       ],
       "settings": {
-        "image": "{{ collection.metafields.custom.collection_pierre_image_chakras.value }}",
         "height": "small",
         "desktop_image_width": "small",
         "layout": "text_first",
@@ -309,7 +307,6 @@
         "button_PzrbeA"
       ],
       "settings": {
-        "image": "{{ collection.metafields.custom.collection_pierre_image_signe_astro.value }}",
         "height": "small",
         "desktop_image_width": "small",
         "layout": "image_first",
@@ -323,64 +320,6 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
-    },
-    "featured_collection_jH6HeN": {
-      "type": "featured-collection",
-      "disabled": true,
-      "settings": {
-        "collection": "vibe",
-        "products_to_show": 6,
-        "title": "Parure avec colliers ou bracelets Vibe",
-        "heading_size": "h1",
-        "description": "",
-        "show_description": false,
-        "description_style": "body",
-        "columns_desktop": 4,
-        "enable_desktop_slider": false,
-        "full_width": false,
-        "show_view_all": true,
-        "view_all_style": "solid",
-        "color_scheme": "",
-        "image_ratio": "adapt",
-        "image_shape": "default",
-        "show_secondary_image": false,
-        "show_vendor": false,
-        "show_rating": false,
-        "quick_add": "none",
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "featured_collection_jHnXd6": {
-      "type": "featured-collection",
-      "disabled": true,
-      "settings": {
-        "collection": "eclat",
-        "products_to_show": 6,
-        "title": "Parure avec colliers ou bracelets Eclat",
-        "heading_size": "h1",
-        "description": "",
-        "show_description": false,
-        "description_style": "body",
-        "columns_desktop": 4,
-        "enable_desktop_slider": true,
-        "full_width": false,
-        "show_view_all": true,
-        "view_all_style": "solid",
-        "color_scheme": "",
-        "image_ratio": "adapt",
-        "image_shape": "default",
-        "show_secondary_image": true,
-        "show_vendor": false,
-        "show_rating": false,
-        "quick_add": "none",
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
     }
   },
   "order": [
@@ -391,8 +330,6 @@
     "image_with_text_BM8C77",
     "multicolumn_DLML7B",
     "image_with_text_3efGUF",
-    "image_with_text_WJAjgH",
-    "featured_collection_jH6HeN",
-    "featured_collection_jHnXd6"
+    "image_with_text_WJAjgH"
   ]
 }

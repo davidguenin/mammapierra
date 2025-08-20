@@ -1,51 +1,120 @@
 {% comment %}
-  Ce code utilise des blocs pour afficher un contenu différent par collection.
-  Tout est géré depuis l'éditeur de thème.
+  ** Section multi-blocs pour les pages de collection **
+  - Affiche un contenu différent par collection.
+  - Gère plusieurs types de blocs (Texte Riche, Multicolonne).
+  - Corrigé pour afficher l'aperçu dans l'éditeur de thème.
 {% endcomment %}
 
+<style>
+  .custom-multicolumn__title {
+    margin-bottom: 3rem;
+  }
+  .custom-multicolumn-card {
+    text-align: center;
+    background-color: transparent;
+  }
+  .custom-multicolumn-card__image-wrapper img {
+    border-radius: var(--media-border-radius);
+    box-shadow: var(--media-shadow-horizontal-offset) var(--media-shadow-vertical-offset)
+      var(--media-shadow-blur-radius) rgba(var(--color-shadow), var(--media-shadow-opacity));
+    margin-bottom: 2rem;
+  }
+  .custom-multicolumn-card .rte {
+    margin-top: 1rem;
+  }
+</style>
+
 {%- liquid
-  assign wysiwyg_content = ''
+  assign block_to_display = ''
   assign block_found = false
 
-  comment
-    On parcourt tous les blocs de la section.
-  endcomment
   for block in section.blocks
     comment
-      Si l'identifiant de la collection du bloc correspond à la collection actuelle,
-      on stocke son contenu et on arrête la boucle.
+      La condition est VRAIE si:
+      1. La collection du bloc correspond à la page actuelle (pour le site en ligne).
+      OU
+      2. Le bloc est actuellement sélectionné dans l'éditeur de thème (pour l'aperçu).
     endcomment
-    if block.settings.collection == collection.handle
-      assign wysiwyg_content = block.settings.content
+    if block.settings.collection == collection.handle or block.shopify_attributes
+      assign block_to_display = block
       assign block_found = true
       break
     endif
   endfor
 -%}
 
-{% comment %}
-  On affiche la section uniquement si un bloc correspondant a été trouvé
-  et que son contenu n'est pas vide.
-{% endcomment %}
-{%- if block_found and wysiwyg_content != blank -%}
+{%- if block_found -%}
   <div class="color-{{ section.settings.color_scheme }} gradient">
-    <div class="page-width section-{{ section.id }}-padding">
+    <div class="page-width section-{{ section.id }}-padding isolate">
       {%- if section.settings.heading != blank -%}
         <h2 class="title title-wrapper--no-top-margin inline-richtext h2 text-center">
           {{ section.settings.heading | escape }}
         </h2>
       {%- endif -%}
 
-      <div class="rte center">
-        {{ wysiwyg_content }}
-      </div>
+      {% comment %}
+        On affiche le bon HTML en fonction du type de bloc trouvé.
+      {% endcomment %}
+      {%- case block_to_display.type -%}
+        {%- when 'wysiwyg_block' -%}
+          {%- assign wysiwyg_content = block_to_display.settings.content -%}
+          {%- if wysiwyg_content != blank -%}
+            <div class="rte center">
+              {{ wysiwyg_content }}
+            </div>
+          {%- endif -%}
+
+        {%- when 'multicolumn_block' -%}
+          {%- assign multicolumn = block_to_display.settings -%}
+          <div class="custom-multicolumn">
+            {%- if multicolumn.title != blank -%}
+              <h2 class="custom-multicolumn__title title h2 text-center">
+                {{ multicolumn.title | escape }}
+              </h2>
+            {%- endif -%}
+            <div class="grid grid--{{ multicolumn.columns_per_row }}-col-tablet grid--1-col-mobile" role="list">
+              {%- for i in (1..4) -%}
+                {%- liquid
+                  assign col_image = multicolumn['image_col_' | append: i]
+                  assign col_title = multicolumn['title_col_' | append: i]
+                  assign col_text = multicolumn['text_col_' | append: i]
+                -%}
+                {%- if col_title != blank or col_text != blank or col_image != blank -%}
+                  <div class="grid__item" role="listitem">
+                    <div class="custom-multicolumn-card">
+                      {%- if col_image != blank -%}
+                        <div class="custom-multicolumn-card__image-wrapper">
+                          <img
+                            srcset="{{ col_image | image_url: width: 550 }} 550w, {{ col_image | image_url: width: 720 }} 720w"
+                            src="{{ col_image | image_url: width: 550 }}"
+                            sizes="(min-width: 750px) calc(100vw / {{ multicolumn.columns_per_row }}), 100vw"
+                            alt="{{ col_image.alt | escape }}"
+                            height="{{ col_image.height }}"
+                            width="{{ col_image.width }}"
+                            loading="lazy"
+                          >
+                        </div>
+                      {%- endif -%}
+                      {%- if col_title != blank -%}
+                        <h3>{{ col_title | escape }}</h3>
+                      {%- endif -%}
+                      {%- if col_text != blank -%}
+                        <div class="rte">{{ col_text }}</div>
+                      {%- endif -%}
+                    </div>
+                  </div>
+                {%- endif -%}
+              {%- endfor -%}
+            </div>
+          </div>
+      {%- endcase -%}
     </div>
   </div>
 {%- endif -%}
 
 {% schema %}
 {
-  "name": "WYSIWYG Collection",
+  "name": "Contenu Riche par Collection",
   "tag": "section",
   "class": "section",
   "settings": [
@@ -65,7 +134,7 @@
   "blocks": [
     {
       "type": "wysiwyg_block",
-      "name": "Bloc de Contenu",
+      "name": "Bloc de Contenu (Texte)",
       "settings": [
         {
           "type": "collection",
@@ -77,6 +146,116 @@
           "id": "content",
           "label": "Contenu personnalisé",
           "default": "<p>Ajoutez votre contenu personnalisé pour la collection sélectionnée ici.</p>"
+        }
+      ]
+    },
+    {
+      "type": "multicolumn_block",
+      "name": "Bloc Multicolonne",
+      "settings": [
+        {
+          "type": "collection",
+          "id": "collection",
+          "label": "Choisir la collection"
+        },
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Titre du bloc multicolonne",
+          "default": "Titre"
+        },
+        {
+          "type": "range",
+          "id": "columns_per_row",
+          "min": 2,
+          "max": 4,
+          "step": 1,
+          "label": "Colonnes par ligne",
+          "default": 3
+        },
+        {
+          "type": "header",
+          "content": "Colonne 1"
+        },
+        {
+          "type": "image_picker",
+          "id": "image_col_1",
+          "label": "Image"
+        },
+        {
+          "type": "text",
+          "id": "title_col_1",
+          "label": "Titre",
+          "default": "Colonne 1"
+        },
+        {
+          "type": "richtext",
+          "id": "text_col_1",
+          "label": "Texte",
+          "default": "<p>Parlez de votre colonne ici.</p>"
+        },
+        {
+          "type": "header",
+          "content": "Colonne 2"
+        },
+        {
+          "type": "image_picker",
+          "id": "image_col_2",
+          "label": "Image"
+        },
+        {
+          "type": "text",
+          "id": "title_col_2",
+          "label": "Titre",
+          "default": "Colonne 2"
+        },
+        {
+          "type": "richtext",
+          "id": "text_col_2",
+          "label": "Texte",
+          "default": "<p>Parlez de votre colonne ici.</p>"
+        },
+        {
+          "type": "header",
+          "content": "Colonne 3"
+        },
+        {
+          "type": "image_picker",
+          "id": "image_col_3",
+          "label": "Image"
+        },
+        {
+          "type": "text",
+          "id": "title_col_3",
+          "label": "Titre",
+          "default": "Colonne 3"
+        },
+        {
+          "type": "richtext",
+          "id": "text_col_3",
+          "label": "Texte",
+          "default": "<p>Parlez de votre colonne ici.</p>"
+        },
+        {
+          "type": "header",
+          "content": "Colonne 4"
+        },
+        {
+          "type": "image_picker",
+          "id": "image_col_4",
+          "label": "Image"
+        },
+        {
+          "type": "text",
+          "id": "title_col_4",
+          "label": "Titre",
+          "default": "Colonne 4"
+        },
+        {
+          "type": "richtext",
+          "id": "text_col_4",
+          "label": "Texte",
+          "default": "<p>Parlez de votre colonne ici.</p>"
         }
       ]
     }

@@ -67,89 +67,9 @@
         "padding_bottom": 36
       }
     },
-    "multicolumn_KFwpwi": {
-      "type": "multicolumn",
-      "blocks": {
-        "column_Jxb7UH": {
-          "type": "column",
-          "settings": {
-            "title": "<strong>Pierres 100% naturelles</strong>",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_wQkFMr": {
-          "type": "column",
-          "settings": {
-            "title": "<strong>Fait main en France</strong>",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_w8FiyG": {
-          "type": "column",
-          "settings": {
-            "title": "<strong>Livraison Offerte</strong>",
-            "text": "<h5><strong>à partir de 49€ en point relais</strong></h5>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_edDTR9": {
-          "type": "column",
-          "settings": {
-            "title": "<strong>Paiement sécurisé</strong>",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_YwepWc": {
-          "type": "column",
-          "settings": {
-            "title": "<strong>Satisfait ou Remboursé</strong>",
-            "text": "<h5><strong>Vous avez 14 jours pour changer d'avis et demander un échange ou remboursement</strong></h5>",
-            "link_label": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "column_Jxb7UH",
-        "column_wQkFMr",
-        "column_w8FiyG",
-        "column_edDTR9",
-        "column_YwepWc"
-      ],
-      "settings": {
-        "title": "",
-        "heading_size": "h1",
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "button_label": "",
-        "button_link": "",
-        "columns_desktop": 5,
-        "column_alignment": "center",
-        "background_style": "none",
-        "color_scheme": "scheme-2",
-        "columns_mobile": "1",
-        "swipe_on_mobile": true,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "image_with_text_BM8C77": {
       "type": "image-with-text",
       "blocks": {
-        "heading_D8nDqi": {
-          "type": "heading",
-          "settings": {
-            "heading": "{{ collection.metafields.custom.collection_pierre_titre_propriete_histoire.value }}",
-            "heading_size": "h2"
-          }
-        },
         "text_rx6NzH": {
           "type": "text",
           "settings": {
@@ -167,7 +87,6 @@
         }
       },
       "block_order": [
-        "heading_D8nDqi",
         "text_rx6NzH",
         "button_UBg6hC"
       ],
@@ -186,59 +105,9 @@
         "padding_bottom": 24
       }
     },
-    "multicolumn_DLML7B": {
-      "type": "multicolumn",
-      "blocks": {
-        "column_xriXbU": {
-          "type": "column",
-          "settings": {
-            "title": "{{ collection.metafields.custom.collection_pierre_titre_les_bienfaits_physiques_de_la_pierre.value }}",
-            "text": "{{ collection.metafields.custom.collection_pierre_les_bienfaits_physiques_de_la_pierre | metafield_tag }}",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_h7ydMm": {
-          "type": "column",
-          "settings": {
-            "title": "{{ collection.metafields.custom.collection_pierre_titre_vertus_spirituelles_et_emotionnelle.value }}",
-            "text": "{{ collection.metafields.custom.collection_pierre_vertus_spirituelles_et_emotionnelle_de_la_pier | metafield_tag }}",
-            "link_label": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "column_xriXbU",
-        "column_h7ydMm"
-      ],
-      "settings": {
-        "title": "",
-        "heading_size": "h2",
-        "image_width": "half",
-        "image_ratio": "portrait",
-        "button_label": "",
-        "button_link": "",
-        "columns_desktop": 2,
-        "column_alignment": "left",
-        "background_style": "none",
-        "color_scheme": "",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "image_with_text_3efGUF": {
       "type": "image-with-text",
       "blocks": {
-        "heading_DwjG6h": {
-          "type": "heading",
-          "settings": {
-            "heading": "{{ collection.metafields.custom.collection_pierre_titre_chakras.value }}",
-            "heading_size": "h2"
-          }
-        },
         "text_8hFTym": {
           "type": "text",
           "settings": {
@@ -256,7 +125,6 @@
         }
       },
       "block_order": [
-        "heading_DwjG6h",
         "text_8hFTym",
         "button_VjntEW"
       ],
@@ -278,13 +146,6 @@
     "image_with_text_WJAjgH": {
       "type": "image-with-text",
       "blocks": {
-        "heading_mcnDKj": {
-          "type": "heading",
-          "settings": {
-            "heading": "{{ collection.metafields.custom.collection_pierre_titre_astrologie.value }}",
-            "heading_size": "h2"
-          }
-        },
         "text_6CqmDT": {
           "type": "text",
           "settings": {
@@ -302,7 +163,6 @@
         }
       },
       "block_order": [
-        "heading_mcnDKj",
         "text_6CqmDT",
         "button_PzrbeA"
       ],
@@ -326,9 +186,7 @@
     "banner",
     "rich_text_YaGDMA",
     "product-grid",
-    "multicolumn_KFwpwi",
     "image_with_text_BM8C77",
-    "multicolumn_DLML7B",
     "image_with_text_3efGUF",
     "image_with_text_WJAjgH"
   ]

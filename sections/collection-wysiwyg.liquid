@@ -55,19 +55,22 @@
 
         {%- when 'multicolumn_block' -%}
           {%- assign multicolumn = block_to_display.settings -%}
+          {%- assign columns = multicolumn.columns_per_row | default: 3 -%}
           <div class="custom-multicolumn">
             {%- if multicolumn.title != blank -%}
               <h2 class="custom-multicolumn__title title h2 text-center">
                 {{ multicolumn.title | escape }}
               </h2>
             {%- endif -%}
-            <div class="grid grid--{{ multicolumn.columns_per_row }}-col-tablet grid--1-col-mobile" role="list">
+            <div class="grid grid--{{ columns }}-col-tablet grid--1-col-mobile" role="list">
               {%- for i in (1..4) -%}
-                {%- liquid
-                  assign col_image = multicolumn['image_col_' | append: i]
-                  assign col_title = multicolumn['title_col_' | append: i]
-                  assign col_text = multicolumn['text_col_' | append: i]
-                -%}
+                {%- assign image_id = 'image_col_' | append: i -%}
+                {%- assign title_id = 'title_col_' | append: i -%}
+                {%- assign text_id = 'text_col_' | append: i -%}
+                {%- assign col_image = multicolumn[image_id] -%}
+                {%- assign col_title = multicolumn[title_id] -%}
+                {%- assign col_text = multicolumn[text_id] -%}
+
                 {%- if col_title != blank or col_text != blank or col_image != blank -%}
                   <div class="grid__item" role="listitem">
                     <div class="custom-multicolumn-card">
@@ -76,7 +79,7 @@
                           <img
                             srcset="{{ col_image | image_url: width: 550 }} 550w, {{ col_image | image_url: width: 720 }} 720w"
                             src="{{ col_image | image_url: width: 550 }}"
-                            sizes="(min-width: 750px) calc(100vw / {{ multicolumn.columns_per_row }}), 100vw"
+                            sizes="(min-width: 750px) calc(100vw / {{ columns }}), 100vw"
                             alt="{{ col_image.alt | escape }}"
                             height="{{ col_image.height }}"
                             width="{{ col_image.width }}"
@@ -103,7 +106,7 @@
 
 {% schema %}
 {
-  "name": "Contenu Riche par Collection",
+  "name": "Extra Collection",
   "tag": "section",
   "class": "section",
   "settings": [

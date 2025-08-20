@@ -74,7 +74,7 @@
           "settings": {
             "heading": "Informations complémentaires",
             "icon": "star",
-            "content": "{{ product.metafields.custom.informations_complementaires | metafield_tag }}",
+            "content": "",
             "page": ""
           }
         },

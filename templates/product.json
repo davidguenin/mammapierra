@@ -73,7 +73,7 @@
           "settings": {
             "heading": "Informations complémentaires",
             "icon": "eye",
-            "content": "{{ product.metafields.custom.informations_complementaires | metafield_tag }}",
+            "content": "",
             "page": ""
           }
         },

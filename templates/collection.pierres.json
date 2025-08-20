@@ -17,36 +17,6 @@
         "color_scheme": "scheme-1"
       }
     },
-    "rich_text_YaGDMA": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_LKcAE4": {
-          "type": "heading",
-          "settings": {
-            "heading": "",
-            "heading_size": "h1"
-          }
-        },
-        "text_qcytyn": {
-          "type": "text",
-          "settings": {
-            "text": "<p>{{ collection.metafields.custom.collection_pierre_haut | metafield_tag }}</p>"
-          }
-        }
-      },
-      "block_order": [
-        "heading_LKcAE4",
-        "text_qcytyn"
-      ],
-      "settings": {
-        "desktop_content_position": "left",
-        "content_alignment": "left",
-        "color_scheme": "",
-        "full_width": true,
-        "padding_top": 8,
-        "padding_bottom": 4
-      }
-    },
     "product-grid": {
       "type": "main-collection-product-grid",
       "settings": {
@@ -70,7 +40,6 @@
   },
   "order": [
     "banner",
-    "rich_text_YaGDMA",
     "product-grid"
   ]
 }

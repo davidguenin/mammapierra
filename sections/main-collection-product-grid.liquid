@@ -22,6 +22,10 @@
   <script src="{{ 'quick-order-list.js' | asset_url }}" defer="defer"></script>
 {%- endif -%}
 
+{%- if section.settings.infinite_scroll -%}
+  <script src="{{ 'infinite-scroll.js' | asset_url }}" defer="defer"></script>
+{%- endif -%}
+
 {%- style -%}
   .section-{{ section.id }}-padding {
     padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
@@ -183,7 +187,14 @@
             </ul>
 
             {%- if paginate.pages > 1 -%}
-              {% render 'pagination', paginate: paginate, anchor: '' %}
+              {%- if section.settings.infinite_scroll -%}
+                <div class="infinite-scroll-trigger" data-next-url="{{ paginate.next.url }}"></div>
+                <div class="infinite-scroll-loading" style="display: none;">
+                  {%- render 'loading-spinner' -%}
+                </div>
+              {%- else -%}
+                {% render 'pagination', paginate: paginate, anchor: '' %}
+              {%- endif -%}
             {%- endif -%}
           </div>
         {%- endif -%}
@@ -233,7 +244,7 @@
           "label": "t:sections.main-collection-product-grid.settings.columns_mobile.options__2.label"
         }
       ]
-    },    
+    },
     {
       "type": "color_scheme",
       "id": "color_scheme",
@@ -343,6 +354,12 @@
           "label": "t:sections.main-collection-product-grid.settings.quick_add.options.option_3"
         }
       ]
+    },
+    {
+      "type": "checkbox",
+      "id": "infinite_scroll",
+      "default": false,
+      "label": "t:sections.main-collection-product-grid.settings.infinite_scroll.label"
     },
     {
       "type": "header",

@@ -13,7 +13,55 @@
       "type": "hero-collection",
       "name": "Hero Collection",
       "settings": {
-        "color_bg": "#deffa9"
+        "color_bg": "#7199ff"
+      }
+    },
+    "collection_list_BTjDMi": {
+      "type": "collection-list",
+      "blocks": {
+        "featured_collection_dzHGBe": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": ""
+          }
+        },
+        "featured_collection_LH8fa7": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": ""
+          }
+        },
+        "featured_collection_UzxLMd": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": ""
+          }
+        },
+        "featured_collection_fKQCik": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": ""
+          }
+        }
+      },
+      "block_order": [
+        "featured_collection_dzHGBe",
+        "featured_collection_LH8fa7",
+        "featured_collection_UzxLMd",
+        "featured_collection_fKQCik"
+      ],
+      "name": "t:sections.collection-list.presets.name",
+      "settings": {
+        "title": "",
+        "heading_size": "h2",
+        "image_ratio": "square",
+        "columns_desktop": 4,
+        "color_scheme": "",
+        "show_view_all": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "banner": {
@@ -90,6 +138,7 @@
   "order": [
     "hero_collection_VWLeFF",
     "banner",
+    "collection_list_BTjDMi",
     "product-grid",
     "collection_list_P3jKFy"
   ]

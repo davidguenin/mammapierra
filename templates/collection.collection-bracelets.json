@@ -21,7 +21,9 @@
       "settings": {
         "show_collection_description": true,
         "show_collection_image": false,
-        "color_scheme": "scheme-1"
+        "color_scheme": "scheme-1",
+        "banner_bg_color": "#317676",
+        "banner_text_color": "#f3e7da"
       }
     },
     "product-grid": {
@@ -37,6 +39,7 @@
         "show_vendor": false,
         "show_rating": false,
         "quick_add": "none",
+        "pagination_type": "pagination",
         "enable_filtering": true,
         "filter_type": "horizontal",
         "enable_sorting": true,

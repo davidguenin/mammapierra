@@ -21,7 +21,9 @@
       "settings": {
         "show_collection_description": true,
         "show_collection_image": false,
-        "color_scheme": "scheme-1"
+        "color_scheme": "scheme-1",
+        "banner_bg_color": "#18ca23",
+        "banner_text_color": "#ffffff"
       }
     },
     "collection_list_BTjDMi": {

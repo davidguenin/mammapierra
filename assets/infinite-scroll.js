@@ -1,45 +1,45 @@
 class InfiniteScroll {
   constructor() {
-    this.button = document.querySelector('.infinite-scroll-button');
-    this.trigger = document.querySelector('.infinite-scroll-trigger');
+    this.container = document.querySelector('[data-pagination-container]');
+    if (!this.container) return;
 
-    if (this.button) {
-      this.button.addEventListener('click', this.loadMoreProducts.bind(this));
-    } else if (this.trigger) {
-      this.observer = new IntersectionObserver(this.handleIntersect.bind(this), {
-        rootMargin: '0px 0px 200px 0px',
-      });
-      this.observer.observe(this.trigger);
-    } else {
-      return;
+    this.paginationType = this.container.dataset.paginationType;
+    this.productGrid = this.container.querySelector('#product-grid');
+    this.loading = this.container.querySelector('.infinite-scroll-loading');
+
+    if (this.paginationType === 'load_more') {
+      this.button = this.container.querySelector('.infinite-scroll-button');
+      if (this.button) {
+        this.button.addEventListener('click', this.loadMoreProducts.bind(this));
+      }
+    } else if (this.paginationType === 'infinite') {
+      this.setupIntersectionObserver();
     }
-
-    this.loading = document.querySelector('.infinite-scroll-loading');
-    this.productGrid = document.querySelector('#product-grid');
   }
 
-  handleIntersect(entries) {
-    entries.forEach((entry) => {
-      if (entry.isIntersecting) {
-        this.loadMoreProducts();
-      }
-    });
+  setupIntersectionObserver() {
+    const lastProduct = this.productGrid.querySelector('.grid__item:last-child');
+    if (!lastProduct) return;
+
+    this.observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            this.observer.unobserve(lastProduct);
+            this.loadMoreProducts();
+          }
+        });
+      },
+      { rootMargin: '0px 0px 400px 0px' }
+    );
+
+    this.observer.observe(lastProduct);
   }
 
   loadMoreProducts() {
-    let url;
-    if (this.button) {
-      url = this.button.dataset.nextUrl;
-    } else if (this.trigger) {
-      url = this.trigger.dataset.nextUrl;
-    }
-
+    let url = this.container.dataset.nextUrl;
     if (!url) {
       if (this.button) this.button.remove();
-      if (this.trigger) {
-        this.observer.unobserve(this.trigger);
-        this.trigger.remove();
-      }
       return;
     }
 
@@ -50,35 +50,32 @@ class InfiniteScroll {
       .then((response) => response.text())
       .then((text) => {
         const html = new DOMParser().parseFromString(text, 'text/html');
-        const newProducts = html.querySelectorAll('#product-grid > .grid__item');
-        const newTrigger = html.querySelector('.infinite-scroll-trigger');
-        const newButton = html.querySelector('.infinite-scroll-button');
+        const newGrid = html.querySelector('#product-grid');
+        const newProducts = newGrid.querySelectorAll('.grid__item');
+        const newContainer = html.querySelector('[data-pagination-container]');
 
         newProducts.forEach((product) => {
           this.productGrid.appendChild(product);
         });
 
-        if (this.button) {
-          if (newButton && newButton.dataset.nextUrl) {
-            this.button.dataset.nextUrl = newButton.dataset.nextUrl;
-            this.button.style.display = '';
-          } else {
-            this.button.remove();
-          }
-        }
-
-        if (this.trigger) {
-          if (newTrigger && newTrigger.dataset.nextUrl) {
-            this.trigger.dataset.nextUrl = newTrigger.dataset.nextUrl;
-          } else {
-            if (this.trigger) {
-              this.observer.unobserve(this.trigger);
-              this.trigger.remove();
-            }
-          }
+        if (newContainer && newContainer.dataset.nextUrl) {
+          this.container.dataset.nextUrl = newContainer.dataset.nextUrl;
+        } else {
+          this.container.removeAttribute('data-next-url');
+          if (this.button) this.button.remove();
         }
 
         this.hideLoading();
+
+        if (this.button) {
+          if (this.container.hasAttribute('data-next-url')) {
+            this.button.style.display = '';
+          }
+        } else if (this.paginationType === 'infinite') {
+          if (this.container.hasAttribute('data-next-url')) {
+            this.setupIntersectionObserver();
+          }
+        }
       })
       .catch((error) => {
         console.error('Error loading more products:', error);

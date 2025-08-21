@@ -187,23 +187,31 @@
             </ul>
 
             {%- if paginate.pages > 1 -%}
-              {%- if section.settings.pagination_type == 'infinite' -%}
-                <div class="infinite-scroll-trigger" data-next-url="{{ paginate.next.url }}" style="height: 1px;"></div>
-                <div class="infinite-scroll-loading" style="display: none;">
-                  {%- render 'loading-spinner' -%}
-                </div>
-              {%- elsif section.settings.pagination_type == 'load_more' -%}
-                <div class="load-more-button-container" style="text-align: center; margin-top: 20px;">
-                  <button class="button infinite-scroll-button" data-next-url="{{ paginate.next.url }}">
-                    {{ 'sections.main-collection-product-grid.load_more' | t }}
-                  </button>
-                </div>
-                <div class="infinite-scroll-loading" style="display: none; text-align: center; margin-top: 20px;">
-                  {%- render 'loading-spinner' -%}
-                </div>
-              {%- else -%}
-                {% render 'pagination', paginate: paginate, anchor: '' %}
-              {%- endif -%}
+              <div
+                class="pagination-wrapper"
+                data-pagination-container
+                data-pagination-type="{{ section.settings.pagination_type }}"
+                {% if paginate.next.url %}
+                  data-next-url="{{ paginate.next.url }}"
+                {% endif %}
+              >
+                {%- if section.settings.pagination_type == 'infinite' -%}
+                  <div class="infinite-scroll-loading" style="display: none; text-align: center;">
+                    {%- render 'loading-spinner' -%}
+                  </div>
+                {%- elsif section.settings.pagination_type == 'load_more' -%}
+                  <div class="load-more-button-container" style="text-align: center; margin-top: 20px;">
+                    <button class="button infinite-scroll-button">
+                      {{ 'sections.main-collection-product-grid.load_more' | t }}
+                    </button>
+                  </div>
+                  <div class="infinite-scroll-loading" style="display: none; text-align: center; margin-top: 20px;">
+                    {%- render 'loading-spinner' -%}
+                  </div>
+                {%- else -%}
+                  {% render 'pagination', paginate: paginate, anchor: '' %}
+                {%- endif -%}
+              </div>
             {%- endif -%}
           </div>
         {%- endif -%}

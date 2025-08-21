@@ -60,7 +60,7 @@
       ],
       "custom_css": [
         ".card__inner {height: 150px;}",
-        "a{text-align: center; font-size: 1.3rem;}"
+        "a {text-align: center; font-size: 1.3rem;}"
       ],
       "name": "t:sections.collection-list.presets.name",
       "settings": {
@@ -73,7 +73,7 @@
         "columns_mobile": "1",
         "swipe_on_mobile": false,
         "padding_top": 36,
-        "padding_bottom": 36
+        "padding_bottom": 20
       }
     },
     "product-grid": {

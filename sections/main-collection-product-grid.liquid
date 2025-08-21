@@ -188,7 +188,7 @@
 
             {%- if paginate.pages > 1 -%}
               {%- if section.settings.pagination_type == 'infinite' -%}
-                <div class="infinite-scroll-trigger" data-next-url="{{ paginate.next.url }}"></div>
+                <div class="infinite-scroll-trigger" data-next-url="{{ paginate.next.url }}" style="height: 1px;"></div>
                 <div class="infinite-scroll-loading" style="display: none;">
                   {%- render 'loading-spinner' -%}
                 </div>

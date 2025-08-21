@@ -16,6 +16,14 @@
         "color_bg": "#7199ff"
       }
     },
+    "banner": {
+      "type": "main-collection-banner",
+      "settings": {
+        "show_collection_description": true,
+        "show_collection_image": false,
+        "color_scheme": "scheme-1"
+      }
+    },
     "collection_list_BTjDMi": {
       "type": "collection-list",
       "blocks": {
@@ -50,6 +58,9 @@
         "featured_collection_UzxLMd",
         "featured_collection_fKQCik"
       ],
+      "custom_css": [
+        ".card__inner{height: 150px}"
+      ],
       "name": "t:sections.collection-list.presets.name",
       "settings": {
         "title": "",
@@ -62,14 +73,6 @@
         "swipe_on_mobile": false,
         "padding_top": 36,
         "padding_bottom": 36
-      }
-    },
-    "banner": {
-      "type": "main-collection-banner",
-      "settings": {
-        "show_collection_description": true,
-        "show_collection_image": false,
-        "color_scheme": "scheme-1"
       }
     },
     "product-grid": {

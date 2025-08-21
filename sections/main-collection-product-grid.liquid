@@ -22,7 +22,7 @@
   <script src="{{ 'quick-order-list.js' | asset_url }}" defer="defer"></script>
 {%- endif -%}
 
-{%- if section.settings.infinite_scroll -%}
+{%- if section.settings.pagination_type != 'pagination' -%}
   <script src="{{ 'infinite-scroll.js' | asset_url }}" defer="defer"></script>
 {%- endif -%}
 

@@ -51,10 +51,14 @@
 }
 
 h1.collection-hero__title {
-  font-size: 3.5rem;
+  font-size: 2.75rem;
   margin: 1.5rem 0;
   text-transform: uppercase;
   font-weight: 700;
+}
+
+.collection-hero__description {
+  display: none;
 }
 
 .collection-hero {

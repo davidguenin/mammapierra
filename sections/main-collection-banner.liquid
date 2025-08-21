@@ -2,11 +2,6 @@
 {{ 'component-collection-hero.css' | asset_url | stylesheet_tag }}
 
 {%- style -%}
-  .section-{{ section.id }} .collection-hero__title,
-  .section-{{ section.id }} .collection-hero__description {
-    color: {{ section.settings.banner_text_color }} !important;
-  }
-
   @media screen and (max-width: 749px) {
     .collection-hero--with-image .collection-hero__inner {
       padding-bottom: calc({{settings.media_shadow_vertical_offset | at_least: 0}}px + 2rem);
@@ -20,13 +15,15 @@
 >
   <div class="collection-hero__inner page-width {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}">
     <div class="collection-hero__text-wrapper">
-      <h1 class="collection-hero__title">
+      <h1 class="collection-hero__title" style="color: {{ section.settings.banner_text_color }};">
         <span class="visually-hidden">{{ 'sections.collection_template.title' | t }}: </span>
         {{- collection.title | escape -}}
       </h1>
 
       {%- if section.settings.show_collection_description -%}
-        <div class="collection-hero__description rte">{{ collection.description }}</div>
+        <div class="collection-hero__description rte" style="color: {{ section.settings.banner_text_color }};">
+          {{ collection.description }}
+        </div>
       {%- endif -%}
     </div>
 

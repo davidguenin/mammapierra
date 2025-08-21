@@ -61,7 +61,7 @@ class InfiniteScroll {
         if (this.button) {
           if (newButton && newButton.dataset.nextUrl) {
             this.button.dataset.nextUrl = newButton.dataset.nextUrl;
-            this.button.style.display = 'block';
+            this.button.style.display = '';
           } else {
             this.button.remove();
           }
@@ -83,7 +83,7 @@ class InfiniteScroll {
       .catch((error) => {
         console.error('Error loading more products:', error);
         this.hideLoading();
-        if (this.button) this.button.style.display = 'block';
+        if (this.button) this.button.style.display = '';
       });
   }
 

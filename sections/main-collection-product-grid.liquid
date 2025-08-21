@@ -193,7 +193,6 @@
                   {%- render 'loading-spinner' -%}
                 </div>
               {%- elsif section.settings.pagination_type == 'load_more' -%}
-                <div class="infinite-scroll-trigger"></div>
                 <div class="load-more-button-container" style="text-align: center; margin-top: 20px;">
                   <button class="button infinite-scroll-button" data-next-url="{{ paginate.next.url }}">
                     {{ 'sections.main-collection-product-grid.load_more' | t }}

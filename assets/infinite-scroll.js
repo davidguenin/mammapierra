@@ -4,7 +4,7 @@ class InfiniteScroll {
     if (!this.container) return;
 
     this.paginationType = this.container.dataset.paginationType;
-    this.productGrid = this.container.querySelector('#product-grid');
+    this.productGrid = document.querySelector('#product-grid');
     this.loading = this.container.querySelector('.infinite-scroll-loading');
 
     if (this.paginationType === 'load_more') {

@@ -1,50 +1,40 @@
 class InfiniteScroll {
   constructor() {
-    this.trigger = document.querySelector('.infinite-scroll-trigger');
-    if (!this.trigger) return;
+    this.button = document.querySelector('.infinite-scroll-button');
+    if (!this.button) return;
 
     this.loading = document.querySelector('.infinite-scroll-loading');
     this.productGrid = document.querySelector('#product-grid');
-    this.observer = new IntersectionObserver(this.handleIntersect.bind(this), {
-      rootMargin: '0px 0px 200px 0px',
-    });
-    this.observer.observe(this.trigger);
-  }
 
-  handleIntersect(entries) {
-    entries.forEach((entry) => {
-      if (entry.isIntersecting) {
-        this.loadMoreProducts();
-      }
-    });
+    this.button.addEventListener('click', this.loadMoreProducts.bind(this));
   }
 
   loadMoreProducts() {
-    const nextUrl = this.trigger.dataset.nextUrl;
+    const nextUrl = this.button.dataset.nextUrl;
     if (!nextUrl) {
-      this.observer.unobserve(this.trigger);
-      this.trigger.remove();
+      this.button.remove();
       return;
     }
 
     this.showLoading();
+    this.button.style.display = 'none';
 
     fetch(nextUrl)
       .then((response) => response.text())
       .then((text) => {
         const html = new DOMParser().parseFromString(text, 'text/html');
         const newProducts = html.querySelectorAll('#product-grid > .grid__item');
-        const newTrigger = html.querySelector('.infinite-scroll-trigger');
+        const newButton = html.querySelector('.infinite-scroll-button');
 
         newProducts.forEach((product) => {
           this.productGrid.appendChild(product);
         });
 
-        if (newTrigger && newTrigger.dataset.nextUrl) {
-          this.trigger.dataset.nextUrl = newTrigger.dataset.nextUrl;
+        if (newButton && newButton.dataset.nextUrl) {
+          this.button.dataset.nextUrl = newButton.dataset.nextUrl;
+          this.button.style.display = 'block';
         } else {
-          this.trigger.remove();
-          this.observer.unobserve(this.trigger);
+          this.button.remove();
         }
 
         this.hideLoading();
@@ -52,6 +42,7 @@ class InfiniteScroll {
       .catch((error) => {
         console.error('Error loading more products:', error);
         this.hideLoading();
+        this.button.style.display = 'block';
       });
   }
 

@@ -344,10 +344,16 @@
     },
     "main-collection-product-grid": {
       "settings": {
-        "infinite_scroll": {
-          "label": "Enable infinite scroll"
+        "pagination_type": {
+          "label": "Pagination type",
+          "options": {
+            "pagination": "Pagination",
+            "infinite": "Infinite scroll",
+            "load_more": "Load more button"
+          }
         }
-      }
+      },
+      "load_more": "Load more"
     },
     "video": {
       "load_video": "Load video: {{ description }}"

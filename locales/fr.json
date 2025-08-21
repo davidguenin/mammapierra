@@ -346,10 +346,16 @@
     },
     "main-collection-product-grid": {
       "settings": {
-        "infinite_scroll": {
-          "label": "Activer le défilement infini"
+        "pagination_type": {
+          "label": "Type de pagination",
+          "options": {
+            "pagination": "Pagination",
+            "infinite": "Défilement infini",
+            "load_more": "Bouton 'Charger plus'"
+          }
         }
-      }
+      },
+      "load_more": "Charger plus"
     },
     "video": {
       "load_video": "Charger la vidéo : {{ description }}"

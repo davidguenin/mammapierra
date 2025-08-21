@@ -13,7 +13,7 @@
       "type": "hero-collection",
       "name": "Hero Collection",
       "settings": {
-        "color_bg": "#1f42bc"
+        "color_bg": "#2744a9"
       }
     },
     "banner": {
@@ -22,8 +22,8 @@
         "show_collection_description": true,
         "show_collection_image": false,
         "color_scheme": "scheme-1",
-        "banner_bg_color": "#274ac4",
-        "banner_text_color": "#df8282"
+        "banner_bg_color": "#2e4db9",
+        "banner_text_color": "#e6b0b0"
       }
     },
     "collection_list_BTjDMi": {

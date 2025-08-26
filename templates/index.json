@@ -160,9 +160,9 @@
       "type": "featured-collection",
       "name": "Nouveauté",
       "settings": {
-        "collection": "colliers",
+        "collection": "frontpage",
         "products_to_show": 4,
-        "title": "<strong>Les classiques</strong>",
+        "title": "<strong>Les Bestsellers</strong>",
         "heading_size": "h2",
         "description": "",
         "show_description": false,
@@ -213,7 +213,7 @@
           "settings": {
             "image": "shopify://shop_images/03.svg",
             "title": "<strong>Livraison Offerte</strong>",
-            "text": "",
+            "text": "<h6>dès 49€ en point relais</h6>",
             "link_label": "",
             "link": ""
           }
@@ -222,8 +222,8 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/01.svg",
-            "title": "<strong>Paiement sécurisé</strong>",
-            "text": "",
+            "title": "<strong>Satisfait ou remboursé</strong>",
+            "text": "<h6>14 jours pour changer d’avis et demander un échange ou remboursement</h6>",
             "link_label": "",
             "link": ""
           }

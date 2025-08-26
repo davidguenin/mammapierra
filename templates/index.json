@@ -52,7 +52,7 @@
             "title": "Bracelets",
             "text": "",
             "link_label": "Voir nos bracelets",
-            "link": "shopify://collections/agate"
+            "link": "shopify://collections/bracelet"
           }
         },
         "column_yGMGaf": {
@@ -62,7 +62,7 @@
             "title": "Colliers",
             "text": "",
             "link_label": "Voir nos colliers",
-            "link": ""
+            "link": "shopify://collections/colliers"
           }
         },
         "column_HFXWBG": {
@@ -72,7 +72,7 @@
             "title": "Pendentifs",
             "text": "",
             "link_label": "Voir nos pendentifs",
-            "link": ""
+            "link": "shopify://collections/pendentif"
           }
         }
       },

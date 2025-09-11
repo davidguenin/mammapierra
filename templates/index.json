@@ -12,12 +12,12 @@
     "hero_big": {
       "type": "hero-big",
       "settings": {
-        "hero_image": "shopify://shop_images/Gemini_Generated_Image_q06eopq06eopq06e.png",
-        "border_color": "#ffdf78",
+        "hero_image": "shopify://shop_images/Gemini_Generated_Image_i65zxbi65zxbi65z.png",
+        "border_color": "#0a1b56",
         "hero_title": "Les perles de l'été et de la mer",
         "hero_link": "",
         "hero_button_text": "Découvrir la collection",
-        "hero_title_color": "#efffcf"
+        "hero_title_color": "#240971"
       }
     },
     "featured_collection_qmFN7F": {

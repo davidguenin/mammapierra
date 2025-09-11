@@ -12,7 +12,13 @@
           {% endif %}
         >
           <div>
-            <h2>{{ section.settings.hero_title | default: "Les perles de l'été et de la mer" }}</h2>
+            <h2
+              {% if section.settings.hero_title_color %}
+                style="color: {{ section.settings.hero_title_color }};"
+              {% endif %}
+            >
+              {{ section.settings.hero_title | default: "Les perles de l'été et de la mer" }}
+            </h2>
             <a
               href="{{ section.settings.hero_link | default: '#' }}"
               class="bulma-button bulma-is-white bulma-is-outlined"
@@ -85,6 +91,11 @@
       "id": "hero_button_text",
       "label": "Texte du bouton",
       "default": "Découvrir la collection"
+    },
+    {
+      "type": "color",
+      "id": "hero_title_color",
+      "label": "Couleur du titre"
     }
   ],
   "presets": [

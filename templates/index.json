@@ -11,7 +11,10 @@
   "sections": {
     "hero_big": {
       "type": "hero-big",
-      "settings": {}
+      "settings": {
+        "hero_image": "shopify://shop_images/Gemini_Generated_Image_q06eopq06eopq06e.png",
+        "border_color": "#ffdf78"
+      }
     },
     "featured_collection_qmFN7F": {
       "type": "featured-collection",

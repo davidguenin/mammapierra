@@ -5,7 +5,12 @@
   <div>
     <div class="bulma-columns bulma-is-gapless">
       <div class="bulma-column bulma-is-half">
-        <div class="hero-main-right bulma-is-flex bulma-is-flex-direction-column bulma-is-justify-content-flex-end bulma-has-text-centered">
+        <div
+          class="hero-main-left bulma-is-flex bulma-is-flex-direction-column bulma-is-justify-content-flex-end bulma-has-text-centered"
+          {% if section.settings.hero_image %}
+            style="background-image: url('{{ section.settings.hero_image | image_url: width: 1200 }}'); background-size: cover; background-position: center;"
+          {% endif %}
+        >
           <div>
             <h2>Les perles de l'été et de la mer</h2>
             <a href="" class="bulma-button bulma-is-white">Découvrir la collection</a>
@@ -13,9 +18,20 @@
         </div>
       </div>
       <div class="bulma-column bulma-is-half">
-        <div class="hero-main-left bulma-is-flex bulma-is-flex-direction-column	bulma-is-justify-content-center	">
-          <div>
-            <div class="hero-main-left-big-img"><div></div></div>
+        <div
+          class="hero-main-right bulma-is-flex bulma-is-flex-direction-column	bulma-is-justify-content-center"
+          {% if section.settings.hero_image_right %}
+            style="background-image: url('{{ section.settings.hero_image_right | image_url: width: 1200 }}'); background-size: cover; background-position: center;"
+          {% endif %}
+        >
+          <div
+            class="hero-main-right-big-img"
+            style="
+              {% if section.settings.hero_image_right_big %}background-image: url('{{ section.settings.hero_image_right_big | image_url: width: 1200 }}'); background-size: cover; background-position: center;{% endif %}
+              {% if section.settings.border_color %}border: 5px solid {{ section.settings.border_color }};{% endif %}
+            "
+          >
+            <div></div>
           </div>
         </div>
       </div>
@@ -27,6 +43,28 @@
 {
   "name": "Hero Big",
   "tag": "section",
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "hero_image",
+      "label": "Image Gauche"
+    },
+    {
+      "type": "image_picker",
+      "id": "hero_image_right",
+      "label": "Image Droite (Parent)"
+    },
+    {
+      "type": "image_picker",
+      "id": "hero_image_right_big",
+      "label": "Image Droite (Enfant)"
+    },
+    {
+      "type": "color",
+      "id": "border_color",
+      "label": "Couleur de la bordure"
+    }
+  ],
   "presets": [
     {
       "name": "Hero Big"

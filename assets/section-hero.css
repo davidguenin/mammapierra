@@ -2,13 +2,13 @@
   background: #f2eee9;
 }
 
-.hero-main-left {
+.hero-main-right {
   height: 575px;
   padding: 50px;
   background: #0d65ac;
 }
 
-.hero-main-left-big-img {
+.hero-main-right-big-img {
   max-width: 450px;
   height: 450px;
   margin: auto;
@@ -16,13 +16,13 @@
   border: 15px solid #ffe4bf;
 }
 
-.hero-main-right {
+.hero-main-left {
   height: 575px;
   padding: 35px;
   background: #005c5b;
 }
 
-.hero-main-right h2 {
+.hero-main-left h2 {
   color: #d6e3b7;
 }
 

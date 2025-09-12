@@ -101,56 +101,6 @@
         "padding_bottom": 36
       }
     },
-    "image_banner_RHJ3mB": {
-      "type": "image-banner",
-      "blocks": {
-        "heading_jqf4Gp": {
-          "type": "heading",
-          "settings": {
-            "heading": "Bannière avec image",
-            "heading_size": "h1"
-          }
-        },
-        "text_iJAiCX": {
-          "type": "text",
-          "settings": {
-            "text": "Fournissez des détails à votre clientèle sur l’image/les images ou le contenu de la bannière du modèle.",
-            "text_style": "body"
-          }
-        },
-        "buttons_kwA9Ln": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "Texte du bouton",
-            "button_link_1": "",
-            "button_style_secondary_1": false,
-            "button_label_2": "Texte du bouton",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "heading_jqf4Gp",
-        "text_iJAiCX",
-        "buttons_kwA9Ln"
-      ],
-      "name": "t:sections.image-banner.presets.name",
-      "settings": {
-        "image": "shopify://shop_images/q72nh5w2anrma0cs7n3t93d63c.png",
-        "image_2": "shopify://shop_images/q72nh5w2anrma0cs7n3t93d63c.png",
-        "image_overlay_opacity": 0,
-        "image_height": "large",
-        "image_behavior": "none",
-        "desktop_content_position": "middle-center",
-        "desktop_content_alignment": "center",
-        "show_text_box": true,
-        "color_scheme": "",
-        "stack_images_on_mobile": true,
-        "mobile_content_alignment": "center",
-        "show_text_below": true
-      }
-    },
     "featured_collection_Rt3LhW": {
       "type": "featured-collection",
       "name": "t:sections.featured-collection.presets.name",
@@ -363,9 +313,8 @@
     "hero_big",
     "featured_collection_qmFN7F",
     "collage_9bqxVg",
-    "image_banner_RHJ3mB",
-    "featured_collection_Rt3LhW",
     "multicolumn_JfeLQL",
+    "featured_collection_Rt3LhW",
     "image_banner_jFzkYD",
     "multicolumn"
   ]

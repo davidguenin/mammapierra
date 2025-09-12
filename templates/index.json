@@ -53,63 +53,9 @@
         "padding_bottom": 36
       }
     },
-    "collage_akY3DY": {
-      "type": "collage",
-      "blocks": {
-        "image_Pti6ew": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/q72nh5w2anrma0cs7n3t93d63c.png"
-          }
-        },
-        "product_VKQdUk": {
-          "type": "product",
-          "settings": {
-            "product": "collier-aigue-marine-eclat",
-            "second_image": false
-          }
-        },
-        "product_NhpmDU": {
-          "type": "product",
-          "settings": {
-            "product": "collier-aigue-marine-eclat",
-            "second_image": false
-          }
-        }
-      },
-      "block_order": [
-        "image_Pti6ew",
-        "product_VKQdUk",
-        "product_NhpmDU"
-      ],
-      "custom_css": [
-        ".collage__item--left:nth-child(3n-2) {grid-column: 1; grid-row: 1;}",
-        ".collage__item--left:nth-child(3n-1),.collage__item--left:nth-child(3n) {grid-column-start: initial;}",
-        ".card-wrapper .card__media {aspect-ratio: 3 / 4;}",
-        ".card__media .media img {height: 100%; object-fit: cover;}",
-        ".card__inner.color-scheme-2.gradient.ratio {--ratio-percent: 133.33% !important;}"
-      ],
-      "name": "t:sections.collage.presets.name",
-      "settings": {
-        "heading": "",
-        "heading_size": "h2",
-        "desktop_layout": "left",
-        "mobile_layout": "column",
-        "card_styles": "product-card-wrapper",
-        "color_scheme": "",
-        "padding_top": 0,
-        "padding_bottom": 36
-      }
-    },
     "collage_9bqxVg": {
       "type": "collage",
       "blocks": {
-        "image_GABCdA": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/q72nh5w2anrma0cs7n3t93d63c.png"
-          }
-        },
         "product_qnmD8e": {
           "type": "product",
           "settings": {
@@ -123,16 +69,22 @@
             "product": "collier-aigue-marine-eclat",
             "second_image": false
           }
+        },
+        "image_GABCdA": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/q72nh5w2anrma0cs7n3t93d63c.png"
+          }
         }
       },
       "block_order": [
-        "image_GABCdA",
         "product_qnmD8e",
-        "product_X4AcgM"
+        "product_X4AcgM",
+        "image_GABCdA"
       ],
       "custom_css": [
-        ".collage__item--left:nth-child(3n) {grid-column: 1; grid-row: 1;}",
-        ".collage__item--left:nth-child(3n-2),.collage__item--left:nth-child(3n-1) {grid-column-start: initial;}",
+        ".collage__item--left:nth-child(3n-2) {grid-column: 1; grid-row: 1;}",
+        ".collage__item--left:nth-child(3n-1),.collage__item--left:nth-child(3n) {grid-column-start: initial;}",
         ".card-wrapper .card__media {aspect-ratio: 3 / 4;}",
         ".card__media .media img {height: 100%; object-fit: cover;}",
         ".card__inner.color-scheme-2.gradient.ratio {--ratio-percent: 133.33% !important;}"
@@ -142,6 +94,54 @@
         "heading": "",
         "heading_size": "h2",
         "desktop_layout": "right",
+        "mobile_layout": "column",
+        "card_styles": "product-card-wrapper",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "collage_akY3DY": {
+      "type": "collage",
+      "blocks": {
+        "product_VKQdUk": {
+          "type": "product",
+          "settings": {
+            "product": "collier-aigue-marine-eclat",
+            "second_image": false
+          }
+        },
+        "product_NhpmDU": {
+          "type": "product",
+          "settings": {
+            "product": "collier-aigue-marine-eclat",
+            "second_image": false
+          }
+        },
+        "image_Pti6ew": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/q72nh5w2anrma0cs7n3t93d63c.png"
+          }
+        }
+      },
+      "block_order": [
+        "product_VKQdUk",
+        "product_NhpmDU",
+        "image_Pti6ew"
+      ],
+      "custom_css": [
+        ".collage__item--left:nth-child(3n-2) {grid-column: 1; grid-row: 1;}",
+        ".collage__item--left:nth-child(3n-1),.collage__item--left:nth-child(3n) {grid-column-start: initial;}",
+        ".card-wrapper .card__media {aspect-ratio: 3 / 4;}",
+        ".card__media .media img {height: 100%; object-fit: cover;}",
+        ".card__inner.color-scheme-2.gradient.ratio {--ratio-percent: 133.33% !important;}"
+      ],
+      "name": "t:sections.collage.presets.name",
+      "settings": {
+        "heading": "",
+        "heading_size": "h2",
+        "desktop_layout": "left",
         "mobile_layout": "column",
         "card_styles": "product-card-wrapper",
         "color_scheme": "",
@@ -303,8 +303,8 @@
   "order": [
     "hero_big",
     "featured_collection_qmFN7F",
-    "collage_akY3DY",
     "collage_9bqxVg",
+    "collage_akY3DY",
     "featured_collection_Rt3LhW",
     "image_banner_jFzkYD",
     "multicolumn"

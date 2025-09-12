@@ -88,8 +88,8 @@
         "buttons_NBz8Ug"
       ],
       "custom_css": [
-        ".banner {max-width: 3200px; margin: auto;}",
-        ".banner__box{display: none;}"
+        ".banner {max-width: 1300px; margin: auto;}",
+        ".banner__box {display: none;}"
       ],
       "name": "t:sections.image-banner.presets.name",
       "settings": {

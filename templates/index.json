@@ -142,7 +142,7 @@
         "heading": "",
         "heading_size": "h2",
         "desktop_layout": "left",
-        "mobile_layout": "collage",
+        "mobile_layout": "column",
         "card_styles": "product-card-wrapper",
         "color_scheme": "",
         "padding_top": 0,

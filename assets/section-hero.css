@@ -23,7 +23,8 @@
   background: #005c5b;
 }
 
-.hero-main-left h2 {
+.hero-main h2 {
+  font-weight: bold;
   text-transform: uppercase;
 }
 

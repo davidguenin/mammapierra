@@ -82,6 +82,60 @@
         "padding_bottom": 36
       }
     },
+    "slideshow_ybpW9k": {
+      "type": "slideshow",
+      "blocks": {
+        "slide_ytktPK": {
+          "type": "slide",
+          "settings": {
+            "image_overlay_opacity": 0,
+            "heading": "Diapositive (image)",
+            "heading_size": "h1",
+            "subheading": "Racontez votre histoire avec des images",
+            "button_label": "Texte du bouton",
+            "link": "",
+            "button_style_secondary": false,
+            "show_text_box": true,
+            "box_align": "middle-center",
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "color_scheme": ""
+          }
+        },
+        "slide_pUa7Jk": {
+          "type": "slide",
+          "settings": {
+            "image_overlay_opacity": 0,
+            "heading": "Diapositive (image)",
+            "heading_size": "h1",
+            "subheading": "Racontez votre histoire avec des images",
+            "button_label": "Texte du bouton",
+            "link": "",
+            "button_style_secondary": false,
+            "show_text_box": true,
+            "box_align": "middle-center",
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "color_scheme": ""
+          }
+        }
+      },
+      "block_order": [
+        "slide_ytktPK",
+        "slide_pUa7Jk"
+      ],
+      "name": "t:sections.slideshow.presets.name",
+      "settings": {
+        "layout": "grid",
+        "slide_height": "medium",
+        "slider_visual": "counter",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "image_behavior": "none",
+        "show_text_below": true,
+        "accessibility_info": "Diaporama sur votre marque"
+      }
+    },
     "multicolumn": {
       "type": "multicolumn",
       "blocks": {
@@ -151,60 +205,6 @@
         "swipe_on_mobile": false,
         "padding_top": 52,
         "padding_bottom": 20
-      }
-    },
-    "slideshow_ybpW9k": {
-      "type": "slideshow",
-      "blocks": {
-        "slide_ytktPK": {
-          "type": "slide",
-          "settings": {
-            "image_overlay_opacity": 0,
-            "heading": "Diapositive (image)",
-            "heading_size": "h1",
-            "subheading": "Racontez votre histoire avec des images",
-            "button_label": "Texte du bouton",
-            "link": "",
-            "button_style_secondary": false,
-            "show_text_box": true,
-            "box_align": "middle-center",
-            "text_alignment": "center",
-            "text_alignment_mobile": "center",
-            "color_scheme": ""
-          }
-        },
-        "slide_pUa7Jk": {
-          "type": "slide",
-          "settings": {
-            "image_overlay_opacity": 0,
-            "heading": "Diapositive (image)",
-            "heading_size": "h1",
-            "subheading": "Racontez votre histoire avec des images",
-            "button_label": "Texte du bouton",
-            "link": "",
-            "button_style_secondary": false,
-            "show_text_box": true,
-            "box_align": "middle-center",
-            "text_alignment": "center",
-            "text_alignment_mobile": "center",
-            "color_scheme": ""
-          }
-        }
-      },
-      "block_order": [
-        "slide_ytktPK",
-        "slide_pUa7Jk"
-      ],
-      "name": "t:sections.slideshow.presets.name",
-      "settings": {
-        "layout": "full_bleed",
-        "slide_height": "medium",
-        "slider_visual": "counter",
-        "auto_rotate": false,
-        "change_slides_speed": 5,
-        "image_behavior": "none",
-        "show_text_below": true,
-        "accessibility_info": "Diaporama sur votre marque"
       }
     }
   },

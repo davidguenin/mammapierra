@@ -53,58 +53,52 @@
         "padding_bottom": 36
       }
     },
-    "slideshow_ybpW9k": {
-      "type": "slideshow",
+    "image_banner_F9Lp9M": {
+      "type": "image-banner",
       "blocks": {
-        "slide_ytktPK": {
-          "type": "slide",
+        "heading_BB6LGh": {
+          "type": "heading",
           "settings": {
-            "image_overlay_opacity": 0,
-            "heading": "Diapositive (image)",
-            "heading_size": "h1",
-            "subheading": "Racontez votre histoire avec des images",
-            "button_label": "Texte du bouton",
-            "link": "",
-            "button_style_secondary": false,
-            "show_text_box": true,
-            "box_align": "middle-center",
-            "text_alignment": "center",
-            "text_alignment_mobile": "center",
-            "color_scheme": ""
+            "heading": "Bannière avec image",
+            "heading_size": "h1"
           }
         },
-        "slide_pUa7Jk": {
-          "type": "slide",
+        "text_dWerjf": {
+          "type": "text",
           "settings": {
-            "image_overlay_opacity": 0,
-            "heading": "Diapositive (image)",
-            "heading_size": "h1",
-            "subheading": "Racontez votre histoire avec des images",
-            "button_label": "Texte du bouton",
-            "link": "",
-            "button_style_secondary": false,
-            "show_text_box": true,
-            "box_align": "middle-center",
-            "text_alignment": "center",
-            "text_alignment_mobile": "center",
-            "color_scheme": ""
+            "text": "Fournissez des détails à votre clientèle sur l’image/les images ou le contenu de la bannière du modèle.",
+            "text_style": "body"
+          }
+        },
+        "buttons_NBz8Ug": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Texte du bouton",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Texte du bouton",
+            "button_link_2": "",
+            "button_style_secondary_2": false
           }
         }
       },
       "block_order": [
-        "slide_ytktPK",
-        "slide_pUa7Jk"
+        "heading_BB6LGh",
+        "text_dWerjf",
+        "buttons_NBz8Ug"
       ],
-      "name": "t:sections.slideshow.presets.name",
+      "name": "t:sections.image-banner.presets.name",
       "settings": {
-        "layout": "grid",
-        "slide_height": "large",
-        "slider_visual": "counter",
-        "auto_rotate": true,
-        "change_slides_speed": 3,
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
         "image_behavior": "none",
-        "show_text_below": true,
-        "accessibility_info": "Diaporama sur votre marque"
+        "desktop_content_position": "middle-center",
+        "desktop_content_alignment": "center",
+        "show_text_box": true,
+        "color_scheme": "",
+        "stack_images_on_mobile": true,
+        "mobile_content_alignment": "center",
+        "show_text_below": true
       }
     },
     "featured_collection_9AQWJW": {
@@ -211,7 +205,7 @@
   "order": [
     "hero_big",
     "featured_collection_qmFN7F",
-    "slideshow_ybpW9k",
+    "image_banner_F9Lp9M",
     "featured_collection_9AQWJW",
     "multicolumn"
   ]

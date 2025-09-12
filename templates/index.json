@@ -68,18 +68,26 @@
             "product": "collier-aigue-marine-eclat",
             "second_image": false
           }
+        },
+        "product_NhpmDU": {
+          "type": "product",
+          "settings": {
+            "product": "collier-aigue-marine-eclat",
+            "second_image": false
+          }
         }
       },
       "block_order": [
         "image_Pti6ew",
-        "product_VKQdUk"
+        "product_VKQdUk",
+        "product_NhpmDU"
       ],
       "name": "t:sections.collage.presets.name",
       "settings": {
         "heading": "",
         "heading_size": "h2",
         "desktop_layout": "left",
-        "mobile_layout": "collage",
+        "mobile_layout": "column",
         "card_styles": "product-card-wrapper",
         "color_scheme": "",
         "padding_top": 0,

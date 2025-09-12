@@ -150,7 +150,7 @@
         "buttons_KUUNrH"
       ],
       "custom_css": [
-        "h2 {text-transform: uppercase; color: #ffe1f9;}",
+        "h2 {text-transform: uppercase; font-weight: bold; color: #ffe1f9;}",
         ".button {opacity: 1; border-radius: 0; border: 1px solid #fff; color: #fff;}",
         ".button::after {box-shadow: none;}"
       ],

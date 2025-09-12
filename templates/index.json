@@ -128,7 +128,7 @@
         "text_fta4De": {
           "type": "text",
           "settings": {
-            "text": "Fournissez des détails à votre clientèle sur l’image/les images ou le contenu de la bannière du modèle.",
+            "text": "",
             "text_style": "body"
           }
         },
@@ -137,8 +137,8 @@
           "settings": {
             "button_label_1": "Texte du bouton",
             "button_link_1": "",
-            "button_style_secondary_1": false,
-            "button_label_2": "Texte du bouton",
+            "button_style_secondary_1": true,
+            "button_label_2": "",
             "button_link_2": "",
             "button_style_secondary_2": false
           }
@@ -156,7 +156,7 @@
         "image_behavior": "none",
         "desktop_content_position": "middle-center",
         "desktop_content_alignment": "center",
-        "show_text_box": true,
+        "show_text_box": false,
         "color_scheme": "",
         "stack_images_on_mobile": true,
         "mobile_content_alignment": "center",
@@ -212,7 +212,7 @@
       "custom_css": [
         ".multicolumn {background: #005c5b; margin-bottom: 0;}",
         "h3 {max-width: 200px; margin: auto; font-size: 1.5rem; line-height: 1.2; opacity: 0.9; color: #fff;}",
-        "h6{opacity: 0.5; color: #fff; font-weight: normal}"
+        "h6 {opacity: 0.5; color: #fff; font-weight: normal;}"
       ],
       "settings": {
         "title": "",

@@ -90,7 +90,7 @@
       "type": "featured-collection",
       "name": "t:sections.featured-collection.presets.name",
       "settings": {
-        "collection": "amethyste",
+        "collection": "colliers",
         "products_to_show": 6,
         "title": "",
         "heading_size": "h1",

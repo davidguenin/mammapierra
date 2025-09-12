@@ -62,17 +62,17 @@
             "image": "shopify://shop_images/q72nh5w2anrma0cs7n3t93d63c.png"
           }
         },
-        "product_PXbLgd": {
+        "product_VKQdUk": {
           "type": "product",
           "settings": {
-            "product": "bracelet-amazonite-eclat",
+            "product": "collier-aigue-marine-eclat",
             "second_image": false
           }
         }
       },
       "block_order": [
         "image_Pti6ew",
-        "product_PXbLgd"
+        "product_VKQdUk"
       ],
       "name": "t:sections.collage.presets.name",
       "settings": {

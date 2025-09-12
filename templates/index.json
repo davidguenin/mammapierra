@@ -53,60 +53,6 @@
         "padding_bottom": 36
       }
     },
-    "image_banner_LaCqpt": {
-      "type": "image-banner",
-      "blocks": {
-        "heading_TedCbd": {
-          "type": "heading",
-          "settings": {
-            "heading": "Bannière avec image",
-            "heading_size": "h1"
-          }
-        },
-        "text_mfWCFJ": {
-          "type": "text",
-          "settings": {
-            "text": "Fournissez des détails à votre clientèle sur l’image/les images ou le contenu de la bannière du modèle.",
-            "text_style": "body"
-          }
-        },
-        "buttons_WWnwxV": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "Texte du bouton",
-            "button_link_1": "",
-            "button_style_secondary_1": false,
-            "button_label_2": "Texte du bouton",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "heading_TedCbd",
-        "text_mfWCFJ",
-        "buttons_WWnwxV"
-      ],
-      "custom_css": [
-        ".banner__box {display: none;}",
-        ".banner {margin: 0 50px;}"
-      ],
-      "name": "t:sections.image-banner.presets.name",
-      "settings": {
-        "image": "shopify://shop_images/stylish-woman-smiling.jpg",
-        "image_2": "shopify://shop_images/fog-on-dark-waters-edge.jpg",
-        "image_overlay_opacity": 0,
-        "image_height": "large",
-        "image_behavior": "none",
-        "desktop_content_position": "middle-center",
-        "desktop_content_alignment": "center",
-        "show_text_box": true,
-        "color_scheme": "",
-        "stack_images_on_mobile": true,
-        "mobile_content_alignment": "center",
-        "show_text_below": true
-      }
-    },
     "featured_collection_9AQWJW": {
       "type": "featured-collection",
       "name": "Nouveauté",
@@ -206,13 +152,67 @@
         "padding_top": 52,
         "padding_bottom": 20
       }
+    },
+    "slideshow_ybpW9k": {
+      "type": "slideshow",
+      "blocks": {
+        "slide_ytktPK": {
+          "type": "slide",
+          "settings": {
+            "image_overlay_opacity": 0,
+            "heading": "Diapositive (image)",
+            "heading_size": "h1",
+            "subheading": "Racontez votre histoire avec des images",
+            "button_label": "Texte du bouton",
+            "link": "",
+            "button_style_secondary": false,
+            "show_text_box": true,
+            "box_align": "middle-center",
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "color_scheme": ""
+          }
+        },
+        "slide_pUa7Jk": {
+          "type": "slide",
+          "settings": {
+            "image_overlay_opacity": 0,
+            "heading": "Diapositive (image)",
+            "heading_size": "h1",
+            "subheading": "Racontez votre histoire avec des images",
+            "button_label": "Texte du bouton",
+            "link": "",
+            "button_style_secondary": false,
+            "show_text_box": true,
+            "box_align": "middle-center",
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "color_scheme": ""
+          }
+        }
+      },
+      "block_order": [
+        "slide_ytktPK",
+        "slide_pUa7Jk"
+      ],
+      "name": "t:sections.slideshow.presets.name",
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "medium",
+        "slider_visual": "counter",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "image_behavior": "none",
+        "show_text_below": true,
+        "accessibility_info": "Diaporama sur votre marque"
+      }
     }
   },
   "order": [
     "hero_big",
     "featured_collection_qmFN7F",
-    "image_banner_LaCqpt",
     "featured_collection_9AQWJW",
+    "slideshow_ybpW9k",
     "multicolumn"
   ]
 }

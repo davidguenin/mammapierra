@@ -142,7 +142,6 @@
         "column1": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/01.svg",
             "title": "<strong>Pierres 100% naturelles</strong>",
             "text": "",
             "link_label": "",
@@ -152,7 +151,6 @@
         "column2": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/02.svg",
             "title": "<strong>Fait main en France</strong>",
             "text": "",
             "link_label": "",
@@ -162,7 +160,6 @@
         "column3": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/03.svg",
             "title": "<strong>Livraison Offerte</strong>",
             "text": "<h6>dès 49€ en point relais</h6>",
             "link_label": "",
@@ -172,7 +169,6 @@
         "column_bHHiUA": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/01.svg",
             "title": "<strong>Satisfait ou remboursé</strong>",
             "text": "<h6>14 jours pour changer d’avis et demander un échange ou remboursement</h6>",
             "link_label": "",

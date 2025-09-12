@@ -94,7 +94,7 @@
       "settings": {
         "image": "shopify://shop_images/q72nh5w2anrma0cs7n3t93d63c.png",
         "image_overlay_opacity": 0,
-        "image_height": "small",
+        "image_height": "medium",
         "image_behavior": "none",
         "desktop_content_position": "middle-center",
         "desktop_content_alignment": "center",

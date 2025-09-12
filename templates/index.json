@@ -117,6 +117,7 @@
         "buttons_NBz8Ug"
       ],
       "custom_css": [
+        ".banner {max-width: 1300px; margin: auto;}",
         ".banner__box {display: none;}"
       ],
       "name": "t:sections.image-banner.presets.name",
@@ -210,8 +211,8 @@
   "order": [
     "hero_big",
     "featured_collection_qmFN7F",
-    "featured_collection_9AQWJW",
     "image_banner_F9Lp9M",
+    "featured_collection_9AQWJW",
     "multicolumn"
   ]
 }

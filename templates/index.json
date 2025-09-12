@@ -82,6 +82,7 @@
         "product_qnmD8e",
         "product_X4AcgM"
       ],
+      "disabled": true,
       "custom_css": [
         ".collage__item--left:nth-child(3n-2) {grid-column: 1; grid-row: 1;}",
         ".collage__item--left:nth-child(3n-1),.collage__item--left:nth-child(3n) {grid-column-start: initial;}",

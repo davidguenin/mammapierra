@@ -87,8 +87,7 @@
         ".collage__item--left:nth-child(3n-1),.collage__item--left:nth-child(3n) {grid-column-start: initial;}",
         ".card-wrapper .card__media {aspect-ratio: 3 / 4;}",
         ".card__media .media img {height: 100%; object-fit: cover;}",
-        ".card__inner.color-scheme-2.gradient.ratio {--ratio-percent: 133.33% !important;}",
-        ".collage-card .media {height: 85%;}"
+        ".card__inner.color-scheme-2.gradient.ratio {--ratio-percent: 133.33% !important;}"
       ],
       "name": "t:sections.collage.presets.name",
       "settings": {

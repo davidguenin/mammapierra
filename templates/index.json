@@ -68,18 +68,11 @@
             "product": "bracelet-amazonite-eclat",
             "second_image": false
           }
-        },
-        "collection_nca7KK": {
-          "type": "collection",
-          "settings": {
-            "collection": "pierre-de-soleil"
-          }
         }
       },
       "block_order": [
         "image_Pti6ew",
-        "product_PXbLgd",
-        "collection_nca7KK"
+        "product_PXbLgd"
       ],
       "name": "t:sections.collage.presets.name",
       "settings": {
@@ -159,61 +152,12 @@
         "padding_top": 52,
         "padding_bottom": 20
       }
-    },
-    "image_banner_QaLYMm": {
-      "type": "image-banner",
-      "blocks": {
-        "heading_4EEMrK": {
-          "type": "heading",
-          "settings": {
-            "heading": "Bannière avec image",
-            "heading_size": "h1"
-          }
-        },
-        "text_wGiWYV": {
-          "type": "text",
-          "settings": {
-            "text": "Fournissez des détails à votre clientèle sur l’image/les images ou le contenu de la bannière du modèle.",
-            "text_style": "body"
-          }
-        },
-        "buttons_CDaNxj": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "Texte du bouton",
-            "button_link_1": "",
-            "button_style_secondary_1": false,
-            "button_label_2": "Texte du bouton",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "heading_4EEMrK",
-        "text_wGiWYV",
-        "buttons_CDaNxj"
-      ],
-      "name": "t:sections.image-banner.presets.name",
-      "settings": {
-        "image_overlay_opacity": 0,
-        "image_height": "medium",
-        "image_behavior": "none",
-        "desktop_content_position": "middle-center",
-        "desktop_content_alignment": "center",
-        "show_text_box": true,
-        "color_scheme": "",
-        "stack_images_on_mobile": true,
-        "mobile_content_alignment": "center",
-        "show_text_below": true
-      }
     }
   },
   "order": [
     "hero_big",
     "featured_collection_qmFN7F",
     "collage_akY3DY",
-    "multicolumn",
-    "image_banner_QaLYMm"
+    "multicolumn"
   ]
 }

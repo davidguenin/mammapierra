@@ -149,6 +149,10 @@
         "text_fta4De",
         "buttons_KUUNrH"
       ],
+      "custom_css": [
+        ".button {opacity: 1; border-radius: 0; border: 1px solid #fff; color: #fff;}",
+        ".button::after{box-shadow: none}"
+      ],
       "name": "t:sections.image-banner.presets.name",
       "settings": {
         "image_overlay_opacity": 0,
@@ -157,7 +161,7 @@
         "desktop_content_position": "middle-center",
         "desktop_content_alignment": "center",
         "show_text_box": false,
-        "color_scheme": "",
+        "color_scheme": "scheme-1",
         "stack_images_on_mobile": true,
         "mobile_content_alignment": "center",
         "show_text_below": true

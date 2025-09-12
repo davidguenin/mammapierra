@@ -29,7 +29,7 @@
       "name": "Nouveauté",
       "settings": {
         "collection": "colliers",
-        "products_to_show": 4,
+        "products_to_show": 8,
         "title": "<strong>Les nouveautés</strong>",
         "heading_size": "h2",
         "description": "",
@@ -50,66 +50,6 @@
         "columns_mobile": "2",
         "swipe_on_mobile": false,
         "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "multicolumn_peMVKk": {
-      "type": "multicolumn",
-      "blocks": {
-        "column_C7kjtB": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/r6tw5q6xw5rm80cs7qjsktrmd4.png",
-            "title": "Bracelets",
-            "text": "",
-            "link_label": "Voir nos bracelets",
-            "link": "shopify://collections/bracelet"
-          }
-        },
-        "column_yGMGaf": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/r6tw5q6xw5rm80cs7qjsktrmd4.png",
-            "title": "Colliers",
-            "text": "",
-            "link_label": "Voir nos colliers",
-            "link": "shopify://collections/colliers"
-          }
-        },
-        "column_HFXWBG": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/r6tw5q6xw5rm80cs7qjsktrmd4.png",
-            "title": "Pendentifs",
-            "text": "",
-            "link_label": "Voir nos pendentifs",
-            "link": "shopify://collections/pendentif"
-          }
-        }
-      },
-      "block_order": [
-        "column_C7kjtB",
-        "column_yGMGaf",
-        "column_HFXWBG"
-      ],
-      "custom_css": [
-        ".multicolumn-card__image-wrapper--full-width {padding: 0; margin: 0;}"
-      ],
-      "name": "t:sections.multicolumn.presets.name",
-      "settings": {
-        "title": "",
-        "heading_size": "h1",
-        "image_width": "full",
-        "image_ratio": "portrait",
-        "button_label": "",
-        "button_link": "",
-        "columns_desktop": 3,
-        "column_alignment": "center",
-        "background_style": "none",
-        "color_scheme": "",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 0,
         "padding_bottom": 36
       }
     },
@@ -271,7 +211,6 @@
   "order": [
     "hero_big",
     "featured_collection_qmFN7F",
-    "multicolumn_peMVKk",
     "image_banner_LaCqpt",
     "featured_collection_9AQWJW",
     "multicolumn"

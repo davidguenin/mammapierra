@@ -53,59 +53,6 @@
         "padding_bottom": 36
       }
     },
-    "image_banner_F9Lp9M": {
-      "type": "image-banner",
-      "blocks": {
-        "heading_BB6LGh": {
-          "type": "heading",
-          "settings": {
-            "heading": "Bannière avec image",
-            "heading_size": "h1"
-          }
-        },
-        "text_dWerjf": {
-          "type": "text",
-          "settings": {
-            "text": "Fournissez des détails à votre clientèle sur l’image/les images ou le contenu de la bannière du modèle.",
-            "text_style": "body"
-          }
-        },
-        "buttons_NBz8Ug": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "Texte du bouton",
-            "button_link_1": "",
-            "button_style_secondary_1": false,
-            "button_label_2": "Texte du bouton",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "heading_BB6LGh",
-        "text_dWerjf",
-        "buttons_NBz8Ug"
-      ],
-      "disabled": true,
-      "custom_css": [
-        ".banner__box {display: none;}"
-      ],
-      "name": "t:sections.image-banner.presets.name",
-      "settings": {
-        "image": "shopify://shop_images/q72nh5w2anrma0cs7n3t93d63c.png",
-        "image_overlay_opacity": 0,
-        "image_height": "medium",
-        "image_behavior": "none",
-        "desktop_content_position": "middle-center",
-        "desktop_content_alignment": "center",
-        "show_text_box": true,
-        "color_scheme": "",
-        "stack_images_on_mobile": true,
-        "mobile_content_alignment": "center",
-        "show_text_below": true
-      }
-    },
     "collage_akY3DY": {
       "type": "collage",
       "blocks": {
@@ -217,7 +164,6 @@
   "order": [
     "hero_big",
     "featured_collection_qmFN7F",
-    "image_banner_F9Lp9M",
     "collage_akY3DY",
     "multicolumn"
   ]

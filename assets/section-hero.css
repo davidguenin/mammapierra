@@ -2,9 +2,13 @@
   background: #f2eee9;
 }
 
+.hero-main-right,
+.hero-main-left {
+  height: 500px;
+  padding: 50px;
+}
+
 .hero-main-right {
-  height: 575px;
-  padding: 75px;
   background: #0d65ac;
 }
 
@@ -18,8 +22,6 @@
 }
 
 .hero-main-left {
-  height: 575px;
-  padding: 35px;
   background: #005c5b;
 }
 

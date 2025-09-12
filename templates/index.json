@@ -180,6 +180,63 @@
         "padding_bottom": 36
       }
     },
+    "multicolumn_JfeLQL": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_Vrgkga": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/q72nh5w2anrma0cs7n3t93d63c.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_rH7PYd": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/q72nh5w2anrma0cs7n3t93d63c.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_nPGnhF": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/q72nh5w2anrma0cs7n3t93d63c.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_Vrgkga",
+        "column_rH7PYd",
+        "column_nPGnhF"
+      ],
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "portrait",
+        "button_label": "",
+        "button_link": "",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
     "image_banner_jFzkYD": {
       "type": "image-banner",
       "blocks": {
@@ -308,6 +365,7 @@
     "collage_9bqxVg",
     "image_banner_RHJ3mB",
     "featured_collection_Rt3LhW",
+    "multicolumn_JfeLQL",
     "image_banner_jFzkYD",
     "multicolumn"
   ]

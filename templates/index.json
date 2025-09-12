@@ -87,6 +87,9 @@
         "text_dWerjf",
         "buttons_NBz8Ug"
       ],
+      "custom_css": [
+        ".banner{max-width: 1150px; margin: auto;}"
+      ],
       "name": "t:sections.image-banner.presets.name",
       "settings": {
         "image_overlay_opacity": 0,

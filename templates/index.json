@@ -91,7 +91,7 @@
       "name": "t:sections.featured-collection.presets.name",
       "settings": {
         "collection": "amethyste",
-        "products_to_show": 3,
+        "products_to_show": 6,
         "title": "",
         "heading_size": "h1",
         "description": "",

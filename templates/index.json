@@ -28,7 +28,7 @@
       "type": "featured-collection",
       "name": "Nouveauté",
       "settings": {
-        "collection": "colliers",
+        "collection": "push-home",
         "products_to_show": 6,
         "title": "<strong>Les nouveautés</strong>",
         "heading_size": "h2",

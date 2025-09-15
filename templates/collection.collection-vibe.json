@@ -19,8 +19,8 @@
         "show_collection_description": true,
         "show_collection_image": false,
         "color_scheme": "scheme-1",
-        "banner_bg_color": "#0b86b3",
-        "banner_text_color": "#ffffff"
+        "banner_bg_color": "#daf5ff",
+        "banner_text_color": "#08698c"
       }
     },
     "product-grid": {

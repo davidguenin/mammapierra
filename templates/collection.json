@@ -32,7 +32,7 @@
         "show_vendor": false,
         "show_rating": false,
         "quick_add": "none",
-        "pagination_type": "pagination",
+        "pagination_type": "infinite",
         "enable_filtering": true,
         "filter_type": "drawer",
         "enable_sorting": true,

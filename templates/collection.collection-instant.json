@@ -11,12 +11,16 @@
   "sections": {
     "banner": {
       "type": "main-collection-banner",
+      "custom_css": [
+        ".collection-hero {padding: 125px 0;}",
+        "h1 {font-size: 2.25rem; text-align: center;}"
+      ],
       "settings": {
         "show_collection_description": true,
         "show_collection_image": false,
         "color_scheme": "scheme-1",
-        "banner_bg_color": "#ffffff",
-        "banner_text_color": "#333333"
+        "banner_bg_color": "#ffebd7",
+        "banner_text_color": "#b67fc9"
       }
     },
     "product-grid": {

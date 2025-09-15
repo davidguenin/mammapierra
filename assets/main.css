@@ -1,6 +1,25 @@
+.header--top-center .header__inline-menu {
+  justify-self: unset;
+}
+
 .header-wrapper {
   border: 0px;
+  padding-bottom: 40px;
   background: #fef7e1;
+}
+
+@media screen and (max-width: 989px) {
+  .header-wrapper {
+    padding-bottom: 0;
+  }
+}
+
+.header__inline-menu ul {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  background: #fff;
 }
 
 .header__menu-item,
@@ -20,7 +39,7 @@
 .header__menu-item span,
 .header__active-menu-item span {
   text-transform: uppercase;
-  font-size: 1.3rem;
+  font-size: 1.5rem;
   font-weight: 700;
 }
 
@@ -32,6 +51,15 @@
 .header__menu-item:hover span {
   text-decoration: none;
   opacity: 0.5;
+}
+
+.list-menu__item {
+  padding-right: 3rem;
+  padding-left: 3rem;
+}
+
+.header__inline-menu:has(.list-menu--inline) {
+  margin-top: 0 !important;
 }
 
 .utility-bar {
@@ -63,6 +91,7 @@ h1.collection-hero__title {
 
 .collection-hero {
   padding: 0;
+  border-top: 1px solid #efefef;
   border-bottom: 1px solid #efefef;
 }
 

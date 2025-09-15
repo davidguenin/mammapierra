@@ -87,3 +87,7 @@ h1.collection-hero__title {
 .card .icon-wrap {
   display: none;
 }
+
+.card-wrapper:has(a[href^='/products/image-promo']) .card__content {
+  display: none !important;
+}

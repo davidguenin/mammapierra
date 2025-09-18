@@ -87,6 +87,7 @@
         "text_fta4De",
         "buttons_KUUNrH"
       ],
+      "disabled": true,
       "custom_css": [
         "h2 {text-transform: uppercase; font-weight: bold; color: #ffe1f9;}",
         ".button {opacity: 1; border-radius: 0; border: 1px solid #fff; color: #fff;}",

@@ -12,7 +12,7 @@
     "hero_big": {
       "type": "hero-big",
       "settings": {
-        "hero_image": "shopify://shop_images/yvckcb2ec1rm80cs7kxv0mz2f4.png",
+        "hero_image": "shopify://shop_images/sjs2pzjsd1rmc0csbk9a8vxg4m.png",
         "hero_image_right": "shopify://shop_images/62re92c7jhrm80cs7k58e09ncg_-_Modifie.png",
         "hero_title_left": "Les perles de l'été",
         "hero_link_left": "",
@@ -94,7 +94,7 @@
       ],
       "name": "t:sections.image-banner.presets.name",
       "settings": {
-        "image": "shopify://shop_images/12fsp1r4pxrme0csbjxvxd7bwm.png",
+        "image": "shopify://shop_images/yvckcb2ec1rm80cs7kxv0mz2f4.png",
         "image_overlay_opacity": 0,
         "image_height": "small",
         "image_behavior": "none",

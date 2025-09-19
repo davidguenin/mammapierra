@@ -12,11 +12,11 @@
     "banner": {
       "type": "main-collection-banner",
       "custom_css": [
-        ".collection-hero {padding: 125px 0;}",
+        ".collection-hero {padding: 125px 0; border-top: 0px solid #efefef; border-bottom: 0px solid #efefef;}",
         "h1 {font-size: 2.25rem; text-align: center;}"
       ],
       "settings": {
-        "show_collection_description": true,
+        "show_collection_description": false,
         "show_collection_image": false,
         "color_scheme": "scheme-1",
         "banner_bg_color": "#daf5ff",

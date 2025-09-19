@@ -140,6 +140,9 @@
     },
     "related-products": {
       "type": "related-products",
+      "custom_css": [
+        "h2{text-transform: uppercase;}"
+      ],
       "settings": {
         "heading": "<strong>Vous aimerez aussi </strong>",
         "heading_size": "h2",

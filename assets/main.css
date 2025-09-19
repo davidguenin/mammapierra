@@ -54,8 +54,8 @@
 }
 
 .list-menu__item {
-  padding-right: 3rem;
-  padding-left: 3rem;
+  padding-right: 2.5rem;
+  padding-left: 2.5rem;
 }
 
 .header__inline-menu:has(.list-menu--inline) {

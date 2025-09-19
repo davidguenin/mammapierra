@@ -4,7 +4,7 @@
 
 .header-wrapper {
   border: 0px;
-  padding-bottom: 40px;
+  padding-bottom: 68px;
   background: #fef7e1;
 }
 
@@ -19,6 +19,8 @@
   width: 100%;
   bottom: 0;
   left: 0;
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
   background: #fff;
 }
 
@@ -95,10 +97,6 @@ h1.collection-hero__title {
   border-bottom: 1px solid #efefef;
 }
 
-[class^='section-template'] {
-  padding-top: 13px !important;
-}
-
 .footer {
   background: #d6e3b7;
   border-top: 1px solid #005c5b !important;
@@ -119,4 +117,16 @@ h1.collection-hero__title {
 
 .card-wrapper:has(a[href^='/products/image-promo']) .card__content {
   display: none !important;
+}
+
+product-info {
+  border-top: 1px solid #efefef;
+}
+
+.product-media-container.constrain-height.media-fit-contain {
+  border-radius: 0;
+}
+
+.product__title h1 {
+  font-size: 3rem;
 }

@@ -9,8 +9,20 @@
 
 .hero-main-right,
 .hero-main-left {
+  position: relative;
   height: 575px;
   padding: 30px;
+}
+
+.hero-main-right::after,
+.hero-main-left::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 40%;
+  background: linear-gradient(to top, #212e3b, transparent);
 }
 
 .hero-main-right {
@@ -28,6 +40,12 @@
 
 .hero-main-left {
   background: #005c5b;
+}
+
+.hero-main h2,
+.hero-main a {
+  position: relative;
+  z-index: 1;
 }
 
 .hero-main h2 {

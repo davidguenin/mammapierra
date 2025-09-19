@@ -4,8 +4,8 @@
 
 .header-wrapper {
   border: 0px;
-  padding-bottom: 68px;
-  background: #083247;
+  padding-bottom: 65px;
+  background: #f9f8ef;
 }
 
 @media screen and (max-width: 989px) {
@@ -26,7 +26,7 @@
 
 .header__menu-item,
 .header__active-menu-item {
-  color: #0c2735;
+  color: #212b2f;
 }
 
 .header__menu-item:hover,
@@ -36,13 +36,13 @@
 }
 
 .header__icon .svg-wrapper {
-  color: #fff;
+  color: #212b2f;
 }
 
 .header__menu-item span,
 .header__active-menu-item span {
   text-transform: uppercase;
-  font-size: 1.5rem;
+  font-size: 1.45rem;
   font-weight: 700;
 }
 

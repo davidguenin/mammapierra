@@ -3,11 +3,12 @@
 }
 
 .hero-main .bulma-is-outlined {
-  padding: 1rem 3rem;
+  padding: 1.25rem 3rem;
   text-transform: uppercase;
   font-size: 1.3rem;
   font-weight: bold;
-  border-width: 2px;
+  border-width: 1.5px;
+  line-height: 1;
 }
 
 .hero-main-right,

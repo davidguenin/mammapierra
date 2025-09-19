@@ -6,7 +6,7 @@
     <div class="bulma-columns bulma-is-gapless">
       <div class="bulma-column bulma-is-half">
         <div
-          class="hero-main-left bulma-is-flex bulma-is-flex-direction-column bulma-is-justify-content-center bulma-has-text-centered"
+          class="hero-main-left bulma-is-flex bulma-is-flex-direction-column bulma-is-justify-content-end bulma-has-text-centered"
           {% if section.settings.hero_image %}
             style="background-image: url('{{ section.settings.hero_image | image_url: width: 1200 }}'); background-size: cover; background-position: center;"
           {% endif %}
@@ -21,16 +21,16 @@
             </h2>
             <a
               href="{{ section.settings.hero_link_left | default: '#' }}"
-              class="bulma-button bulma-is-white"
+              class="bulma-button bulma-is-white bulma-is-outlined"
             >
               {{- section.settings.hero_button_text_left | default: 'Découvrir la collection' -}}
             </a>
           </div>
         </div>
       </div>
-      <div class="bulma-column bulma-is-half bulma-is-flex bulma-is-flex-direction-column bulma-is-justify-content-center bulma-has-text-centered">
+      <div class="bulma-column bulma-is-half">
         <div
-          class="hero-main-right bulma-is-flex bulma-is-flex-direction-column	bulma-is-justify-content-center"
+          class="hero-main-right bulma-is-flex bulma-is-flex-direction-column bulma-is-justify-content-end bulma-has-text-centered"
           {% if section.settings.hero_image_right %}
             style="background-image: url('{{ section.settings.hero_image_right | image_url: width: 1200 }}'); background-size: cover; background-position: center;"
           {% endif %}

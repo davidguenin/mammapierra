@@ -4,8 +4,8 @@
 
 .hero-main-right,
 .hero-main-left {
-  height: 500px;
-  padding: 50px;
+  height: 600px;
+  padding: 30px;
 }
 
 .hero-main-right {
@@ -26,6 +26,7 @@
 }
 
 .hero-main h2 {
+  margin-bottom: 1.5rem;
   font-weight: bold;
   text-transform: uppercase;
 }

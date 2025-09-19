@@ -26,12 +26,13 @@
 
 .header__menu-item,
 .header__active-menu-item {
-  color: #fff;
+  color: #0c2735;
 }
 
 .header__menu-item:hover,
 .header__active-menu-item:hover {
-  color: #efefef;
+  color: #0c2735;
+  opacity: 0.95;
 }
 
 .header__icon .svg-wrapper {

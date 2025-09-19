@@ -11,6 +11,75 @@
   "name": "t:sections.footer.name",
   "type": "footer",
   "sections": {
+    "multicolumn_AB8APq": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_T3xXba": {
+          "type": "column",
+          "settings": {
+            "title": "<strong>Pierres 100% naturelles</strong>",
+            "text": "<h6>14 jours pour changer d’avis et demander un échange ou remboursement</h6>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_pe8ED6": {
+          "type": "column",
+          "settings": {
+            "title": "<strong>Fait main en France</strong>",
+            "text": "<h6>14 jours pour changer d’avis et demander un échange ou remboursement</h6>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_6pRhcC": {
+          "type": "column",
+          "settings": {
+            "title": "<strong>Livraison Offerte</strong>",
+            "text": "<h6>dès 49€ en point relais</h6>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_HdQzM9": {
+          "type": "column",
+          "settings": {
+            "title": "<strong>Satisfait ou remboursé</strong>",
+            "text": "<h6>14 jours pour changer d’avis et demander un échange ou remboursement</h6>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_T3xXba",
+        "column_pe8ED6",
+        "column_6pRhcC",
+        "column_HdQzM9"
+      ],
+      "custom_css": [
+        ".multicolumn {background: #32453e; margin-bottom: 0;}",
+        "h3 {max-width: 200px; margin: auto; text-align: center; font-size: 1.5rem; line-height: 1.2; opacity: 0.9; color: #fff;}",
+        "h6 {text-align: center; opacity: 0.5; color: #fff; font-weight: normal;}"
+      ],
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "title": "",
+        "heading_size": "h2",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "button_label": "",
+        "button_link": "",
+        "columns_desktop": 4,
+        "column_alignment": "left",
+        "background_style": "none",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 0
+      }
+    },
     "footer": {
       "type": "footer",
       "blocks": {
@@ -59,6 +128,7 @@
     }
   },
   "order": [
+    "multicolumn_AB8APq",
     "footer"
   ]
 }

@@ -155,7 +155,7 @@
         "column_bHHiUA"
       ],
       "custom_css": [
-        ".multicolumn {background: #41554D; margin-bottom: 0;}",
+        ".multicolumn {background: #32453E; margin-bottom: 0;}",
         "h3 {max-width: 200px; margin: auto; font-size: 1.5rem; line-height: 1.2; opacity: 0.9; color: #fff;}",
         "h6 {opacity: 0.5; color: #fff; font-weight: normal;}"
       ],

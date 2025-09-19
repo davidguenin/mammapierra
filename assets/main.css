@@ -31,7 +31,7 @@
 
 .header__menu-item:hover,
 .header__active-menu-item:hover {
-  color: #000;
+  color: #efefef;
 }
 
 .header__icon .svg-wrapper {
